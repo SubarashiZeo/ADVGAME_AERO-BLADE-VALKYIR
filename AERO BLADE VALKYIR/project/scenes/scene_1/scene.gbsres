@@ -43,7 +43,7 @@
               "angle": 0,
               "angleVariable": "L0",
               "targetActorId": "$self$",
-              "speed": 2,
+              "speed": 4,
               "animSpeed": 15,
               "lifeTime": 1,
               "initialOffset": 0,
