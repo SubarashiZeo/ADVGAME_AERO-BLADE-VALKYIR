@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "88358faf-6787-4dcd-b6f5-f6d3fea4a916",
+  "name": "Thrusters_C_Fighter_M_Player",
+  "symbol": "sprite_thrusters_c_fighter_",
+  "states": [
+    {
+      "id": "ae528831-9f63-4e87-934b-77295639f4c1",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "2d5b2176-8d60-4e32-a5a2-5b05ddaa9c36",
+          "frames": [
+            {
+              "id": "d4bd36d5-2949-4d91-910c-5ee26f96117b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "22cb477f-5272-4c85-9335-d09a2aa37217",
+          "frames": [
+            {
+              "id": "4f230a1a-2ec4-4924-af83-6d939077d853",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d811e34c-72f0-4c69-8204-4b704a878fcf",
+          "frames": [
+            {
+              "id": "44be2831-8eb4-40b5-bdb0-a3f8deb53132",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "febf1915-4744-42cc-addd-459e516db3c7",
+          "frames": [
+            {
+              "id": "dcb380ad-43e2-4be1-9b2d-f6e494adcc7c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6cf1fed6-a461-4753-b678-3b52ebd544d6",
+          "frames": [
+            {
+              "id": "371779c0-bf7e-49a2-b76d-6b601a504e2d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "db88a87d-adef-4a07-abbf-892166dd7f54",
+          "frames": [
+            {
+              "id": "aa329a8b-f674-4248-95eb-22be8f8d585a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f9ab9eff-ae38-423c-909e-1f9f43e6cea6",
+          "frames": [
+            {
+              "id": "26ab2920-664e-4e10-9983-89978ec1aa09",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "25040d8b-def6-43f4-9078-0d59425b2e09",
+          "frames": [
+            {
+              "id": "da30ce9b-d3b5-4db6-803f-3b88bb91d671",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Thrusters_C_Fighter_M_Player.png",
+  "width": 16,
+  "height": 6,
+  "checksum": "8b0576c0972c585c5795de25c9f6be50893f5e8e"
+}

@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "2de9e205-204a-4c0a-87ee-3d9f223f6e03",
+  "name": "Hurt.vgm",
+  "symbol": "sound_hurt_vgm",
+  "type": "vgm",
+  "filename": "Hurt.vgm"
+}

@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "a9cecd1f-ae41-453f-9faa-6b21952fc00e",
+  "name": "C_Fighter_S",
+  "symbol": "sprite_c_fighter_s",
+  "states": [
+    {
+      "id": "dc3d06b2-2f81-4a23-9a6f-40a2a0fbe304",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "3f524367-1b17-48b5-b8cf-4a4b3933df73",
+          "frames": [
+            {
+              "id": "97de177e-dc03-4e04-837d-b3ed95c4e6b5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cdffd90d-2875-4e7d-9523-477abe3dac1b",
+          "frames": [
+            {
+              "id": "b659498b-9adc-4f13-924d-4845285d3c81",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9d66874c-c04f-4c2b-afa9-151912bc060a",
+          "frames": [
+            {
+              "id": "4bd1d02a-fb02-4c7c-9e80-70294347170e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "cca5b242-8a4f-4a53-be7d-29d7d688989d",
+          "frames": [
+            {
+              "id": "b85aa284-bbd8-4a3a-a793-c91982df12f4",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "42950a21-61db-42cf-95c8-4d02af4d0e33",
+          "frames": [
+            {
+              "id": "4bc1ad94-adfe-48b0-9427-e2c99fe111b8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8dc71178-d600-4aa9-b1f5-4a523670d739",
+          "frames": [
+            {
+              "id": "fde0eedf-e4c3-4850-bd62-61398cee54ff",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "27fd22e5-0c5f-4833-811f-aab297b05aa6",
+          "frames": [
+            {
+              "id": "02894e3e-b511-40a6-a6d1-9dfc03b06ca9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "569f6ba1-4141-4fca-8f40-7ddf71eb909c",
+          "frames": [
+            {
+              "id": "93867e2e-42c9-43fa-838a-0e7644d15d93",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "C_Fighter_S.png",
+  "width": 128,
+  "height": 22,
+  "checksum": "02b21ab957d2f179c8fd59ad1a26d2b44125f079"
+}

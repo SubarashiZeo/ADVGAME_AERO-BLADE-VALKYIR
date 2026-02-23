@@ -1,0 +1,183 @@
+{
+  "_resourceType": "sprite",
+  "id": "80ea4dd8-cb83-48f3-a548-b66b2385e83d",
+  "name": "Mine_Spin",
+  "symbol": "sprite_mine_spin",
+  "states": [
+    {
+      "id": "b79d7913-c821-482f-aa32-4038598525dc",
+      "name": "",
+      "animationType": "multi",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "b5957da2-6194-45a5-a0e5-4424e9c1a2a4",
+          "frames": [
+            {
+              "id": "fbc562b0-c22e-44f5-9846-f2d868bf0826",
+              "tiles": [
+                {
+                  "id": "eb81b44c-70b5-498e-a6c4-4cd163d59527",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 32,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "704b47df-d194-4f3d-840b-58bf4a97cd36",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 40,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "24979c86-6282-4264-86f3-678787625927",
+          "frames": [
+            {
+              "id": "7fa1d997-62d1-434b-9a6f-ee8a1d669ea3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fa0068ea-e140-4758-b0c2-c358ad800dbc",
+          "frames": [
+            {
+              "id": "ed25f8b2-6244-4b8f-a8a9-36ae4637364a",
+              "tiles": [
+                {
+                  "id": "c63863ba-e1b8-4f19-b020-0e6b98573a04",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "f5509aee-6752-49b5-8240-8989511937d7",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7f5340db-0ffc-4610-8cc7-629abb968afe",
+          "frames": [
+            {
+              "id": "f0ad3f7d-8cd1-4ffe-89ad-9c5cc5863fe7",
+              "tiles": [
+                {
+                  "id": "963de36e-ab1a-4411-9fbd-620294fe7858",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "7e701e0a-caa5-439f-9398-3e874b0e8027",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "4b182bee-0ebd-4108-a308-8f07b6796908",
+          "frames": [
+            {
+              "id": "89c78cc5-6e92-453a-a06f-be86f04a14b8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "982fb7a2-a4dd-4886-8b05-474b56fa2179",
+          "frames": [
+            {
+              "id": "6db1a16a-95fd-4b6b-bbf8-eb9f50a7ed46",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "33db8772-f087-4980-bf35-8ad9017dc3eb",
+          "frames": [
+            {
+              "id": "5cbc7af8-5e4d-4719-9725-17315bb1c87e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4852b539-5b77-43aa-94dc-ea3261bbd958",
+          "frames": [
+            {
+              "id": "b1773f38-30a2-47de-8993-4a71e582ea76",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 3,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Mine_Spin.png",
+  "width": 48,
+  "height": 16,
+  "checksum": "f0b69777db3845a67bd64b6f07e99f754b53696c"
+}

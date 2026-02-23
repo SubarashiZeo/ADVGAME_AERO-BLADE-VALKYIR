@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "97b748e7-583d-4323-9937-a31e21b1b5b5",
+  "name": "Mine_Sphere",
+  "symbol": "sprite_mine_sphere",
+  "states": [
+    {
+      "id": "1a5fb056-5688-4bcb-bad2-53744ea67292",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "48060f0e-9aab-4358-a297-24e6061182fa",
+          "frames": [
+            {
+              "id": "754bd686-f44d-491e-a1ef-5d9e26ffee06",
+              "tiles": [
+                {
+                  "id": "b163ab22-ba30-4398-a4f7-edea6a23a829",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "e07babb1-5375-4b4e-89d1-d8241b2edf44",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "ee3d7fd0-a744-4bef-932b-cd1a64e8bab8",
+              "tiles": [
+                {
+                  "id": "f60a35c8-fc5a-4435-a3dc-17c391d0d6b7",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "69121a21-2d26-4602-af79-a54774266094",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "0d103842-fe11-4c31-b0d2-3200201b7f74",
+          "frames": [
+            {
+              "id": "b5aecece-8c6e-4a99-b838-f938a67d665c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6b8d5ddc-1fbf-445a-94a4-364796166f31",
+          "frames": [
+            {
+              "id": "fcb2c66d-202c-4077-97d5-0a3468594d3b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fca604ca-b699-478c-aea2-9f2288f514cf",
+          "frames": [
+            {
+              "id": "32957b90-8b15-41cc-9299-fe98738c0be7",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "61c7c22b-9b99-4b35-b404-ad65ddb209c8",
+          "frames": [
+            {
+              "id": "31bee6af-3bfe-459c-bb48-a57bc13bcef3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b6484c37-0bbe-4547-99a6-577d43c6c45f",
+          "frames": [
+            {
+              "id": "6beef598-26c2-4333-9a04-b7a5bd7145ad",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6dce98c1-bd46-4e84-999b-fd4d233f4b0f",
+          "frames": [
+            {
+              "id": "8ef58568-cba4-47ed-84e1-fb83285a8ed9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "36a3fe5f-6429-4ecb-908a-5261730d24d0",
+          "frames": [
+            {
+              "id": "bd02dd94-0a35-4e3b-9d7c-1f398b8ece7b",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Mine_Sphere.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "bac12a112ec5d563ec92f4e6ef32f7ecda673a86"
+}

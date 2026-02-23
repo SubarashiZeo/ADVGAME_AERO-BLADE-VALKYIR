@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "7ef27e17-25a4-48cd-bde4-ac5d89e0df77",
+  "name": "C_Destroyer",
+  "symbol": "sprite_c_destroyer",
+  "states": [
+    {
+      "id": "ec54479b-6eeb-4c62-b578-3f1b3919f495",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "1df6b67d-8adc-44c4-a95a-8e6c17a4030c",
+          "frames": [
+            {
+              "id": "9702efd5-dac5-4988-abc0-68d594d52cbc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "774ddb18-79c1-474c-9be1-4fb16be36f87",
+          "frames": [
+            {
+              "id": "f8846c74-96df-43ea-8d01-6450ebf6e48d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fed59522-1750-4469-88c2-c26121fde755",
+          "frames": [
+            {
+              "id": "11fe1419-00cf-4310-89f7-47d6f3b75e2d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6367281f-e24f-466a-9a2e-c0d1db89e22b",
+          "frames": [
+            {
+              "id": "1328d549-f98d-46c9-b84b-83f3f87f353b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8b04ad1c-14a6-4d2a-80be-2872821db862",
+          "frames": [
+            {
+              "id": "7431e464-caae-4c8f-badf-056e118de016",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "edeebfdd-9820-4888-8da8-2c6316cad894",
+          "frames": [
+            {
+              "id": "47b746b6-c9a5-4fe5-bce5-0d98ca8dd298",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5c326021-9eff-49b4-9c90-1e09859053ed",
+          "frames": [
+            {
+              "id": "aed678d8-5520-499e-b8d8-adc3bb8e3051",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "35c3fcae-45f3-47bf-8908-449676a402fa",
+          "frames": [
+            {
+              "id": "f86c2561-36d3-428b-8248-ebc416fa65d9",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "C_Destroyer.png",
+  "width": 256,
+  "height": 40,
+  "checksum": "baee21f989d065046967f042e6037011ca1158df"
+}

@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "34027122-9034-4b0b-83a0-3d8991397a0d",
+  "name": "Projectile_C_Destroyer_Animate",
+  "symbol": "sprite_projectile_c_destroy",
+  "states": [
+    {
+      "id": "414b8622-42ae-4cda-86bb-0f9ddb9fea65",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "5081388b-4377-4825-8510-e5deba7d3908",
+          "frames": [
+            {
+              "id": "9e1bc412-c708-4e78-a7f7-ef7d39c47774",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "691cce60-f984-44f0-8e2e-3e7a119a0433",
+          "frames": [
+            {
+              "id": "e6e0cad3-281d-4867-a9d8-4e1cdd1dd308",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "52340141-fba0-444c-9197-4447192aa648",
+          "frames": [
+            {
+              "id": "778f2b26-53ce-46e5-8264-2ee031823bc0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7c12517c-4803-4133-9a0e-8fbfd6b543b3",
+          "frames": [
+            {
+              "id": "65bdd469-e1c7-4ec6-81cc-7cadbacc4536",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "478b48e9-e59e-49fd-ace2-a6b8f7242bf6",
+          "frames": [
+            {
+              "id": "e2cdf7d6-103d-42ff-b8ff-c10bd262206b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "27623c73-680d-4fb7-acec-2a8589d91f83",
+          "frames": [
+            {
+              "id": "a69c6d79-afdc-4b9e-9e29-e0ea5bf942d9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "fb1365c9-889a-40c1-9cc2-3f3849ff97d8",
+          "frames": [
+            {
+              "id": "1b27170c-10f5-4fb5-933d-1e5cb122c08c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f83d9138-2b77-47ce-a2a0-110d4b4c7d7d",
+          "frames": [
+            {
+              "id": "c3cdc23a-e8e4-4025-b188-b855034fe8ce",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "Projectile_C_Destroyer_Animate.png",
+  "width": 16,
+  "height": 8,
+  "checksum": "fbf439ad7ae14b5ae1c94b28f81cf613fca77752"
+}

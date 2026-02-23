@@ -1,0 +1,89 @@
+{
+  "_resourceType": "scene",
+  "id": "085cd5ea-a233-4c46-98be-ecff48bf18d2",
+  "_index": 0,
+  "name": "Scene 1",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "SHMUP",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0012c+0f14+0028+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 136,
+  "y": 48,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 1,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "up",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "7510f8ea-9d77-463d-8234-82074efc2797"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "2a63ce88-d909-4ac4-a779-bde7472c26c1"
+          }
+        ]
+      },
+      "id": "603af11d-dfcf-427d-9931-4336cb531e31"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "6d3a3e32-5f43-4e83-b372-fbf7f1197ba4"
+      },
+      "id": "85123156-c50f-40e1-87a3-ab4fffc1d7f9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "06478b09-69f0-4109-8f20-c96cf7ddec6d",
+  "autoFadeEventCollapse": false
+}
