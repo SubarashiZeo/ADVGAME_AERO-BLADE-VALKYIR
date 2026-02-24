@@ -1,0 +1,68 @@
+{
+  "_resourceType": "script",
+  "id": "2eaabfae-5de7-471f-958e-1a1a73fd228d",
+  "name": "Front Guns",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "source",
+              "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "up",
+              "angle": 0,
+              "angleVariable": "0",
+              "targetActorId": "$self$",
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1.5,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ],
+              "__collapse": false
+            },
+            "id": "0dd0c719-6426-4df6-a244-406a9e258597"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "308ff796-6e4e-4ce9-8ee7-0783ed972376"
+          }
+        ]
+      },
+      "id": "9645bdbc-4d8d-4710-9b49-6b8695c2be2f"
+    }
+  ]
+}

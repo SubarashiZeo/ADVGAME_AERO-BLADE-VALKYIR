@@ -1,0 +1,139 @@
+{
+  "_resourceType": "script",
+  "id": "0dd1edb3-09a9-479b-9bad-8355971bdcd8",
+  "name": "Tri Gun",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "source",
+              "spriteSheetId": "34027122-9034-4b0b-83a0-3d8991397a0d",
+              "spriteStateId": "Single Right",
+              "actorId": "player",
+              "x": 1,
+              "y": 2,
+              "directionType": "angle",
+              "otherActorId": "$self$",
+              "direction": "up",
+              "angle": 15,
+              "angleVariable": "0",
+              "targetActorId": "$self$",
+              "speed": 3,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ],
+              "__collapse": false,
+              "__comment": false
+            },
+            "id": "f0a8c5b6-9f27-494f-a93f-666e4384857a"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "source",
+              "spriteSheetId": "34027122-9034-4b0b-83a0-3d8991397a0d",
+              "spriteStateId": "Single Left",
+              "actorId": "$self$",
+              "x": -1,
+              "y": 2,
+              "directionType": "angle",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 241,
+              "angleVariable": "0",
+              "targetActorId": "$self$",
+              "speed": 3,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "928ec8e5-406a-462f-a0c3-60bac48df43b"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+              "spriteStateId": "Single Bullet",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "up",
+              "angle": 0,
+              "angleVariable": "0",
+              "targetActorId": "$self$",
+              "speed": 3,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "c105579c-9ab6-4a63-b62a-5a3c8dff4d7e"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
+              "priority": "medium",
+              "pitch": 8,
+              "frequency": 200,
+              "duration": 0.1,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "d56ab245-ce10-452e-b1e2-79e0f3afb802"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "6dd77322-64d5-4514-a0a1-d56c164bb145"
+          }
+        ]
+      },
+      "id": "78ce680d-c3ae-4f7e-b240-76ad2b6f2ad8"
+    }
+  ]
+}
