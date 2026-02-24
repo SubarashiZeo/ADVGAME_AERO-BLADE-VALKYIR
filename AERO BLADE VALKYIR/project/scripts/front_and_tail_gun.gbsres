@@ -1,11 +1,11 @@
 {
   "_resourceType": "script",
-  "id": "d526ae74-1bc0-492c-8b7f-88636fa2c644",
-  "name": "Wide Gun",
+  "id": "122702d8-bc75-4c0f-8a61-69d94ebc82bd",
+  "name": "Front and Tail Gun",
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_3",
+  "symbol": "script_4",
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -14,23 +14,54 @@
           "a"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "__section": "projectile",
+              "__section": "source",
+              "spriteSheetId": "34027122-9034-4b0b-83a0-3d8991397a0d",
+              "spriteStateId": "Single Right",
+              "actorId": "player",
+              "x": 5,
+              "y": -2,
+              "directionType": "angle",
+              "otherActorId": "$self$",
+              "direction": "up",
+              "angle": 110,
+              "angleVariable": "0",
+              "targetActorId": "$self$",
+              "speed": 3,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ],
+              "__collapse": false,
+              "__comment": false
+            },
+            "id": "e8e71e34-e4e0-43d3-bf34-a2f08087d089"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "source",
               "spriteSheetId": "34027122-9034-4b0b-83a0-3d8991397a0d",
               "spriteStateId": "Single Left",
               "actorId": "$self$",
-              "x": -15,
-              "y": 0,
-              "directionType": "direction",
+              "x": -5,
+              "y": -2,
+              "directionType": "angle",
               "otherActorId": "$self$",
-              "direction": "up",
-              "angle": 0,
+              "direction": "right",
+              "angle": 140,
               "angleVariable": "0",
               "targetActorId": "$self$",
               "speed": 3,
@@ -44,16 +75,16 @@
                 "1"
               ]
             },
-            "id": "720b8080-7862-4e70-8503-50cc23cd6b0a"
+            "id": "2950d600-6cfe-4194-8c18-d2a2862b8831"
           },
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
               "__section": "projectile",
-              "spriteSheetId": "34027122-9034-4b0b-83a0-3d8991397a0d",
-              "spriteStateId": "Single Right",
+              "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+              "spriteStateId": "Single Bullet",
               "actorId": "$self$",
-              "x": 15,
+              "x": 0,
               "y": 0,
               "directionType": "direction",
               "otherActorId": "$self$",
@@ -72,38 +103,38 @@
                 "1"
               ]
             },
-            "id": "2c792aee-14ef-426b-875f-6d963ac0164d"
+            "id": "735880cd-b544-4f2e-89ba-4c562e0615f6"
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
               "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
               "priority": "medium",
-              "pitch": 4,
+              "pitch": 8,
               "frequency": 200,
-              "duration": 0.5,
+              "duration": 0.1,
               "wait": true,
               "effect": 0
             },
-            "id": "3b2014fc-8282-4012-9fbf-f16667ace6ea"
+            "id": "bb681ddb-53e2-4e3c-8d6a-857594b07539"
           },
           {
             "command": "EVENT_WAIT",
             "args": {
               "time": {
                 "type": "number",
-                "value": 0.4
+                "value": 0.75
               },
               "frames": {
                 "type": "number",
                 "value": 1
               }
             },
-            "id": "236efe28-6b86-4ef9-8a2e-9b36333f5d01"
+            "id": "fd632694-0015-475f-930d-12188745bcf5"
           }
         ]
       },
-      "id": "cea371a2-3dce-4b91-a5a2-e78091ec5ef8"
+      "id": "cb90d536-a9ad-4cc7-a7a5-ff717136d6ec"
     }
   ]
 }

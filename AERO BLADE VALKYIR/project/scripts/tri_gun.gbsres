@@ -14,14 +14,15 @@
           "a"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "__section": "source",
+              "__section": "projectile",
               "spriteSheetId": "34027122-9034-4b0b-83a0-3d8991397a0d",
               "spriteStateId": "Single Right",
               "actorId": "player",
@@ -122,7 +123,7 @@
             "args": {
               "time": {
                 "type": "number",
-                "value": 1
+                "value": 0.75
               },
               "frames": {
                 "type": "number",

@@ -98,18 +98,26 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "2eaabfae-5de7-471f-958e-1a1a73fd228d",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "id": "7834e5e9-06a7-4ca6-8f66-17b3b34bc1df"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "0dd1edb3-09a9-479b-9bad-8355971bdcd8",
+        "customEventId": "d526ae74-1bc0-492c-8b7f-88636fa2c644",
         "__collapse": true,
         "__comment": true
       },
       "id": "bdbc324f-4a04-44c7-a54a-ce19dfc8ba7b"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "122702d8-bc75-4c0f-8a61-69d94ebc82bd"
+      },
+      "id": "92b6740e-679c-4324-920c-0501bc9a86d9"
     }
   ],
   "playerHit1Script": [],

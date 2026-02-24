@@ -1,0 +1,55 @@
+{
+  "_resourceType": "script",
+  "id": "a9e5612e-c6b8-442a-b928-f6edb471faa2",
+  "name": "Bomb",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "80ea4dd8-cb83-48f3-a548-b66b2385e83d",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "0",
+              "targetActorId": "$self$",
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "da291840-e697-444a-aff5-46ad6a8fffbd"
+          }
+        ]
+      },
+      "id": "537db6c7-77dc-41a5-9955-7fb9a9f42b68"
+    }
+  ]
+}

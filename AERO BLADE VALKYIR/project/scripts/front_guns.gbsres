@@ -21,7 +21,7 @@
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "__section": "source",
+              "__section": "projectile",
               "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
               "spriteStateId": "",
               "actorId": "$self$",
@@ -59,6 +59,20 @@
               "effect": 0
             },
             "id": "308ff796-6e4e-4ce9-8ee7-0783ed972376"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.25
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "6c0a3a42-9081-48b6-a87e-6761daa88daf"
           }
         ]
       },
