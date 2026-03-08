@@ -3,19 +3,19 @@
   "id": "085cd5ea-a233-4c46-98be-ecff48bf18d2",
   "_index": 0,
   "name": "Scene 1",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "da698726-1d96-4b16-9783-633933a5eb10",
   "tilesetId": "",
   "width": 20,
-  "height": 18,
+  "height": 252,
   "type": "SHMUP",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0012c+0f14+0028+",
+  "collisions": "001374+0f14+0028+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 136,
-  "y": 48,
+  "x": 288,
+  "y": 32,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -24,7 +24,8 @@
           "a"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -76,9 +77,10 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "6d3a3e32-5f43-4e83-b372-fbf7f1197ba4"
+        "musicId": "6d3a3e32-5f43-4e83-b372-fbf7f1197ba4",
+        "__comment": true
       },
-      "id": "85123156-c50f-40e1-87a3-ab4fffc1d7f9"
+      "id": "7c4c8eee-148e-4127-8a79-110af9aaa60e"
     }
   ],
   "playerHit1Script": [],

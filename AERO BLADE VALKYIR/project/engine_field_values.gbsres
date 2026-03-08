@@ -27,7 +27,7 @@
     },
     {
       "id": "shooter_scroll_speed",
-      "value": 64
+      "value": 16
     }
   ]
 }
