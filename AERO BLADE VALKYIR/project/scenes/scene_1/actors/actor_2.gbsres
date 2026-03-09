@@ -12,11 +12,44 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_1",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "efdb4d34-efa8-45b9-8c13-19f0f794f835"
+            },
+            "id": "240148f1-f266-43f6-9004-cb11adf2e5ba"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "45e0819e-96f7-42f3-b1f1-8e859239ce88"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": false
+            },
+            "id": "a3415dee-694d-4a89-8007-73888e370c11"
+          }
+        ]
+      },
+      "id": "038bcfab-868e-4071-9dad-cac92b688075"
+    }
+  ],
   "startScript": [],
   "updateScript": [
     {
@@ -112,7 +145,40 @@
       "id": "66f4cc7f-0a89-407c-8cf9-98b3c434414e"
     }
   ],
-  "hit1Script": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "efdb4d34-efa8-45b9-8c13-19f0f794f835"
+            },
+            "id": "65ba21e2-c6a1-42da-8baf-2d0e309e31ac"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "a59c04f1-ff7c-4325-ac90-f44823c01940"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": false
+            },
+            "id": "19f95fb4-5a1b-4704-9995-b28f054490b0"
+          }
+        ]
+      },
+      "id": "afe04ff1-b370-42cd-9e7b-08011e7ad162"
+    }
+  ],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",

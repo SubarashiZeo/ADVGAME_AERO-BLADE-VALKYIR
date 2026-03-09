@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "2ae59f76-87e7-4bf1-b6b5-ef5e5667fff0",
+  "name": "gbs-mono",
+  "symbol": "sprite_gbs_mono",
+  "states": [
+    {
+      "id": "f8e2dc30-1ae1-4e60-83f5-65d8f3e09cce",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "61c98e14-bd3a-4a14-8f56-f7feb33836e2",
+          "frames": [
+            {
+              "id": "0800d808-1b72-4eea-b4f7-20e41ea8518b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "39252970-659e-4427-9506-886ba110eff5",
+          "frames": [
+            {
+              "id": "2ae46327-f001-4016-9b30-df44f51f8ec5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e18bc036-8773-4992-b097-5770047c779b",
+          "frames": [
+            {
+              "id": "ce0cad08-bfba-41ed-a32f-2766223e7bf3",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c3d3466f-dbd5-49e7-95bb-f0dd27a04060",
+          "frames": [
+            {
+              "id": "972a4274-6e9e-48f0-a3ba-ab783cd792e2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "be6f537d-4ec3-4455-a3c8-8ab550e20701",
+          "frames": [
+            {
+              "id": "faa112a6-eee6-4fb7-9d96-3ac2ec273afc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "d351d449-6b81-41dc-ae60-8f0d71046dc5",
+          "frames": [
+            {
+              "id": "55110b92-1af2-4df4-9237-7423c551e7f1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "173fa924-896d-476e-a4af-74132d1b92f6",
+          "frames": [
+            {
+              "id": "00841de9-a18b-4b66-b8b4-438115f6d392",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ae680304-45d9-456c-8f17-cfb75937245d",
+          "frames": [
+            {
+              "id": "c704cbff-1885-4a08-8a3d-26f32b620b25",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 18,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "gbs-mono.png",
+  "width": 128,
+  "height": 112,
+  "checksum": "4abca6e4531548ab446a998300276d85a0e9d097"
+}

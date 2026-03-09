@@ -98,7 +98,7 @@
               "initialOffset": 0,
               "loopAnim": true,
               "destroyOnHit": true,
-              "collisionGroup": "3",
+              "collisionGroup": "1",
               "collisionMask": [
                 "1"
               ]

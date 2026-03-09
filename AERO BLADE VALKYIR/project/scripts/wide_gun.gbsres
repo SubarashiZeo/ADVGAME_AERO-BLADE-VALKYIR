@@ -39,7 +39,7 @@
               "initialOffset": 0,
               "loopAnim": true,
               "destroyOnHit": true,
-              "collisionGroup": "3",
+              "collisionGroup": "1",
               "collisionMask": [
                 "1"
               ]
@@ -69,7 +69,8 @@
               "destroyOnHit": true,
               "collisionGroup": "3",
               "collisionMask": [
-                "1"
+                "1",
+                "3"
               ]
             },
             "id": "2c792aee-14ef-426b-875f-6d963ac0164d"
