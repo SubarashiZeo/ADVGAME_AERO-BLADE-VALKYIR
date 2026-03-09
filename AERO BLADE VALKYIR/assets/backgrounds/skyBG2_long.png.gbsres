@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "48c7494a-66ac-4211-88c3-3d2f5455a87c",
+  "name": "skyBG2_long",
+  "symbol": "bg_skybg2_long",
+  "tileColors": "",
+  "filename": "skyBG2_long.png",
+  "width": 20,
+  "height": 252,
+  "imageWidth": 160,
+  "imageHeight": 2016
+}
