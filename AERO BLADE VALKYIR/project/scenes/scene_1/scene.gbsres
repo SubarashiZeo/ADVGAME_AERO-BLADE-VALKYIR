@@ -33,7 +33,7 @@
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "__section": "projectile",
+              "__section": "source",
               "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
               "spriteStateId": "",
               "actorId": "$self$",
@@ -147,6 +147,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "06478b09-69f0-4109-8f20-c96cf7ddec6d",
-  "autoFadeEventCollapse": true
+  "playerSpriteSheetId": "439ed72d-fe95-47a5-aad0-b09424de8450",
+  "autoFadeEventCollapse": false
 }
