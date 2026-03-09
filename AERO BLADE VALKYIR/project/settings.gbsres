@@ -12,7 +12,7 @@
   "sgbEnabled": false,
   "customHead": "",
   "defaultBackgroundPaletteIds": [
-    "default-bg-1",
+    "dmg",
     "default-bg-2",
     "default-bg-3",
     "default-bg-4",
@@ -99,7 +99,7 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mono",
+  "colorMode": "color",
   "colorCorrection": "default",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
