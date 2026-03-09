@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "631a8e5f-31b8-47b8-bb44-0e61b7fea4e6",
+  "name": "skyBG",
+  "symbol": "bg_skybg",
+  "tileColors": "",
+  "filename": "skyBG.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
