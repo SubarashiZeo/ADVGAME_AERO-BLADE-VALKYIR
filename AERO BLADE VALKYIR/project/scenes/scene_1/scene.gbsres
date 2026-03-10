@@ -102,7 +102,8 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": true,
+        "__label": "Pause"
       },
       "children": {
         "true": [
@@ -110,7 +111,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Game Paused...\nScore: $00$"
+                "Game Paused...\nScore: $00$\nHealth: $01$"
               ],
               "__section": "text",
               "avatarId": "",
@@ -139,14 +140,178 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "2eaabfae-5de7-471f-958e-1a1a73fd228d",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "cd9ac5fc-2fdb-41bf-a4b1-62b59961301e"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Health",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "3976db7f-daee-4280-a401-e27eb32d061d"
+          }
+        ]
+      },
+      "id": "c996a1e3-b452-4eb3-8ce5-160045572106"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false,
+        "__label": "GameOver?",
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7c4ca0ae-713d-4d9e-99a1-df81adb55179",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "a4b2e8ab-29e7-4654-abb4-b854d5805bdd"
+          }
+        ],
+        "false": []
+      },
+      "id": "d47817e8-36d8-4630-aa11-01a95ab58a36"
     }
   ],
-  "playerHit1Script": [],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "1"
+      },
+      "id": "13feab2b-c139-492a-bc3c-25fa221bc119"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7c4ca0ae-713d-4d9e-99a1-df81adb55179",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "1365ff90-ea28-42e9-bf8a-ce33584db8a9"
+          }
+        ],
+        "false": []
+      },
+      "id": "e021d110-121d-41b6-9551-3153ca612acf"
+    }
+  ],
   "playerHit2Script": [],
-  "playerHit3Script": [],
+  "playerHit3Script": [
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "1"
+      },
+      "id": "ab4cf446-7151-47ea-b4a7-35b7cf03df67"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7c4ca0ae-713d-4d9e-99a1-df81adb55179",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "2af28bbb-8e03-49ab-b5fb-d11041f0869b"
+          }
+        ],
+        "false": []
+      },
+      "id": "709ecfc1-5118-496e-9222-aadb6e42750f"
+    }
+  ],
   "playerSpriteSheetId": "06478b09-69f0-4109-8f20-c96cf7ddec6d",
   "autoFadeEventCollapse": true
 }

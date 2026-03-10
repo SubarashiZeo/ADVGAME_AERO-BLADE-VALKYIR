@@ -129,7 +129,8 @@
                     "destroyOnHit": true,
                     "collisionGroup": "3",
                     "collisionMask": [
-                      "1"
+                      "3",
+                      "player"
                     ]
                   },
                   "id": "13c6913e-878f-4b9e-b023-77b8c304543f"

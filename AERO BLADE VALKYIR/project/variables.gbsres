@@ -5,6 +5,16 @@
       "id": "0",
       "name": "score",
       "symbol": "var_score"
+    },
+    {
+      "id": "1",
+      "name": "PlayerHP",
+      "symbol": "var_playerhp"
+    },
+    {
+      "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
+      "name": "Pla",
+      "symbol": "var_pla"
     }
   ],
   "constants": []
