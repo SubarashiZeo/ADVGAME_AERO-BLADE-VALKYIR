@@ -5,6 +5,41 @@
       "id": "0",
       "name": "score",
       "symbol": "var_score"
+    },
+    {
+      "id": "1",
+      "name": "selected_weapon",
+      "symbol": "var_selected_weapon"
+    },
+    {
+      "id": "118132f3-dbfc-4676-8cbd-4a41a3317a76__L0",
+      "name": "random",
+      "symbol": "var_random"
+    },
+    {
+      "id": "118132f3-dbfc-4676-8cbd-4a41a3317a76__L1",
+      "name": "pos",
+      "symbol": "var_pos"
+    },
+    {
+      "id": "38f770d9-fdd3-4053-b351-cd41e90c45db__L0",
+      "name": "IsActive",
+      "symbol": "var_isactive"
+    },
+    {
+      "id": "118132f3-dbfc-4676-8cbd-4a41a3317a76__L2",
+      "name": "isDead",
+      "symbol": "var_isdead"
+    },
+    {
+      "id": "2",
+      "name": "cap1_IsActive",
+      "symbol": "var_cap1_isactive"
+    },
+    {
+      "id": "085cd5ea-a233-4c46-98be-ecff48bf18d2__L0",
+      "name": "Local_0",
+      "symbol": "var_local_0"
     }
   ],
   "constants": []

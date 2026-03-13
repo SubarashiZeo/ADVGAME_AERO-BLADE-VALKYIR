@@ -20,7 +20,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -35,7 +35,8 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "$self$",
+              "__comment": false
             },
             "id": "6d556e61-ea84-4933-9ca7-26405999c82a"
           },
@@ -67,7 +68,7 @@
           "value": 222
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -175,6 +176,22 @@
               "__collapse": false
             },
             "id": "2062ffd9-0a30-4e1e-b286-15bed00a0351"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "3956f026-aab4-47d2-bbc0-d8e08028c9c2",
+              "$actor[1]$": "38f770d9-fdd3-4053-b351-cd41e90c45db",
+              "$variable[V1]$": {
+                "type": "variable",
+                "value": "2"
+              },
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L0"
+              }
+            },
+            "id": "508cab9c-3486-429e-b6b0-d0e3be8aef39"
           }
         ]
       },
