@@ -66,7 +66,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Game Paused...\nScore: $00$"
+                "Game Paused...\nScore: $00$\nWeapon : $01$"
               ],
               "__section": "text",
               "avatarId": "",
@@ -97,8 +97,9 @@
         "variable": "1",
         "value": {
           "type": "number",
-          "value": 2
-        }
+          "value": 1
+        },
+        "__collapse": false
       },
       "id": "37532d3c-9e5b-41c8-9a10-b5562a24b265"
     },
@@ -108,46 +109,11 @@
         "customEventId": "7d6e08c5-4677-4054-b7a9-a72d0314d144"
       },
       "id": "caf5c7b6-de7f-44e3-b9ed-702630c485bd"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "gt",
-          "valueA": {
-            "type": "variable",
-            "value": "L0"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 2
-          }
-        },
-        "__collapseElse": true,
-        "__disableElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "1",
-              "value": {
-                "type": "number",
-                "value": 0
-              }
-            },
-            "id": "5711865d-b7a4-4e74-b3c8-6c7a6ce66349"
-          }
-        ],
-        "false": []
-      },
-      "id": "939e4c3a-4deb-4222-acba-b4be1ce3fc65"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "439ed72d-fe95-47a5-aad0-b09424de8450",
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }

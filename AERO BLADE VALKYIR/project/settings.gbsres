@@ -103,7 +103,42 @@
   "colorCorrection": "default",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_LAUNCH_PROJECTILE": {
+      "02e1abf7-728b-4ee5-ace9-25a149e08207": {
+        "id": "02e1abf7-728b-4ee5-ace9-25a149e08207",
+        "name": "Preset 1",
+        "groups": [
+          "projectile",
+          "source",
+          "direction"
+        ],
+        "args": {
+          "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+          "spriteStateId": "",
+          "speed": 2,
+          "animSpeed": 15,
+          "lifeTime": 1.5,
+          "loopAnim": true,
+          "destroyOnHit": true,
+          "collisionGroup": "1",
+          "collisionMask": [
+            "1"
+          ],
+          "actorId": "$self$",
+          "x": 0,
+          "y": 0,
+          "directionType": "direction",
+          "otherActorId": "$self$",
+          "direction": "up",
+          "angle": 0,
+          "angleVariable": "0",
+          "targetActorId": "$self$",
+          "initialOffset": 0
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {},
   "runSceneSelectionOnly": false,
   "spriteMode": "8x16",

@@ -12,7 +12,7 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
-  "collisionGroup": "1",
+  "collisionGroup": "2",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_2",
@@ -43,6 +43,13 @@
         "false": []
       },
       "id": "fa638dc4-d3b8-43f2-959a-ad469438be85"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3bd22c12-21de-4f9a-9093-3988d473df49"
     }
   ],
   "startScript": [
@@ -61,7 +68,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 2,
-  "y": 245,
+  "x": 1,
+  "y": 225,
   "_index": 2
 }

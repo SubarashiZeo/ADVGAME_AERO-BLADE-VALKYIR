@@ -21,7 +21,7 @@
           {
             "command": "EVENT_LAUNCH_PROJECTILE",
             "args": {
-              "__section": "projectile",
+              "__section": "presets",
               "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
               "spriteStateId": "",
               "actorId": "$self$",
@@ -43,7 +43,8 @@
               "collisionMask": [
                 "1"
               ],
-              "__collapse": false
+              "__collapse": false,
+              "__presetId": "02e1abf7-728b-4ee5-ace9-25a149e08207"
             },
             "id": "0dd0c719-6426-4df6-a244-406a9e258597"
           },

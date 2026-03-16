@@ -12,6 +12,11 @@
       "symbol": "var_selected_weapon"
     },
     {
+      "id": "2",
+      "name": "cap1_IsActive",
+      "symbol": "var_cap1_isactive"
+    },
+    {
       "id": "118132f3-dbfc-4676-8cbd-4a41a3317a76__L0",
       "name": "random",
       "symbol": "var_random"
@@ -30,11 +35,6 @@
       "id": "118132f3-dbfc-4676-8cbd-4a41a3317a76__L2",
       "name": "isDead",
       "symbol": "var_isdead"
-    },
-    {
-      "id": "2",
-      "name": "cap1_IsActive",
-      "symbol": "var_cap1_isactive"
     },
     {
       "id": "085cd5ea-a233-4c46-98be-ecff48bf18d2__L0",
