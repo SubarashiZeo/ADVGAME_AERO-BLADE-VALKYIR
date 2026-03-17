@@ -33,13 +33,37 @@
           {
             "command": "EVENT_INC_VALUE",
             "args": {
-              "variable": "1"
+              "variable": "2"
             },
             "id": "250d3cf4-cbf8-40fe-a6aa-0b0989c43a16"
           }
         ]
       },
       "id": "603af11d-dfcf-427d-9931-4336cb531e31"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false,
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "7d6e08c5-4677-4054-b7a9-a72d0314d144"
+            },
+            "id": "1be3c377-61bc-4dd2-a8ad-b16d8e26ed8f"
+          }
+        ]
+      },
+      "id": "fef1ff9e-468d-4105-af48-d28783271cc0"
     },
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -49,6 +73,29 @@
         "__collapse": true
       },
       "id": "7c4c8eee-148e-4127-8a79-110af9aaa60e"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Health",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "3976db7f-daee-4280-a401-e27eb32d061d"
+          }
+        ]
+      },
+      "id": "c996a1e3-b452-4eb3-8ce5-160045572106"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -99,40 +146,10 @@
         "value": {
           "type": "number",
           "value": 2
-        }
-      },
-      "id": "37532d3c-9e5b-41c8-9a10-b5562a24b265"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "2eaabfae-5de7-471f-958e-1a1a73fd228d",
+        },
         "__collapse": true
       },
-      "id": "cd9ac5fc-2fdb-41bf-a4b1-62b59961301e"
-    },
-    {
-      "command": "EVENT_GROUP",
-      "args": {
-        "__label": "Health",
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "1",
-              "value": {
-                "type": "number",
-                "value": 3
-              }
-            },
-            "id": "3976db7f-daee-4280-a401-e27eb32d061d"
-          }
-        ]
-      },
-      "id": "c996a1e3-b452-4eb3-8ce5-160045572106"
+      "id": "37532d3c-9e5b-41c8-9a10-b5562a24b265"
     },
     {
       "command": "EVENT_IF",
