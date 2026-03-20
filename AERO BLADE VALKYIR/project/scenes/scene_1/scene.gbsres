@@ -68,9 +68,9 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "6d3a3e32-5f43-4e83-b372-fbf7f1197ba4",
+        "musicId": "b28f3afa-9fb0-4010-bed9-5c89ec634c4d",
         "__comment": true,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "7c4c8eee-148e-4127-8a79-110af9aaa60e"
     },
@@ -218,7 +218,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -235,7 +235,8 @@
                 "value": 17
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": false
             },
             "id": "1365ff90-ea28-42e9-bf8a-ce33584db8a9"
           }

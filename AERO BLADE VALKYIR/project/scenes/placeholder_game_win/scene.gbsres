@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "7c4ca0ae-713d-4d9e-99a1-df81adb55179",
-  "_index": 1,
-  "name": "Placeholder Game Over",
+  "id": "cc8cb5fb-1458-4916-b299-509ca9d23fb3",
+  "_index": 2,
+  "name": "Placeholder Game Win",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -13,17 +13,17 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_2",
+  "symbol": "scene_3",
   "x": 504,
-  "y": 1872,
+  "y": 1680,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "GAME OVER\n"
+          "YOU WIN "
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -40,15 +40,15 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "16a03024-e13c-4d36-9165-ad3c98169902"
+      "id": "37cc7a5c-4a86-4bf3-acab-05918852bb74"
     },
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "145b017c-040b-4e91-b9cb-aa7f4dab15a5",
+        "musicId": "8cb666a5-ea34-4210-96f4-2f27bca8712c",
         "__comment": true
       },
-      "id": "4ec4ce9f-651b-4236-8786-ed205c15974c"
+      "id": "65e51989-a36e-474f-b171-396c4509772f"
     }
   ],
   "playerHit1Script": [],
