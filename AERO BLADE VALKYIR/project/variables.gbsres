@@ -12,14 +12,14 @@
       "symbol": "var_player_hp"
     },
     {
-      "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
-      "name": "Pla",
-      "symbol": "var_pla"
-    },
-    {
       "id": "2",
       "name": "selected_Weapon",
       "symbol": "var_selected_weapon_0"
+    },
+    {
+      "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
+      "name": "Pla",
+      "symbol": "var_pla"
     }
   ],
   "constants": []
