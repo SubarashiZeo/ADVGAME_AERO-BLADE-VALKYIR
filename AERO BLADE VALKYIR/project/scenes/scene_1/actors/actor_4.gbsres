@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "47e71212-1694-4331-b7ac-0c8ca0f27b39",
+  "spriteSheetId": "10fa0752-458b-4380-a921-0904e167bfb3",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -30,10 +30,44 @@
           },
           "valueB": {
             "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true
+            },
+            "id": "0c2ebedb-5c25-48d6-ac7c-377d2daca8d7"
+          }
+        ],
+        "false": []
+      },
+      "id": "b687d16d-2049-4ed3-9fe1-9ffa334587a9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
             "value": 2
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -66,7 +100,8 @@
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -91,6 +126,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 2,
-  "y": 1,
+  "y": 17,
   "_index": 4
 }

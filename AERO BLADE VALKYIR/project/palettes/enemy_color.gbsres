@@ -1,0 +1,11 @@
+{
+  "_resourceType": "palette",
+  "id": "76e35618-de74-46f0-ac92-7b4dd179d756",
+  "name": "Enemy Color",
+  "colors": [
+    "ff7300",
+    "ff0000",
+    "ff0000",
+    "310000"
+  ]
+}
