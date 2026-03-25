@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "a950cd36-aa90-45ec-9e35-661d2a3406c7",
+  "name": "skyBG2_long_HUD",
+  "symbol": "bg_skybg2_long_hud",
+  "tileColors": "001388+0528+",
+  "filename": "skyBG2_long_HUD.png",
+  "width": 20,
+  "height": 252,
+  "imageWidth": 160,
+  "imageHeight": 2016
+}

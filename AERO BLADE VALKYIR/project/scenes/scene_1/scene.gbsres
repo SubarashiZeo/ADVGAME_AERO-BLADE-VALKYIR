@@ -3,14 +3,25 @@
   "id": "085cd5ea-a233-4c46-98be-ecff48bf18d2",
   "_index": 0,
   "name": "Scene 1",
-  "backgroundId": "da698726-1d96-4b16-9783-633933a5eb10",
+  "backgroundId": "a950cd36-aa90-45ec-9e35-661d2a3406c7",
   "tilesetId": "",
   "width": 20,
   "height": 252,
   "type": "SHMUP",
   "colorModeOverride": "none",
-  "paletteIds": [],
-  "spritePaletteIds": [],
+  "paletteIds": [
+    "default-bg-5"
+  ],
+  "spritePaletteIds": [
+    "ebfc7e85-50a1-4d6d-80ba-746735cc16f4",
+    "76e35618-de74-46f0-ac92-7b4dd179d756",
+    "bb719280-ea26-49be-b84d-4409914e2131",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
   "collisions": "001374+0f14+0028+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
@@ -69,8 +80,8 @@
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "b28f3afa-9fb0-4010-bed9-5c89ec634c4d",
-        "__comment": true,
-        "__collapse": false
+        "__comment": false,
+        "__collapse": true
       },
       "id": "7c4c8eee-148e-4127-8a79-110af9aaa60e"
     },
@@ -78,7 +89,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Health",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -89,7 +100,8 @@
               "value": {
                 "type": "number",
                 "value": 3
-              }
+              },
+              "__collapse": false
             },
             "id": "3976db7f-daee-4280-a401-e27eb32d061d"
           }
@@ -145,9 +157,9 @@
         "variable": "1",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 3
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "37532d3c-9e5b-41c8-9a10-b5562a24b265"
     },
@@ -199,7 +211,8 @@
     {
       "command": "EVENT_DEC_VALUE",
       "args": {
-        "variable": "1"
+        "variable": "1",
+        "__collapse": false
       },
       "id": "13feab2b-c139-492a-bc3c-25fa221bc119"
     },
@@ -297,6 +310,6 @@
       "id": "709ecfc1-5118-496e-9222-aadb6e42750f"
     }
   ],
-  "playerSpriteSheetId": "06478b09-69f0-4109-8f20-c96cf7ddec6d",
+  "playerSpriteSheetId": "439ed72d-fe95-47a5-aad0-b09424de8450",
   "autoFadeEventCollapse": true
 }

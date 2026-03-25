@@ -9,7 +9,7 @@
     {
       "id": "1",
       "name": "player_HP",
-      "symbol": "var_player_hp"
+      "symbol": "var_player_hp_0"
     },
     {
       "id": "2",
