@@ -86,7 +86,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -130,7 +130,8 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Health",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": false
       },
       "children": {
         "true": [
@@ -169,7 +170,7 @@
               "text": [
                 "Game Paused...\nScore: $00$\nHealth: $01$\nIndex: $03$"
               ],
-              "__section": "text",
+              "__section": "behavior",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
@@ -185,75 +186,41 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2bebdce3-53e1-40bf-94b0-0503277fc333"
+          },
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16,
+              "__collapse": true
+            },
+            "id": "2308f367-a650-4c0e-99ca-1b6e64df06b6"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 250",
+              "references": [],
+              "__collapse": true
+            },
+            "id": "08d78824-8da4-4472-be34-a7b238747b95"
           }
         ]
       },
       "id": "72abcee4-2f1a-4d63-baa7-9ee684845992"
     },
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "1",
-        "value": {
-          "type": "number",
-          "value": 3
-        },
-        "__collapse": false
-      },
-      "id": "37532d3c-9e5b-41c8-9a10-b5562a24b265"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "1"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": false,
-        "__label": "GameOver?",
-        "__comment": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "7c4ca0ae-713d-4d9e-99a1-df81adb55179",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "a4b2e8ab-29e7-4654-abb4-b854d5805bdd"
-          }
-        ],
-        "false": []
-      },
-      "id": "d47817e8-36d8-4630-aa11-01a95ab58a36"
-    },
-    {
       "command": "EVENT_OVERLAY_SHOW",
       "args": {
         "color": "black",
         "x": 0,
-        "y": 16
+        "y": 16,
+        "__collapse": true,
+        "__comment": false
       },
       "id": "d0550e7e-513e-47af-a57b-df21a2637306"
     },
@@ -261,35 +228,12 @@
       "command": "EVENT_GBVM_SCRIPT",
       "args": {
         "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 250",
-        "references": []
+        "references": [],
+        "__collapse": true,
+        "__comment": false,
+        "__label": "GBVM Script (HUD)"
       },
       "id": "6e532ed3-dce7-4f7e-9956-db2b2422ec2e"
-    },
-    {
-      "command": "EVENT_GBVM_SCRIPT",
-      "args": {
-        "script": "VM_PUSH_CONST 10\nVM_REPLACE_TILE_XY 2, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 11\nVM_REPLACE_TILE_XY 3, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 12\nVM_REPLACE_TILE_XY 2, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 13\nVM_REPLACE_TILE_XY 3, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
-        "references": [
-          {
-            "type": "background",
-            "id": "0819ead0-bdda-43aa-929c-1916f54ca924"
-          },
-          {
-            "type": "background",
-            "id": "c867c3e9-71d1-45c7-abd4-84e7720614c2"
-          }
-        ],
-        "__comment": false
-      },
-      "id": "bd63548f-edde-4493-9c52-613a352da041"
-    },
-    {
-      "command": "EVENT_GBVM_SCRIPT",
-      "args": {
-        "script": "VM_SET_CONST VAR_TILE, 0\n\n.loop:\nVM_REPLACE_TILE_XY 2, 16, ___bank_bg_skybg2_long2_hud_tileset, _bg_skybg2_long2_hud_tileset, VAR_TILE\nVM_WAIT 5\nVM_ADD_CONST VAR_TILE, 1\nVM_JUMP .loop",
-        "__comment": true
-      },
-      "id": "e6c2458d-c477-4e82-8d62-660836d76b40"
     }
   ],
   "playerHit1Script": [
@@ -316,7 +260,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

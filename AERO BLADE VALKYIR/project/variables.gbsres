@@ -45,6 +45,11 @@
       "id": "085cd5ea-a233-4c46-98be-ecff48bf18d2__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "10",
+      "name": "Paused",
+      "symbol": "var_paused"
     }
   ],
   "constants": []
