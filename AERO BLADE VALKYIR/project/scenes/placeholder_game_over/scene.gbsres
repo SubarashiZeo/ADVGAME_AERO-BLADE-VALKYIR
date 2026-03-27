@@ -18,6 +18,14 @@
   "y": 1872,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "145b017c-040b-4e91-b9cb-aa7f4dab15a5",
+        "__comment": false
+      },
+      "id": "4ec4ce9f-651b-4236-8786-ed205c15974c"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -38,17 +46,10 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "16a03024-e13c-4d36-9165-ad3c98169902"
-    },
-    {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "145b017c-040b-4e91-b9cb-aa7f4dab15a5",
-        "__comment": true
-      },
-      "id": "4ec4ce9f-651b-4236-8786-ed205c15974c"
     }
   ],
   "playerHit1Script": [],
@@ -59,5 +60,6 @@
     1,
     2,
     3
-  ]
+  ],
+  "autoFadeEventCollapse": true
 }

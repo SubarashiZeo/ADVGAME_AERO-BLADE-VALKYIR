@@ -20,6 +20,31 @@
       "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
       "name": "Pla",
       "symbol": "var_pla"
+    },
+    {
+      "id": "3",
+      "name": "weapon_index",
+      "symbol": "var_weapon_index"
+    },
+    {
+      "id": "4",
+      "name": "slot1",
+      "symbol": "var_slot1"
+    },
+    {
+      "id": "5",
+      "name": "slot2",
+      "symbol": "var_slot2"
+    },
+    {
+      "id": "6",
+      "name": "slot3",
+      "symbol": "var_slot3"
+    },
+    {
+      "id": "085cd5ea-a233-4c46-98be-ecff48bf18d2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ],
   "constants": []
