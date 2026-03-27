@@ -1,0 +1,54 @@
+{
+  "_resourceType": "script",
+  "id": "22152987-8670-4259-813a-ba68a4b1126c",
+  "name": "WeaponSelection_2.0",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "3",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "d1a980fb-0040-4679-8e11-4679b4f1bc86"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "3"
+            },
+            "id": "34a289d8-e876-420f-88e6-1039c5e7c1a2"
+          }
+        ]
+      },
+      "id": "6d8423ea-5b6f-4099-b902-80ba5d000c90"
+    }
+  ]
+}

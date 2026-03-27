@@ -29,28 +29,47 @@
   "y": 32,
   "script": [
     {
-      "command": "EVENT_SET_INPUT_SCRIPT",
+      "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "input": [
-          "b"
-        ],
-        "override": true,
-        "__scriptTabs": "press",
-        "__collapse": false,
-        "__comment": false
+        "musicId": "b28f3afa-9fb0-4010-bed9-5c89ec634c4d",
+        "__comment": false,
+        "__collapse": true
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "2"
-            },
-            "id": "250d3cf4-cbf8-40fe-a6aa-0b0989c43a16"
-          }
-        ]
+      "id": "7c4c8eee-148e-4127-8a79-110af9aaa60e"
+    },
+    {
+      "command": "XV_ARRAY_MANAGER_SET",
+      "args": {
+        "array_manager_set_tabs": "tabSetupArray",
+        "var1": "4",
+        "var2": "5",
+        "var3": "6",
+        "var4": "V0",
+        "var5": "V0",
+        "var6": "V0",
+        "var7": "V0",
+        "var8": "V0",
+        "var9": "V0",
+        "var10": "V0",
+        "var11": "V0",
+        "var12": "V0",
+        "var13": "V0",
+        "var14": "V0",
+        "var15": "V0",
+        "var16": "V0",
+        "number_of_vars_to_use": "3",
+        "divide_bit_amount": "4",
+        "array_index": {
+          "type": "variable",
+          "value": "3"
+        },
+        "set_value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": false
       },
-      "id": "603af11d-dfcf-427d-9931-4336cb531e31"
+      "id": "0336d00b-0d27-4a17-b446-0a349da1d4df"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -68,7 +87,7 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "7d6e08c5-4677-4054-b7a9-a72d0314d144"
+              "customEventId": "b2f437d2-0061-45a7-9c0e-79dffe246bdc"
             },
             "id": "1be3c377-61bc-4dd2-a8ad-b16d8e26ed8f"
           }
@@ -77,19 +96,34 @@
       "id": "fef1ff9e-468d-4105-af48-d28783271cc0"
     },
     {
-      "command": "EVENT_MUSIC_PLAY",
+      "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
-        "musicId": "b28f3afa-9fb0-4010-bed9-5c89ec634c4d",
-        "__comment": false,
-        "__collapse": true
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true,
+        "__comment": false
       },
-      "id": "7c4c8eee-148e-4127-8a79-110af9aaa60e"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "22152987-8670-4259-813a-ba68a4b1126c"
+            },
+            "id": "3a0a0c46-6c4f-493a-a9c3-9806f2819548"
+          }
+        ]
+      },
+      "id": "603af11d-dfcf-427d-9931-4336cb531e31"
     },
     {
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Health",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -126,7 +160,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Game Paused...\nScore: $00$\nHealth: $01$"
+                "Game Paused...\nScore: $00$\nHealth: $01$\nIndex: $03$"
               ],
               "__section": "text",
               "avatarId": "",
@@ -150,61 +184,6 @@
         ]
       },
       "id": "72abcee4-2f1a-4d63-baa7-9ee684845992"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "1",
-        "value": {
-          "type": "number",
-          "value": 3
-        },
-        "__collapse": false
-      },
-      "id": "37532d3c-9e5b-41c8-9a10-b5562a24b265"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "1"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": false,
-        "__label": "GameOver?",
-        "__comment": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "7c4ca0ae-713d-4d9e-99a1-df81adb55179",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "a4b2e8ab-29e7-4654-abb4-b854d5805bdd"
-          }
-        ],
-        "false": []
-      },
-      "id": "d47817e8-36d8-4630-aa11-01a95ab58a36"
     }
   ],
   "playerHit1Script": [
@@ -235,6 +214,11 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "7a7fd4d8-58ef-429f-8cf3-932e42cd0a01"
+          },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {

@@ -1,0 +1,179 @@
+{
+  "_resourceType": "script",
+  "id": "b2f437d2-0061-45a7-9c0e-79dffe246bdc",
+  "name": "WeaponFire",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "4"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "2eaabfae-5de7-471f-958e-1a1a73fd228d"
+                  },
+                  "id": "a29989da-17e1-4b13-8826-be3549370011"
+                }
+              ],
+              "false": []
+            },
+            "id": "e87ce201-88c6-4f24-a929-b3e66f5150a1"
+          }
+        ],
+        "false": []
+      },
+      "id": "5b3282d2-b5b7-4b24-9826-9b97f727466a"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "5"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "0dd1edb3-09a9-479b-9bad-8355971bdcd8"
+                  },
+                  "id": "2fed545c-f894-44bf-b7ea-af555cc93296"
+                }
+              ],
+              "false": []
+            },
+            "id": "0bf416f2-b6b3-4498-a79f-699f604d7085"
+          }
+        ],
+        "false": []
+      },
+      "id": "7667f8ec-45da-4180-80ee-cba7769b6bf0"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "6"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__disableElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "d526ae74-1bc0-492c-8b7f-88636fa2c644"
+                  },
+                  "id": "d373de2d-b521-4f46-962f-007256e2f8e3"
+                }
+              ],
+              "false": []
+            },
+            "id": "1d6248ae-3520-4f71-939d-119d149fbe8f"
+          }
+        ],
+        "false": []
+      },
+      "id": "b7736b65-617f-4be3-92e5-15081aff1ad2"
+    }
+  ]
+}

@@ -18,31 +18,11 @@
   "symbol": "actor_2",
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "variable": "1",
-        "value": {
-          "type": "number",
-          "value": 1
-        }
+        "actorId": "$self$"
       },
-      "id": "ca09b6ff-9f23-4863-a6dd-5c1052561573"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "2"
-        },
-        "__collapseElse": true,
-        "__disableElse": true
-      },
-      "children": {
-        "true": [],
-        "false": []
-      },
-      "id": "fa638dc4-d3b8-43f2-959a-ad469438be85"
+      "id": "77de460b-7bbf-410d-8561-c849d3c17d36"
     }
   ],
   "startScript": [
@@ -62,6 +42,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 0,
-  "y": 251,
+  "y": 248,
   "_index": 3
 }

@@ -25,7 +25,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "2"
+                  "value": "3"
                 },
                 "valueB": {
                   "type": "number",
@@ -57,7 +57,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "2"
+                  "value": "3"
                 },
                 "valueB": {
                   "type": "number",
@@ -89,7 +89,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "2"
+                  "value": "3"
                 },
                 "valueB": {
                   "type": "number",
