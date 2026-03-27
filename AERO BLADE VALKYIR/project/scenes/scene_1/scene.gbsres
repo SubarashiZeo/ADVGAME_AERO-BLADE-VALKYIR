@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "085cd5ea-a233-4c46-98be-ecff48bf18d2",
   "_index": 0,
-  "type": "TOPDOWN",
+  "type": "SHMUP",
   "name": "Scene 1",
   "symbol": "scene_1",
   "x": 288,
