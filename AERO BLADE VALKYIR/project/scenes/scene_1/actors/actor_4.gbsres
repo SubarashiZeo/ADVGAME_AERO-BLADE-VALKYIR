@@ -80,6 +80,21 @@
               "__collapse": true
             },
             "id": "3ede9ab4-cfad-466c-98af-4de3e9ec8554"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 2, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 16\nVM_REPLACE_TILE_XY 3, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+              "references": [
+                {
+                  "type": "background",
+                  "id": "c867c3e9-71d1-45c7-abd4-84e7720614c2"
+                }
+              ],
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "b5d2a91e-dbf5-404c-9905-7f244add71f1"
           }
         ],
         "false": []
@@ -114,6 +129,21 @@
               "__collapse": true
             },
             "id": "105cf6de-f2da-42ca-b0b9-7568792d6286"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 17\nVM_REPLACE_TILE_XY 2, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 18\nVM_REPLACE_TILE_XY 3, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+              "references": [
+                {
+                  "type": "background",
+                  "id": "c867c3e9-71d1-45c7-abd4-84e7720614c2"
+                }
+              ],
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "a3885c8d-3a4e-4762-bff0-06a675b86bac"
           }
         ],
         "false": []
