@@ -26,7 +26,7 @@
     "76e35618-de74-46f0-ac92-7b4dd179d756",
     "bb719280-ea26-49be-b84d-4409914e2131",
     "",
-    "",
+    "0bccf2fd-68c7-4b89-9501-53da6835c94b",
     "",
     "",
     ""
@@ -170,7 +170,7 @@
               "text": [
                 "Game Paused...\nScore: $00$\nHealth: $01$\nIndex: $03$"
               ],
-              "__section": "behavior",
+              "__section": "text",
               "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,

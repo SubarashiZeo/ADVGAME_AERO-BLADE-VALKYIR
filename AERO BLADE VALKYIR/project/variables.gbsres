@@ -37,6 +37,11 @@
       "symbol": "var_slot3"
     },
     {
+      "id": "10",
+      "name": "Paused",
+      "symbol": "var_paused"
+    },
+    {
       "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
       "name": "Pla",
       "symbol": "var_pla"
@@ -47,9 +52,9 @@
       "symbol": "var_local_0"
     },
     {
-      "id": "10",
-      "name": "Paused",
-      "symbol": "var_paused"
+      "id": "11",
+      "name": "Variable 11",
+      "symbol": "var_variable_0"
     }
   ],
   "constants": []
