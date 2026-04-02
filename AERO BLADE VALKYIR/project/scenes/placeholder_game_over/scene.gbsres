@@ -28,7 +28,7 @@
     2,
     3
   ],
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": 2,
   "autoFadeEventCollapse": true,
   "script": [
     {
@@ -69,5 +69,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "",
+  "playerSpriteSheetId": "10714159-aedd-43c5-8d36-a5ded1de68ff"
 }
