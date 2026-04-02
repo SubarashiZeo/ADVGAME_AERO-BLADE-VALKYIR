@@ -2,20 +2,34 @@
   "_resourceType": "scene",
   "id": "7c4ca0ae-713d-4d9e-99a1-df81adb55179",
   "_index": 1,
-  "name": "Placeholder Game Over",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "SHMUP",
-  "colorModeOverride": "none",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Placeholder Game Over",
   "symbol": "scene_2",
   "x": 504,
   "y": 1872,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "6b72de1c-ae25-4e08-972f-0695880c693a",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "773b463f-6eda-437b-befc-8ad1d6a25fd1",
+    "",
+    "bb719280-ea26-49be-b84d-4409914e2131",
+    "",
+    "",
+    "76e35618-de74-46f0-ac92-7b4dd179d756"
+  ],
+  "spritePaletteIds": [],
+  "monoBGP": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -55,11 +69,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "monoBGP": [
-    3,
-    1,
-    2,
-    3
-  ],
-  "autoFadeEventCollapse": true
+  "collisions": ""
 }
