@@ -2,20 +2,30 @@
   "_resourceType": "scene",
   "id": "cc8cb5fb-1458-4916-b299-509ca9d23fb3",
   "_index": 2,
-  "name": "Placeholder Game Win",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "SHMUP",
-  "colorModeOverride": "none",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Placeholder Game Win",
   "symbol": "scene_3",
   "x": 504,
   "y": 1680,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "9d200da0-f2d0-40b7-a5e6-072dcb534dca",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "36f371c1-c7c6-42b4-9c86-7f4d2592c206"
+  ],
+  "spritePaletteIds": [],
+  "monoBGP": [
+    3,
+    1,
+    2,
+    3
+  ],
+  "autoFadeSpeed": 2,
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -55,10 +65,7 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "monoBGP": [
-    3,
-    1,
-    2,
-    3
-  ]
+  "collisions": "",
+  "playerSpriteSheetId": "10714159-aedd-43c5-8d36-a5ded1de68ff",
+  "autoFadeEventCollapse": true
 }
