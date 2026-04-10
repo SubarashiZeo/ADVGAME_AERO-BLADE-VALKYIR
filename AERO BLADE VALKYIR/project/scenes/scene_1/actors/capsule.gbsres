@@ -31,7 +31,7 @@
       "args": {
         "actorId": "$self$",
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "76c82403-be9d-4d05-8bc3-5428a443c0f9"
     }

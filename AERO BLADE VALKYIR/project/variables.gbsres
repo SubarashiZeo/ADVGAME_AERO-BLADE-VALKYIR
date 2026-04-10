@@ -43,8 +43,8 @@
     },
     {
       "id": "11",
-      "name": "Variable 11",
-      "symbol": "var_variable_0"
+      "name": "PlayerX",
+      "symbol": "var_playerx"
     },
     {
       "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
@@ -54,7 +54,7 @@
     {
       "id": "085cd5ea-a233-4c46-98be-ecff48bf18d2__L0",
       "name": "Local 0",
-      "symbol": "var_local_0"
+      "symbol": "var_local_3"
     },
     {
       "id": "ae0a4584-dbb5-469d-b86a-0f9346c4b799__L0",
@@ -65,6 +65,31 @@
       "id": "0b4f057a-f238-4000-8626-2b3c5e6997d8__L0",
       "name": "Local 0",
       "symbol": "var_local_2"
+    },
+    {
+      "id": "12",
+      "name": "PlayerY",
+      "symbol": "var_playery"
+    },
+    {
+      "id": "d424d775-cf1c-45ce-8f2f-facae04f3469__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "e9a3f131-a124-4dae-bb6c-e2299b3051dd__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "f5f9c177-419c-4d45-866b-86bedc0b9ca5__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "a4314709-aaf4-4eae-894d-8b690633634f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
     }
   ],
   "constants": []

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "aeb2bdc2-0ea2-4dbc-8039-1d670dcab2bd",
+  "id": "f0e9299f-1de7-48c0-bce0-f9e2ac167111",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "10fa0752-458b-4380-a921-0904e167bfb3",
+  "spriteSheetId": "10714159-aedd-43c5-8d36-a5ded1de68ff",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_10",
+  "symbol": "actor_22",
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -45,12 +45,12 @@
               "spriteStateId": "",
               "loopAnim": true
             },
-            "id": "0cd121bb-14ac-46b7-be0a-2f5299dd9faa"
+            "id": "88c5e119-4ce5-47b9-aae0-2d5dff56cc65"
           }
         ],
         "false": []
       },
-      "id": "68e7c765-305d-440a-a119-d03373f3f466"
+      "id": "4ebe2ff9-a5c6-4b1e-83f1-98b9bba599ab"
     },
     {
       "command": "EVENT_IF",
@@ -79,7 +79,7 @@
               "loopAnim": true,
               "__collapse": true
             },
-            "id": "db15f356-3107-4660-a8f0-13fe11e99156"
+            "id": "ca4e761f-e8fd-4edb-8456-fc17574fc998"
           },
           {
             "command": "EVENT_GBVM_SCRIPT",
@@ -94,12 +94,12 @@
               "__comment": false,
               "__collapse": true
             },
-            "id": "e41525f3-5ffc-4cfb-847d-1b034fedd2b2"
+            "id": "87ea82aa-e9e9-4f38-b3f5-6fbd5f2cee97"
           }
         ],
         "false": []
       },
-      "id": "b2aab771-2aca-4c82-a542-b6920cf31452"
+      "id": "cde515cf-b6f0-4152-b34a-86d86cc2093c"
     },
     {
       "command": "EVENT_IF",
@@ -128,7 +128,7 @@
               "loopAnim": true,
               "__collapse": true
             },
-            "id": "097eab89-2a28-4e2b-8593-663bec6a4420"
+            "id": "bfa898fc-5765-40ba-8b26-41e3199067c1"
           },
           {
             "command": "EVENT_GBVM_SCRIPT",
@@ -143,12 +143,12 @@
               "__comment": false,
               "__collapse": true
             },
-            "id": "1d07e4ad-3ff4-4cca-ace7-1b5eccb60b06"
+            "id": "afeaaf0b-7ac9-4597-ba99-db5ff6241a08"
           }
         ],
         "false": []
       },
-      "id": "c46519ca-a90d-4166-95d3-c054ec4608a5"
+      "id": "ce0bb078-8267-4386-b1c9-269bc2bdfdce"
     }
   ],
   "hit1Script": [],
