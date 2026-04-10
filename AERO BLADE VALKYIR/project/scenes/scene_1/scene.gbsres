@@ -74,7 +74,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "0336d00b-0d27-4a17-b446-0a349da1d4df"
     },
@@ -130,7 +130,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Health",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -155,11 +155,12 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "start"
+          "start",
+          "up"
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Pause"
       },
       "children": {
@@ -196,7 +197,7 @@
               "color": "black",
               "x": 0,
               "y": 16,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2308f367-a650-4c0e-99ca-1b6e64df06b6"
           },
@@ -205,7 +206,7 @@
             "args": {
               "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 250",
               "references": [],
-              "__collapse": true
+              "__collapse": false
             },
             "id": "08d78824-8da4-4472-be34-a7b238747b95"
           }
