@@ -47,6 +47,11 @@
       "symbol": "var_playerx"
     },
     {
+      "id": "12",
+      "name": "PlayerY",
+      "symbol": "var_playery"
+    },
+    {
       "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
       "name": "Pla",
       "symbol": "var_pla"
@@ -65,11 +70,6 @@
       "id": "0b4f057a-f238-4000-8626-2b3c5e6997d8__L0",
       "name": "Local 0",
       "symbol": "var_local_2"
-    },
-    {
-      "id": "12",
-      "name": "PlayerY",
-      "symbol": "var_playery"
     },
     {
       "id": "d424d775-cf1c-45ce-8f2f-facae04f3469__L0",

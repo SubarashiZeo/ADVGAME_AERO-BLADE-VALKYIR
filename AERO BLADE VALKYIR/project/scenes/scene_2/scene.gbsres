@@ -37,6 +37,16 @@
   "playerSpriteSheetId": "439ed72d-fe95-47a5-aad0-b09424de8450",
   "script": [
     {
+      "command": "EVENT_CAMERA_SET_LOCK",
+      "args": {
+        "axis": [
+          "y"
+        ],
+        "__comment": true
+      },
+      "id": "7bafd04d-ed1c-4d91-910d-346556846a3a"
+    },
+    {
       "command": "EVENT_ACTOR_SET_POSITION",
       "args": {
         "actorId": "$self$",
@@ -53,6 +63,17 @@
         "__comment": false
       },
       "id": "7d2a3d27-1af1-4ddd-88ed-28117d3d9509"
+    },
+    {
+      "command": "EVENT_CAMERA_SET_LOCK",
+      "args": {
+        "axis": [
+          "x"
+        ],
+        "__comment": true,
+        "__collapse": false
+      },
+      "id": "defa4bf7-18d3-4433-b916-b32d27ecaf8b"
     },
     {
       "command": "EVENT_MUSIC_PLAY",
