@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "f7d37da5-71a2-415b-b4c4-bdb16f59378a",
+  "id": "f0e9299f-1de7-48c0-bce0-f9e2ac167111",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_3",
+  "symbol": "actor_22",
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -45,12 +45,12 @@
               "spriteStateId": "",
               "loopAnim": true
             },
-            "id": "0c2ebedb-5c25-48d6-ac7c-377d2daca8d7"
+            "id": "88c5e119-4ce5-47b9-aae0-2d5dff56cc65"
           }
         ],
         "false": []
       },
-      "id": "b687d16d-2049-4ed3-9fe1-9ffa334587a9"
+      "id": "4ebe2ff9-a5c6-4b1e-83f1-98b9bba599ab"
     },
     {
       "command": "EVENT_IF",
@@ -79,7 +79,7 @@
               "loopAnim": true,
               "__collapse": true
             },
-            "id": "3ede9ab4-cfad-466c-98af-4de3e9ec8554"
+            "id": "ca4e761f-e8fd-4edb-8456-fc17574fc998"
           },
           {
             "command": "EVENT_GBVM_SCRIPT",
@@ -94,12 +94,12 @@
               "__comment": false,
               "__collapse": true
             },
-            "id": "b5d2a91e-dbf5-404c-9905-7f244add71f1"
+            "id": "87ea82aa-e9e9-4f38-b3f5-6fbd5f2cee97"
           }
         ],
         "false": []
       },
-      "id": "c3f390aa-03a6-4fb2-84ce-fba493ca3f70"
+      "id": "cde515cf-b6f0-4152-b34a-86d86cc2093c"
     },
     {
       "command": "EVENT_IF",
@@ -128,7 +128,7 @@
               "loopAnim": true,
               "__collapse": true
             },
-            "id": "105cf6de-f2da-42ca-b0b9-7568792d6286"
+            "id": "bfa898fc-5765-40ba-8b26-41e3199067c1"
           },
           {
             "command": "EVENT_GBVM_SCRIPT",
@@ -143,12 +143,12 @@
               "__comment": false,
               "__collapse": true
             },
-            "id": "a3885c8d-3a4e-4762-bff0-06a675b86bac"
+            "id": "afeaaf0b-7ac9-4597-ba99-db5ff6241a08"
           }
         ],
         "false": []
       },
-      "id": "92a3e394-01e9-4f7c-aab4-9b11e84c1f04"
+      "id": "ce0bb078-8267-4386-b1c9-269bc2bdfdce"
     }
   ],
   "hit1Script": [],

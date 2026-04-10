@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "d424d775-cf1c-45ce-8f2f-facae04f3469",
+  "id": "f5f9c177-419c-4d45-866b-86bedc0b9ca5",
   "name": "",
   "prefabId": "",
   "x": 0,
   "y": 18,
-  "symbol": "trigger_6",
+  "symbol": "trigger_7",
   "prefabScriptOverrides": {},
   "width": 20,
   "height": 1,
@@ -17,7 +17,7 @@
         "vectorX": "11",
         "vectorY": "12"
       },
-      "id": "19ce3d45-80ad-476d-9814-bace92995469"
+      "id": "7073f74d-49a9-42e8-98ba-cf0dddc15c9c"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -36,7 +36,7 @@
         },
         "__collapse": false
       },
-      "id": "dd0a3b1d-b0f1-44f7-8a4b-dc713071c852"
+      "id": "d0e44225-63ec-4950-a491-2db481c29e81"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -57,36 +57,27 @@
         "__collapse": false,
         "__comment": true
       },
-      "id": "add18b6c-dd4f-46a5-9de8-82b857b4bb88"
+      "id": "e246ee01-d1f1-4c6f-9fce-b723a6fde358"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "e9a3f131-a124-4dae-bb6c-e2299b3051dd",
+        "sceneId": "cc8cb5fb-1458-4916-b299-509ca9d23fb3",
         "x": {
-          "type": "property",
-          "target": "player",
-          "property": "xpos"
+          "type": "number",
+          "value": 0
         },
         "y": {
-          "type": "add",
-          "valueA": {
-            "type": "property",
-            "target": "camera",
-            "property": "ypos"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 216
-          }
+          "type": "number",
+          "value": 0
         },
         "direction": "up",
-        "fadeSpeed": 0,
+        "fadeSpeed": 2,
         "__collapse": false
       },
-      "id": "7f0e60de-d169-4e52-9d0a-8d8df599e748"
+      "id": "d62b9c80-1a55-4e5e-8ecf-45df5cd7a4ea"
     }
   ],
   "leaveScript": [],
-  "_index": 2
+  "_index": 0
 }
