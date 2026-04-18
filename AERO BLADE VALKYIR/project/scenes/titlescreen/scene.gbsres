@@ -21,6 +21,15 @@
   "playerSpriteSheetId": "10714159-aedd-43c5-8d36-a5ded1de68ff",
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "d6fc1a6f-5f9b-4d2c-8692-4dbb7f766f7b",
+        "__comment": false,
+        "__collapse": false
+      },
+      "id": "e7b41a1f-9fd7-4e1c-99f1-6f8a38d60a00"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -37,11 +46,11 @@
               "sceneId": "085cd5ea-a233-4c46-98be-ecff48bf18d2",
               "x": {
                 "type": "number",
-                "value": 4
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 31
+                "value": 249
               },
               "direction": "up",
               "fadeSpeed": "2"
