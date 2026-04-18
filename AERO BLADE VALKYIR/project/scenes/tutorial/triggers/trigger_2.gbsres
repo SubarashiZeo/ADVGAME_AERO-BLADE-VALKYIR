@@ -1,0 +1,95 @@
+{
+  "_resourceType": "trigger",
+  "id": "6425e1b0-96f4-4d03-af71-139dda032d17",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 187,
+  "symbol": "trigger_4",
+  "prefabScriptOverrides": {},
+  "width": 20,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A straight shot\nforward. But this\nflight suit can do\nmore than that,\nright?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f6f6a834-e040-48a3-8dec-633a804511e3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "b79590e7-1578-4234-815e-68d10b0ad197",
+        "text": [
+          "Correct. We\nhave deployed\na drone for\nyou to shoot\ndown that ",
+          "holds a new\nweapon the\nprototype can\nsalvage from\nits remains.",
+          "It will shoot\nback at you,\nso please\ntake this as\ntraining to ",
+          "dodge incoming\nfire as well."
+        ],
+        "__section": "text",
+        "avatarId": "c83be857-1957-4743-8b93-86ffd0957056",
+        "minHeight": 5,
+        "maxHeight": 7,
+        "textX": 4,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2f6e8ef8-f0bf-4a12-8d37-03ef3d3e8d45"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Affirmative! Bring\n‘em at me!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b704858e-242a-4c83-8582-fbd0cd67390f"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

@@ -90,6 +90,11 @@
       "id": "a4314709-aaf4-4eae-894d-8b690633634f__L0",
       "name": "Local 0",
       "symbol": "var_local_6"
+    },
+    {
+      "id": "7",
+      "name": "Firing_Test",
+      "symbol": "var_firing_test"
     }
   ],
   "constants": []

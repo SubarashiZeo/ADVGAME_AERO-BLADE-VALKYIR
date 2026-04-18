@@ -1,0 +1,202 @@
+{
+  "_resourceType": "trigger",
+  "id": "469a9150-b298-4e66-906f-99915e7c2e74",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 98,
+  "symbol": "trigger_8",
+  "prefabScriptOverrides": {},
+  "width": 20,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Done and dusted.\nBut these drones\ndidn't drop\nanything for the\nsuit to weaponize."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8acd3630-d041-4099-bf42-a5c1bd51f7a3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "b79590e7-1578-4234-815e-68d10b0ad197",
+        "text": [
+          "That is\nbecause this\nsuit was\ndesigned to\nconvert the",
+          "weaponry from\nspecialized\ndrones."
+        ],
+        "__section": "text",
+        "avatarId": "c83be857-1957-4743-8b93-86ffd0957056",
+        "minHeight": 5,
+        "maxHeight": 7,
+        "textX": 4,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bd5a30db-27d4-4c2f-9f83-459454fbe37e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "b79590e7-1578-4234-815e-68d10b0ad197",
+        "text": [
+          "One last\nthing. This\nfeature is\nfar more\nexperimental,",
+          "but the suit\ncan upgrade\nyour current\nweapons if\nyou collect a",
+          "weapon of the\nsame type\nagain."
+        ],
+        "__section": "text",
+        "avatarId": "c83be857-1957-4743-8b93-86ffd0957056",
+        "minHeight": 5,
+        "maxHeight": 7,
+        "textX": 4,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ea1988f8-ac0f-4ae4-9eaa-547f33d996c9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Got it. Oh, and\nwhat if I want to\ndrop a weapon for\na different one?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "212197ce-63f9-4fac-b519-ecc97fc23fbc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "b79590e7-1578-4234-815e-68d10b0ad197",
+        "text": [
+          "Press the\nSELECT button\nto discard\nyour\ncurrently",
+          "equipped\nweapon. But\ndon't worry,\nany upgrade\nyou have",
+          "acquired\nshould cross\nover if you\npick up the\noriginal",
+          "weapon it\ncame from."
+        ],
+        "__section": "text",
+        "avatarId": "c83be857-1957-4743-8b93-86ffd0957056",
+        "minHeight": 5,
+        "maxHeight": 7,
+        "textX": 4,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e7a4fc88-3491-4b59-b9b1-678cc0bf3ae2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Should...?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "02ca66dc-75b7-4507-a449-b29d404d11af"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "b79590e7-1578-4234-815e-68d10b0ad197",
+        "text": [
+          "As said, the\nfeature is\nexperimental.",
+          "But otherwise,\ntesting is\ncomplete.\nVector to\nheading 189-"
+        ],
+        "__section": "text",
+        "avatarId": "c83be857-1957-4743-8b93-86ffd0957056",
+        "minHeight": 5,
+        "maxHeight": 7,
+        "textX": 4,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4d317a12-79e7-432d-b9f1-d5fab37c23fc"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}

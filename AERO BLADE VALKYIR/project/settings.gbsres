@@ -103,7 +103,36 @@
   "colorCorrection": "default",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
-  "scriptEventPresets": {},
+  "scriptEventPresets": {
+    "EVENT_TEXT": {
+      "b79590e7-1578-4234-815e-68d10b0ad197": {
+        "id": "b79590e7-1578-4234-815e-68d10b0ad197",
+        "name": "Intimidator",
+        "groups": [
+          "layout",
+          "behaviour",
+          "avatar"
+        ],
+        "args": {
+          "avatarId": "c83be857-1957-4743-8b93-86ffd0957056",
+          "position": "bottom",
+          "minHeight": 5,
+          "maxHeight": 7,
+          "textX": 4,
+          "textY": 1,
+          "textHeight": 5,
+          "clearPrevious": true,
+          "showFrame": "true",
+          "speedIn": -1,
+          "speedOut": -1,
+          "closeWhen": "key",
+          "closeButton": "a",
+          "closeDelayTime": 0.5,
+          "closeDelayFrames": 30
+        }
+      }
+    }
+  },
   "scriptEventDefaultPresets": {},
   "runSceneSelectionOnly": false,
   "spriteMode": "8x16",
