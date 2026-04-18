@@ -92,7 +92,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "0336d00b-0d27-4a17-b446-0a349da1d4df"
     },
@@ -177,7 +177,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Pause"
       },
       "children": {
@@ -252,6 +252,26 @@
         "__label": "GBVM Script (HUD)"
       },
       "id": "6e532ed3-dce7-4f7e-9956-db2b2422ec2e"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "25faedc4-1bdf-496a-b309-06ada986894a"
     }
   ],
   "playerHit1Script": [

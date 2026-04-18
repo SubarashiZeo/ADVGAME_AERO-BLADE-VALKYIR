@@ -65,7 +65,7 @@
         },
         "y": {
           "type": "number",
-          "value": 222
+          "value": 167
         },
         "__collapseElse": true,
         "__collapse": false
@@ -83,7 +83,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 222
+                "value": 170
               },
               "collideWith": [
                 "walls"
@@ -103,7 +103,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 222
+                "value": 170
               },
               "__collapseElse": false
             },
@@ -203,6 +203,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 0,
-  "y": 222,
+  "y": 167,
   "_index": 0
 }

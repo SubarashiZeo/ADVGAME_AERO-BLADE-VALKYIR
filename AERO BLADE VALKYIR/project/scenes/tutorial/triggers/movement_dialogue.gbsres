@@ -1,0 +1,175 @@
+{
+  "_resourceType": "trigger",
+  "id": "18a4bcd7-a56d-4949-ab93-99929aef2c1d",
+  "name": "Movement Dialogue",
+  "prefabId": "",
+  "x": 0,
+  "y": 227,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 20,
+  "height": 23,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Beep, Beep, Beep!\nBeep, Beep, Beep! "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "f647fd09-8d63-4eb7-bc8b-a25276f9665a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Lilac Fennec,\nreporting for duty\nat the test flight!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 5,
+        "maxHeight": 8,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "70e48506-d610-46c7-9cf8-76d10a6eeff3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "We read you\nloud and clear\nFennec,",
+          "this is AWACS\nIntimidator, ",
+          "relaying your\norders from\nmission\ncontrol."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 5,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dc0d92b4-b639-4535-bfb5-d1aa3e7279a7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "b79590e7-1578-4234-815e-68d10b0ad197",
+        "text": [
+          "Are you ready\nfor this \nsanctioned\ntest flight,\nFennec?\n"
+        ],
+        "__section": "text",
+        "avatarId": "c83be857-1957-4743-8b93-86ffd0957056",
+        "minHeight": 5,
+        "maxHeight": 7,
+        "textX": 4,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "54f2c43f-c621-4f4c-a21a-350552c932be"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ready as I'll ever be! ",
+          "I am SO excited to\ntake this out for\na spin!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "21f66ebe-7a66-4cda-8e1f-2cdc37fb5d12"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "__presetId": "b79590e7-1578-4234-815e-68d10b0ad197",
+        "text": [
+          "Alright, \n",
+          "let's review\nyour flight\ncontrols.",
+          "First,\nmovement.\nUse your\nD-Pad to move",
+          "forward,\nbackwards,\nleft, and\nright."
+        ],
+        "__section": "text",
+        "avatarId": "c83be857-1957-4743-8b93-86ffd0957056",
+        "minHeight": 5,
+        "maxHeight": 7,
+        "textX": 4,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a1c0646c-796c-4caa-94e0-6976056881c9"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

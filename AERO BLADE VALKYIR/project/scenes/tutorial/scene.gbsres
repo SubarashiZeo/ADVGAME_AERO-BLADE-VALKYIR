@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "e9a3f131-a124-4dae-bb6c-e2299b3051dd",
   "_index": 5,
-  "name": "Scene 1",
+  "name": "Tutorial",
   "backgroundId": "a950cd36-aa90-45ec-9e35-661d2a3406c7",
   "tilesetId": "",
   "width": 20,
@@ -114,7 +114,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "18ba8db1-9c19-447a-bb4f-e4f49f428d84"
     },
@@ -199,7 +199,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Pause"
       },
       "children": {

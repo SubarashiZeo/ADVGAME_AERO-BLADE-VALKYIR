@@ -58,11 +58,11 @@
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 18
+          "value": 0
         },
         "y": {
           "type": "number",
-          "value": 187
+          "value": 111
         },
         "__collapseElse": true,
         "__collapse": false
@@ -76,11 +76,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 9
+                "value": 6
               },
               "y": {
                 "type": "number",
-                "value": 187
+                "value": 119
               },
               "collideWith": [
                 "walls"
@@ -96,11 +96,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 9
+                "value": 6
               },
               "y": {
                 "type": "number",
-                "value": 187
+                "value": 119
               },
               "__collapseElse": false
             },
@@ -183,7 +183,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 18,
-  "y": 187,
+  "x": 0,
+  "y": 111,
   "_index": 1
 }
