@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "c775da52-7a32-4076-b359-af90246b2cba",
+  "id": "af4b832d-fc6a-4398-9c5b-9dc2dcbef945",
   "name": "",
   "prefabId": "",
   "x": 0,
-  "y": 208,
-  "symbol": "trigger_13",
+  "y": 90,
+  "symbol": "trigger_17",
   "prefabScriptOverrides": {},
   "width": 20,
   "height": 1,
@@ -29,10 +29,10 @@
       "children": {
         "true": [
           {
-            "id": "e6aa5db0-3b6c-41d4-b693-99ba4c3fe362",
+            "id": "4ec1bd6e-24cd-435b-a464-417f5cd7ae8e",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -49,7 +49,7 @@
                     },
                     "__collapse": true
                   },
-                  "id": "fc1ba56b-0a1e-4fe4-8d33-9cd5c1c70624"
+                  "id": "762c8ad9-6274-4d51-b442-d640870b78f0"
                 },
                 {
                   "command": "EVENT_ACTOR_SET_STATE",
@@ -57,16 +57,15 @@
                     "actorId": "89221b2e-2b81-46c9-acc3-18ddb65647bc",
                     "spriteStateId": "Lila",
                     "loopAnim": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
-                  "id": "308eed2a-7721-41fa-9abe-1fd47b5d36de"
+                  "id": "de640965-1cdc-487a-ad95-1c5dfe048224"
                 },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!A straight shot\nforward.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!But this flight suit can\ndo more than that,!S5! !S2!\nright?"
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!She got away!!S5! !S2!\nGet back here!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -86,16 +85,16 @@
                     "closeDelayFrames": 30,
                     "__collapse": false
                   },
-                  "id": "ca20e9b9-2b49-4ad6-a028-592fc357610b"
+                  "id": "03affc44-414a-4f29-9c2b-e8cb91a287a6"
                 }
               ]
             }
           },
           {
-            "id": "e99e3421-f684-4223-8132-fb8066ed4d1d",
+            "id": "6e7e11fa-eb7e-4441-92d8-553f94b54aff",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -112,7 +111,7 @@
                     },
                     "__collapse": true
                   },
-                  "id": "8644f086-8c96-4885-8685-611b364ea57a"
+                  "id": "650937f3-b669-493c-9242-3e44c79da658"
                 },
                 {
                   "command": "EVENT_ACTOR_SET_STATE",
@@ -122,18 +121,15 @@
                     "loopAnim": true,
                     "__collapse": false
                   },
-                  "id": "f8a5b4a9-9e5d-401e-842d-970462e612fb"
+                  "id": "96f4b2ab-9239-4304-a062-da970c65d497"
                 },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Correct.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!We have deployed a\ndrone for you to shoot\ndown.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!It holds a \n\\007\\1!S3!new weapon\\007\\2!S2!.   ",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!The prototype can\nsalvage from its\nremains.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!The drone will shoot\nback at you.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Please take this as\ntraining to dodge\nincoming fire as well."
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Picking up a big radar\nspike,",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!several bandits are\nconverging on your\nlocation 12 o'clock high.",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Fennec,!S5! !S2!you are\nweapons free!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -153,13 +149,13 @@
                     "closeDelayFrames": 30,
                     "__collapse": false
                   },
-                  "id": "ba635bff-1d96-466a-bcac-dcc25bb6b0a0"
+                  "id": "c929cef8-8843-43f3-afb1-c4dec244d911"
                 }
               ]
             }
           },
           {
-            "id": "df28baf8-a059-4a84-8d20-dafbae6ad692",
+            "id": "ecc252a8-1ac2-44a9-a26e-4872abae42d2",
             "command": "EVENT_GROUP",
             "args": {
               "__collapse": false
@@ -179,7 +175,7 @@
                     },
                     "__collapse": true
                   },
-                  "id": "29f27823-62ce-4ba5-a36c-2cfb0d809e59"
+                  "id": "b4c5b986-e978-4166-8937-fe20b72ba12f"
                 },
                 {
                   "command": "EVENT_ACTOR_SET_STATE",
@@ -189,13 +185,13 @@
                     "loopAnim": true,
                     "__collapse": false
                   },
-                  "id": "0c9a39a4-3629-482b-a293-21757a3052f0"
+                  "id": "975c6a02-f4ed-4d30-9974-eeffbe680c59"
                 },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Affirmative!!S5! !S2!\nBring 'em at me!"
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Aye-aye,!S5! !S2!Intimidator!\nEngaging all targets!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -215,7 +211,7 @@
                     "closeDelayFrames": 30,
                     "__collapse": false
                   },
-                  "id": "e57d67ed-a535-4724-a2cc-911f427fc459"
+                  "id": "c5550b14-24f4-44c4-9678-40c6d48dc217"
                 }
               ]
             }
@@ -228,7 +224,7 @@
               "loopAnim": true,
               "__collapse": true
             },
-            "id": "78856f53-f1de-4d33-ba17-95cc33be2c69"
+            "id": "efd13770-f5d7-4e61-bade-774cb489c4ae"
           },
           {
             "command": "EVENT_OVERLAY_SHOW",
@@ -238,7 +234,7 @@
               "y": 16,
               "__collapse": true
             },
-            "id": "eba8b6f3-ca47-4532-b8df-8bb3aa6e24e0"
+            "id": "9295fdc4-4a48-4d70-bbbd-ea69f8b7fc72"
           },
           {
             "command": "EVENT_GBVM_SCRIPT",
@@ -249,7 +245,7 @@
               "__comment": false,
               "__label": "GBVM Script (HUD)"
             },
-            "id": "d7d867df-3d73-4ed0-8881-89d0f77be88b"
+            "id": "5a4d0920-2700-4445-bc44-3c753f7a6581"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -260,14 +256,14 @@
                 "value": 1
               }
             },
-            "id": "3e96cd9e-65c3-4a80-9dd6-27269b6bad3b"
+            "id": "0f062b88-84b9-481d-9f41-b56d628b6401"
           }
         ],
         "false": []
       },
-      "id": "a443c84d-cb60-42ed-8bb9-90b0bc188fd5"
+      "id": "36a5c1d3-f1cb-4f8b-8c03-196852f5efb6"
     }
   ],
   "leaveScript": [],
-  "_index": 5
+  "_index": 9
 }

@@ -3,8 +3,8 @@
   "variables": [
     {
       "id": "0",
-      "name": "score",
-      "symbol": "var_score"
+      "name": "scoreones",
+      "symbol": "var_scoreones"
     },
     {
       "id": "1",
@@ -37,6 +37,21 @@
       "symbol": "var_slot3"
     },
     {
+      "id": "7",
+      "name": "Firing_Test",
+      "symbol": "var_firing_test"
+    },
+    {
+      "id": "8",
+      "name": "scoretens",
+      "symbol": "var_scoretens"
+    },
+    {
+      "id": "9",
+      "name": "scorehundreds",
+      "symbol": "var_scorehundreds"
+    },
+    {
       "id": "10",
       "name": "Paused",
       "symbol": "var_paused"
@@ -50,6 +65,11 @@
       "id": "12",
       "name": "PlayerY",
       "symbol": "var_playery"
+    },
+    {
+      "id": "13",
+      "name": "scorethousands",
+      "symbol": "var_scorethousands"
     },
     {
       "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
@@ -92,9 +112,14 @@
       "symbol": "var_local_6"
     },
     {
-      "id": "7",
-      "name": "Firing_Test",
-      "symbol": "var_firing_test"
+      "id": "14",
+      "name": "enemyhit",
+      "symbol": "var_enemyhit"
+    },
+    {
+      "id": "15",
+      "name": "playerhit",
+      "symbol": "var_playerhit"
     }
   ],
   "constants": []

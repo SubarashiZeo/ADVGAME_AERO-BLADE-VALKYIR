@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "ef7933d8-b8ac-4f58-9c87-1b0253232f60",
+  "id": "89221b2e-2b81-46c9-acc3-18ddb65647bc",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_23",
+  "symbol": "actor_4",
   "script": [],
   "startScript": [],
   "updateScript": [],
