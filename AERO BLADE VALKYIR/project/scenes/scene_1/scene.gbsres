@@ -173,8 +173,7 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
-          "start",
-          "up"
+          "start"
         ],
         "override": true,
         "__scriptTabs": "press",
