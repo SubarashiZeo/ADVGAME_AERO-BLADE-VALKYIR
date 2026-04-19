@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "451d5d4c-ec6f-4f2b-9fff-f41e23d226bb",
+  "name": "capsule_collect",
+  "symbol": "song_capsule_collect",
+  "settings": {},
+  "filename": "capsule_collect.uge",
+  "type": "uge"
+}
