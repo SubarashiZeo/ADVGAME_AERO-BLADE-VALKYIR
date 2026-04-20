@@ -33,7 +33,7 @@
             "id": "26f93b65-ea6d-47e5-a043-4d12f6fe8afe",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -66,7 +66,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Beep, Beep, Beep!!S5! !S2!\nBeep, Beep, Beep! "
+                      "\\007\\2!S1!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Beep,!S4! !S1!Beep,!S4! !S1!Beep!!S5! !S1!\nBeep,!S4! !S1!Beep,!S4! !S1!Beep! "
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -128,7 +128,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\1!S3!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Lila!S5! !S3!Fennec\\007\\2,!S5! !S2!     \nreporting for duty at\nthe test flight!"
+                      "\\007\\1!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Lila!S5! !S2!Fennec\\007\\2,!S5! !S2!     \nreporting for duty at\nthe test flight!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -157,7 +157,7 @@
             "id": "ccbdad62-0f48-457b-acec-d46deb71fb8c",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -190,9 +190,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!We read you loud and\nclear,!S5! !S2!Fennec.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!This is \\007\\1!S3!AWACS!S5! !S2!\nIntimidator\\007\\2,     ",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!relaying your orders\nfrom mission control."
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!We read you loud and\nclear,!S5! !S2!Fennec."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -221,7 +219,7 @@
             "id": "f98407fd-46b3-4686-9ed6-aa9b17adb7cc",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -254,6 +252,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!This is\n\\007\\1!S2!AWACS Intimidator\\007\\2,   ",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!relaying your orders\nfrom mission control.",
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Are you ready for this \nsanctioned test flight,!S5! !S2!\nFennec?"
                     ],
                     "__section": "text",
@@ -283,7 +283,7 @@
             "id": "a8f9452d-7147-4b57-aaa3-1c9d3317bbb5",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -317,7 +317,7 @@
                   "args": {
                     "text": [
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Ready as I'll ever be! ",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!I am !S5!SO!S2! excited to\ntake this out for\na spin!"
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!I am !S4!SO!S2! excited to\ntake this out for\na spin!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -381,7 +381,7 @@
                     "text": [
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Alright,!S5! !S2!let's review\nyour flight controls.",
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!First,!S5! !S2!movement.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Use your \\007\\1!S3!D-Pad!S2!\\007\\2 to move\nforward,!S5! !S2!backward,!S5! !S2!\nleft,!S5! !S2!and right."
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Use your \\007\\1!S3!D-Pad!S2!\\007\\2 to move\n!S1!forward,!S5! !S1!backward,!S5! !S1!\nleft,!S5! !S1!and right."
                     ],
                     "__section": "text",
                     "avatarId": "",

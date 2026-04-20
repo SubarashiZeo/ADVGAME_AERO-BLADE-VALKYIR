@@ -129,10 +129,10 @@
                   "args": {
                     "text": [
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Correct.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!We have deployed a\ndrone for you to shoot\ndown.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!It holds a \n\\007\\1!S3!new weapon\\007\\2!S2!.   ",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!The prototype can\nsalvage from its\nremains.",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!The drone will shoot\nback at you.",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!We have deployed a\ndrone for you to shoot\ndown,",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!and it holds a \n\\007\\1!S3!new weapon\\007\\2!S2!.   ",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!The prototype can\nsalvage from its\nremains, but!S5!...",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!the drone will shoot\nback at you.",
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Please take this as\ntraining to dodge\nincoming fire as well."
                     ],
                     "__section": "text",

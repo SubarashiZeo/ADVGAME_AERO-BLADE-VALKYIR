@@ -72,6 +72,16 @@
       "symbol": "var_scorethousands"
     },
     {
+      "id": "14",
+      "name": "enemyhit",
+      "symbol": "var_enemyhit"
+    },
+    {
+      "id": "15",
+      "name": "playerhit",
+      "symbol": "var_playerhit"
+    },
+    {
       "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
       "name": "Pla",
       "symbol": "var_pla"
@@ -110,16 +120,6 @@
       "id": "a4314709-aaf4-4eae-894d-8b690633634f__L0",
       "name": "Local 0",
       "symbol": "var_local_6"
-    },
-    {
-      "id": "14",
-      "name": "enemyhit",
-      "symbol": "var_enemyhit"
-    },
-    {
-      "id": "15",
-      "name": "playerhit",
-      "symbol": "var_playerhit"
     }
   ],
   "constants": []
