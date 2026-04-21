@@ -3,8 +3,8 @@
   "variables": [
     {
       "id": "0",
-      "name": "scoreones",
-      "symbol": "var_scoreones"
+      "name": "score",
+      "symbol": "var_score"
     },
     {
       "id": "1",
@@ -35,21 +35,6 @@
       "id": "6",
       "name": "slot3",
       "symbol": "var_slot3"
-    },
-    {
-      "id": "7",
-      "name": "Firing_Test",
-      "symbol": "var_firing_test"
-    },
-    {
-      "id": "8",
-      "name": "scoretens",
-      "symbol": "var_scoretens"
-    },
-    {
-      "id": "9",
-      "name": "scorehundreds",
-      "symbol": "var_scorehundreds"
     },
     {
       "id": "10",
