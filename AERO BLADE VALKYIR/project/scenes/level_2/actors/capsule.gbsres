@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "55de8179-0568-4a0a-ac4d-ce07fc7ecd05",
+  "id": "1b46706a-da05-4ea4-84a3-42a78a9104ca",
   "name": "Capsule",
   "frame": 0,
   "animate": false,
@@ -15,14 +15,14 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_13",
+  "symbol": "actor_17",
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "8d4bf913-db35-4d9a-88d0-c67fa05ea01f"
+      "id": "23f0169f-739c-4ac6-8c81-09fbfb1f2110"
     }
   ],
   "startScript": [
@@ -33,7 +33,7 @@
         "__comment": false,
         "__collapse": false
       },
-      "id": "bccebe7f-8034-4a10-adb2-2ce97c056db3"
+      "id": "040647d9-2a21-488a-ab9f-26ef369cc557"
     }
   ],
   "updateScript": [],
@@ -43,5 +43,5 @@
   "coordinateType": "tiles",
   "x": 0,
   "y": 251,
-  "_index": 3
+  "_index": 0
 }

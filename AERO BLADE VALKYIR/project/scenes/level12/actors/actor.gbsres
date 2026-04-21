@@ -1,0 +1,161 @@
+{
+  "_resourceType": "actor",
+  "id": "e7871599-b627-4699-9acf-a0d2f790928b",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "10714159-aedd-43c5-8d36-a5ded1de68ff",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": true,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_8",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": true
+            },
+            "id": "114848c0-51e9-4f33-b566-1cd7935b2fc7"
+          }
+        ],
+        "false": []
+      },
+      "id": "db5093e6-1991-4b6a-b117-90bcfe1c5c92"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "2 HP",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "2bddaae6-9dab-4275-a860-b271c8c26cfb"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 2, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 16\nVM_REPLACE_TILE_XY 3, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+              "references": [
+                {
+                  "type": "background",
+                  "id": "c867c3e9-71d1-45c7-abd4-84e7720614c2"
+                }
+              ],
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "5fe9b2fa-858c-416e-943d-ebcd4040795a"
+          }
+        ],
+        "false": []
+      },
+      "id": "6ef75136-e6a7-4479-aa0a-ddca6d391ff9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "1 HP",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "a8492b12-ce0a-4d25-b463-099144beaa12"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 17\nVM_REPLACE_TILE_XY 2, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 18\nVM_REPLACE_TILE_XY 3, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+              "references": [
+                {
+                  "type": "background",
+                  "id": "c867c3e9-71d1-45c7-abd4-84e7720614c2"
+                }
+              ],
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "cf0b6925-e4b3-4ad1-b9e5-0848b7605f7c"
+          }
+        ],
+        "false": []
+      },
+      "id": "ba572782-1308-4278-8a8d-99e70c751c85"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 2,
+  "y": 17,
+  "_index": 1
+}

@@ -29,6 +29,11 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "653e3c14-53a9-4ed6-9c29-436d4a2e2d17"
+          },
+          {
             "id": "3d941c48-00de-4322-9e54-a1221883fec1",
             "command": "EVENT_GROUP",
             "args": {
@@ -269,6 +274,15 @@
             }
           },
           {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "d2305c04-1988-4fb6-8b39-32428f6e4abe",
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "e3fdde91-4ac9-453b-8fa2-839947b796ac"
+          },
+          {
             "id": "36f94c2c-2a22-4fb9-aafb-6872f0494d9f",
             "command": "EVENT_GROUP",
             "args": {
@@ -397,7 +411,7 @@
             "id": "a01dcaa8-632b-43bb-8e8a-789730a9466e",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -430,9 +444,9 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Vier?!S5! !S2!Hmm!S5!...",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Vier?!S5! !S4!Hmm!S5!...",
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Damn it,!S5! !S2!support is\nscrambling to your AO,",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!but based on the\nsituation,!S5! !S2!they won’t\nmake it in time.",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!but based on the\nsituation,!S5! !S2!they won't\nmake it in time.",
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!I regret asking from\nyou on such short\nnotice,",
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!but do you think\nyou can hold them out? "
                     ],
