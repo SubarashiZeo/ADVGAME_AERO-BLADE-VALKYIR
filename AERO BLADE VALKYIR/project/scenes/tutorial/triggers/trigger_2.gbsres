@@ -41,7 +41,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "e9a3f131-a124-4dae-bb6c-e2299b3051dd",
+        "sceneId": "3fbff4f5-4a9f-41a7-8bc4-29b1ed0c812a",
         "x": {
           "type": "property",
           "target": "player",

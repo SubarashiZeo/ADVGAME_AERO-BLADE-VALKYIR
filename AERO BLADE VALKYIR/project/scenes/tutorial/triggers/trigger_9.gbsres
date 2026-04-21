@@ -131,7 +131,7 @@
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "__section": "movement",
-              "actorId": "f901b1a8-ed21-420a-9ce7-77fc1255e4c1",
+              "actorId": "76a99191-97c3-4a4e-8306-65119227fa1b",
               "x": {
                 "type": "property",
                 "target": "player",
@@ -146,6 +146,26 @@
               "moveType": "diagonal"
             },
             "id": "144a786c-29b7-482b-8677-2fa038bd2d3a"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "player",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "number",
+                "value": 107
+              },
+              "collideWith": [],
+              "lockDirection": [],
+              "moveType": "diagonal"
+            },
+            "id": "a30d2f5a-37e9-4b8a-b6a3-b08f35624fdc"
           },
           {
             "id": "1588bac7-6e4e-4c3a-a75d-161c96c96031",
@@ -535,6 +555,46 @@
                 }
               ]
             }
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "player",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "number",
+                "value": 105
+              },
+              "collideWith": [],
+              "lockDirection": [],
+              "moveType": "diagonal"
+            },
+            "id": "2b903401-3daf-490c-9099-fe702ff0c281"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "76a99191-97c3-4a4e-8306-65119227fa1b",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "number",
+                "value": 101
+              },
+              "collideWith": [],
+              "lockDirection": [],
+              "moveType": "diagonal"
+            },
+            "id": "796059b7-0c54-443c-921b-86c7e1f35ef4"
           },
           {
             "id": "3b047793-5232-4dad-8ea2-1b17d3cf96c0",

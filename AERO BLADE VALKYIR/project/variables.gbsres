@@ -37,6 +37,16 @@
       "symbol": "var_slot3"
     },
     {
+      "id": "8",
+      "name": "scoretens",
+      "symbol": "var_scoretens"
+    },
+    {
+      "id": "9",
+      "name": "scorehundreds",
+      "symbol": "var_scorehundreds"
+    },
+    {
       "id": "10",
       "name": "Paused",
       "symbol": "var_paused"
@@ -140,16 +150,6 @@
       "id": "227d9327-eb0b-4088-9aab-39059c846e05__L0",
       "name": "Local 0",
       "symbol": "var_local_13"
-    },
-    {
-      "id": "8",
-      "name": "scoretens",
-      "symbol": "var_scoretens"
-    },
-    {
-      "id": "9",
-      "name": "scorehundreds",
-      "symbol": "var_scorehundreds"
     }
   ],
   "constants": []

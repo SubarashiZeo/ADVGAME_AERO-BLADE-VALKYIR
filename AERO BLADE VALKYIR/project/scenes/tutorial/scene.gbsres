@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "ad3e3754-3e0a-4b1f-98ca-9e32bc43191c",
-  "_index": 9,
+  "_index": 8,
   "name": "Tutorial",
   "backgroundId": "a950cd36-aa90-45ec-9e35-661d2a3406c7",
   "tilesetId": "",
@@ -31,7 +31,7 @@
   "collisions": "001388+0f14+0014+",
   "autoFadeSpeed": 2,
   "symbol": "scene_10",
-  "x": 1208,
+  "x": 864,
   "y": 32,
   "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "439ed72d-fe95-47a5-aad0-b09424de8450",
