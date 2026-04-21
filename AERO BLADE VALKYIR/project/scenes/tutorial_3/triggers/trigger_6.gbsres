@@ -1,0 +1,273 @@
+{
+  "_resourceType": "trigger",
+  "id": "825ba52d-f050-48f0-97e0-005822217d25",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 208,
+  "symbol": "trigger_28",
+  "prefabScriptOverrides": {},
+  "width": 20,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "id": "27cdee0c-2907-4e0f-a6b6-b623542894fc",
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "17e39cd5-25b7-41bb-b699-19ba1240794e"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "2a7e8e30-8d7a-4823-a55e-2e44ce828cd1",
+                    "spriteStateId": "Lila",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "20693eb8-c727-44cf-8870-53bfbf49a99b"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!A straight shot\nforward.",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!But this flight suit can\ndo more than that,!S5! !S2!\nright?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 5,
+                    "maxHeight": 5,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 3,
+                    "position": "top",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": -3,
+                    "speedOut": -3,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 1,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "d743e6e0-cd67-46b4-995e-f2734818f830"
+                }
+              ]
+            }
+          },
+          {
+            "id": "ff02f26d-3bad-4164-8a2a-3556eae01658",
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.5
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "bcf07484-fd7c-463f-b2b3-75041a049f24"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "2a7e8e30-8d7a-4823-a55e-2e44ce828cd1",
+                    "spriteStateId": "Intimidator",
+                    "loopAnim": true,
+                    "__collapse": false
+                  },
+                  "id": "3497fe19-0d7d-4697-9d25-74ef66b219b7"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Correct.",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!We have deployed a\ndrone for you to shoot\ndown,",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!and it holds a \n\\007\\1!S3!new weapon\\007\\2!S2!.   ",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!The prototype can\nsalvage from its\nremains, but!S5!...",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!the drone will shoot\nback at you.",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Please take this as\ntraining to dodge\nincoming fire as well."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 5,
+                    "maxHeight": 5,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 3,
+                    "position": "top",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": -3,
+                    "speedOut": -3,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "5e8d9608-037f-4f3b-bd10-65de4b058533"
+                }
+              ]
+            }
+          },
+          {
+            "id": "86d2cd9b-58f3-4868-99db-22de3ba38964",
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.5
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "a4dad1c1-860c-417a-aefb-9e6d05399b4a"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "2a7e8e30-8d7a-4823-a55e-2e44ce828cd1",
+                    "spriteStateId": "Lila",
+                    "loopAnim": true,
+                    "__collapse": false
+                  },
+                  "id": "f2191920-e969-403f-a18d-2f58e3ad50f8"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Affirmative!!S5! !S2!\nBring 'em at me!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 5,
+                    "maxHeight": 5,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 3,
+                    "position": "top",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": -3,
+                    "speedOut": -3,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "cf9f4942-c509-421f-9e94-1a6180c0a2b7"
+                }
+              ]
+            }
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "2a7e8e30-8d7a-4823-a55e-2e44ce828cd1",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "0b0413b1-0703-4531-a753-87e82f5764c7"
+          },
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16,
+              "__collapse": true
+            },
+            "id": "94e8b6ad-bd3a-4973-80f7-0ea96a202232"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 250",
+              "references": [],
+              "__collapse": true,
+              "__comment": false,
+              "__label": "GBVM Script (HUD)"
+            },
+            "id": "fd493fc6-a8fd-4fdf-8b85-d3f8e5f4ca8d"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "050ce90d-485b-4e70-ae12-a83a6637e4dd"
+          }
+        ],
+        "false": []
+      },
+      "id": "47d5cb78-6cb1-4700-bdbc-402aae5d3046"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}
