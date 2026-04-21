@@ -15,7 +15,7 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_11",
+  "symbol": "actor_25",
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -41,12 +41,11 @@
             "id": "c2e3ada7-e1e1-4b7e-bd95-a9a5508574dd"
           },
           {
-            "id": "2655d287-bfa3-4176-995b-f9ba7f10de64",
+            "id": "af9f1fc7-2075-4d83-b7fc-afe25124450e",
             "command": "EVENT_GROUP",
             "args": {
               "__label": "EnemyScore"
-            },
-            "id": "af9f1fc7-2075-4d83-b7fc-afe25124450e"
+            }
           }
         ]
       },
@@ -173,12 +172,11 @@
             "id": "aa33f4f3-115c-4540-bf41-8994eeb9ec8c"
           },
           {
-            "id": "56277558-7bfc-4884-8bf3-8526e86869e9",
+            "id": "06d3f111-295f-43cf-8169-b858fcced391",
             "command": "EVENT_GROUP",
             "args": {
               "__label": "EnemyScore"
-            },
-            "id": "06d3f111-295f-43cf-8169-b858fcced391"
+            }
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",

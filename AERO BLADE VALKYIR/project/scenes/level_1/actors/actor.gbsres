@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "f0e9299f-1de7-48c0-bce0-f9e2ac167111",
+  "id": "efbf3ae7-537d-40e9-b180-592dda2dfc19",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_22",
+  "symbol": "actor_33",
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -45,12 +45,12 @@
               "spriteStateId": "",
               "loopAnim": true
             },
-            "id": "88c5e119-4ce5-47b9-aae0-2d5dff56cc65"
+            "id": "5863ab30-c887-495f-acd6-ef7e2a449245"
           }
         ],
         "false": []
       },
-      "id": "4ebe2ff9-a5c6-4b1e-83f1-98b9bba599ab"
+      "id": "f0628905-76ae-438e-8da2-20fc88a5ac24"
     },
     {
       "command": "EVENT_IF",
@@ -79,7 +79,7 @@
               "loopAnim": true,
               "__collapse": true
             },
-            "id": "ca4e761f-e8fd-4edb-8456-fc17574fc998"
+            "id": "7ed6ca24-0b49-4172-bccc-43b6c711f216"
           },
           {
             "command": "EVENT_GBVM_SCRIPT",
@@ -94,12 +94,12 @@
               "__comment": false,
               "__collapse": true
             },
-            "id": "87ea82aa-e9e9-4f38-b3f5-6fbd5f2cee97"
+            "id": "8d583c5f-4855-4571-a4c8-ed50921d7b10"
           }
         ],
         "false": []
       },
-      "id": "cde515cf-b6f0-4152-b34a-86d86cc2093c"
+      "id": "53aaf576-8c1e-4e51-bfa3-660cf59dc318"
     },
     {
       "command": "EVENT_IF",
@@ -128,7 +128,7 @@
               "loopAnim": true,
               "__collapse": true
             },
-            "id": "bfa898fc-5765-40ba-8b26-41e3199067c1"
+            "id": "3f59194a-075e-495c-838a-4c5ce75b60af"
           },
           {
             "command": "EVENT_GBVM_SCRIPT",
@@ -143,12 +143,12 @@
               "__comment": false,
               "__collapse": true
             },
-            "id": "afeaaf0b-7ac9-4597-ba99-db5ff6241a08"
+            "id": "e08a1936-fc9e-434e-9698-ccd20422e032"
           }
         ],
         "false": []
       },
-      "id": "ce0bb078-8267-4386-b1c9-269bc2bdfdce"
+      "id": "a0cd6855-c746-4d70-b44e-b6164fbfbc06"
     }
   ],
   "hit1Script": [],

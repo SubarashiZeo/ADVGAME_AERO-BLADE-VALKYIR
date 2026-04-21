@@ -42,12 +42,11 @@
             "id": "6d556e61-ea84-4933-9ca7-26405999c82a"
           },
           {
-            "id": "ef03594c-62f5-4447-84f9-225c19051cc6",
+            "id": "6d90c87d-3648-4445-b99f-93e044f0ac2e",
             "command": "EVENT_GROUP",
             "args": {
               "__label": "EnemyScore"
-            },
-            "id": "6d90c87d-3648-4445-b99f-93e044f0ac2e"
+            }
           }
         ]
       },
@@ -174,12 +173,11 @@
             "id": "129df5c1-d2c8-430d-9961-de632108f4df"
           },
           {
-            "id": "a97d21fb-3711-4dfe-ac83-0d95203cfc72",
+            "id": "2062ffd9-0a30-4e1e-b286-15bed00a0351",
             "command": "EVENT_GROUP",
             "args": {
               "__label": "EnemyScore"
-            },
-            "id": "2062ffd9-0a30-4e1e-b286-15bed00a0351"
+            }
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",

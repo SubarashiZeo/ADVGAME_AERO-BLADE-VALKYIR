@@ -3,8 +3,8 @@
   "variables": [
     {
       "id": "0",
-      "name": "score",
-      "symbol": "var_score"
+      "name": "scoreones",
+      "symbol": "var_scoreones"
     },
     {
       "id": "1",
@@ -140,6 +140,16 @@
       "id": "227d9327-eb0b-4088-9aab-39059c846e05__L0",
       "name": "Local 0",
       "symbol": "var_local_13"
+    },
+    {
+      "id": "8",
+      "name": "scoretens",
+      "symbol": "var_scoretens"
+    },
+    {
+      "id": "9",
+      "name": "scorehundreds",
+      "symbol": "var_scorehundreds"
     }
   ],
   "constants": []
