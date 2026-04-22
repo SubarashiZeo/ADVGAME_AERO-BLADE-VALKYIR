@@ -31,7 +31,7 @@
   "collisions": "001388+0f14+0014+",
   "autoFadeSpeed": 2,
   "symbol": "scene_10",
-  "x": 864,
+  "x": 288,
   "y": 32,
   "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "439ed72d-fe95-47a5-aad0-b09424de8450",
@@ -59,7 +59,7 @@
       "args": {
         "musicId": "136952c9-1de1-4a28-9028-6cb0b73799d3",
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "db5798a0-3f46-4d60-a21a-f01855f9f31f"
     },
@@ -149,7 +149,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Health",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -169,6 +169,149 @@
         ]
       },
       "id": "87d4f4b4-82e2-41f5-a63c-7810f19a42c7"
+    },
+    {
+      "id": "1d94e2fc-1216-4f1e-af6c-346185b30774",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Read Health",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 3
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "",
+                    "loopAnim": true
+                  },
+                  "id": "5057bd6b-34de-453e-a138-d165f88dfb4e"
+                }
+              ],
+              "false": []
+            },
+            "id": "893c204b-f346-4873-a5f9-91b2b7467539"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "2 HP",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "6f5e24f9-754e-4826-b16b-95023621a144"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 2, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 16\nVM_REPLACE_TILE_XY 3, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+                    "references": [
+                      {
+                        "type": "background",
+                        "id": "c867c3e9-71d1-45c7-abd4-84e7720614c2"
+                      }
+                    ],
+                    "__comment": false,
+                    "__collapse": false
+                  },
+                  "id": "6fb8211d-2475-4135-9a82-5dde262ebc7d"
+                }
+              ],
+              "false": []
+            },
+            "id": "87df2cf0-e204-4d1d-9a07-4019674db31c"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "spriteStateId": "1 HP",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "9823add2-33af-4902-8fcf-cc1c4a059d58"
+                },
+                {
+                  "command": "EVENT_GBVM_SCRIPT",
+                  "args": {
+                    "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 17\nVM_REPLACE_TILE_XY 2, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 18\nVM_REPLACE_TILE_XY 3, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+                    "references": [
+                      {
+                        "type": "background",
+                        "id": "c867c3e9-71d1-45c7-abd4-84e7720614c2"
+                      }
+                    ],
+                    "__comment": false,
+                    "__collapse": true
+                  },
+                  "id": "aef4395b-da03-4f26-9dfa-97bb074dd790"
+                }
+              ],
+              "false": []
+            },
+            "id": "e5867f9c-09e0-4724-8864-8a49200eedeb"
+          }
+        ]
+      }
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

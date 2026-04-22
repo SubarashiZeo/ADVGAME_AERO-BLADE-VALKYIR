@@ -155,6 +155,16 @@
       "id": "4f6a1b86-a588-45ff-b303-42fe4a5b815d__L0",
       "name": "Local 0",
       "symbol": "var_local_14"
+    },
+    {
+      "id": "2fb6fda9-6cd3-425d-aba3-3cd334278183__L0",
+      "name": "Local 0",
+      "symbol": "var_local_15"
+    },
+    {
+      "id": "3cf33ead-b007-4db6-a9d0-048ca6df74f2__L0",
+      "name": "Local 0",
+      "symbol": "var_local_16"
     }
   ],
   "constants": []

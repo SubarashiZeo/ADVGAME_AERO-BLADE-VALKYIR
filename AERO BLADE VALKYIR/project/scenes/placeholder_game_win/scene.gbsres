@@ -5,7 +5,7 @@
   "type": "SHMUP",
   "name": "Placeholder Game Win",
   "symbol": "scene_3",
-  "x": 60,
+  "x": 64,
   "y": 1392,
   "width": 20,
   "height": 18,
@@ -36,6 +36,38 @@
       "id": "65e51989-a36e-474f-b171-396c4509772f"
     },
     {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "f186d3ef-c20f-4787-b787-d343bb775be7",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 249
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "8944c131-e6b2-4fea-b9b3-499fa827adf4"
+          }
+        ]
+      },
+      "id": "3ba5a141-37bb-4a14-a793-cb2ed48ffeb6"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -57,9 +89,15 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "id": "37cc7a5c-4a86-4bf3-acab-05918852bb74"
+    },
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {},
+      "id": "b2621c1a-ddfd-42a9-85e6-99dcbcbf403c"
     }
   ],
   "playerHit1Script": [],
