@@ -31,7 +31,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 216
+            "value": 144
           }
         },
         "__collapse": false
@@ -39,25 +39,31 @@
       "id": "f1947e7c-15e6-4bf7-84c2-f044a2f61942"
     },
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "variable": "11",
-        "value": {
+        "sceneId": "3fbff4f5-4a9f-41a7-8bc4-29b1ed0c812a",
+        "x": {
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
+        },
+        "y": {
           "type": "add",
           "valueA": {
-            "type": "variable",
-            "value": "11"
+            "type": "property",
+            "target": "camera",
+            "property": "ypos"
           },
           "valueB": {
-            "type": "property",
-            "target": "player",
-            "property": "xpos"
+            "type": "number",
+            "value": 144
           }
         },
-        "__collapse": false,
-        "__comment": true
+        "direction": "up",
+        "fadeSpeed": 0,
+        "__collapse": false
       },
-      "id": "c23bec72-89b0-4f78-8e73-bba6d7d2d781"
+      "id": "86016edd-0e7e-427d-bfad-05b0bfa18ef2"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -73,7 +79,8 @@
         },
         "direction": "up",
         "fadeSpeed": 2,
-        "__collapse": false
+        "__collapse": false,
+        "__comment": true
       },
       "id": "7dbb7ad9-ae5d-4afc-8df9-616febfa5c2c"
     }

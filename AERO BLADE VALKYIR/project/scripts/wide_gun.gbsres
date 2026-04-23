@@ -25,14 +25,14 @@
         "speed": 3,
         "animSpeed": 15,
         "lifeTime": 1,
-        "initialOffset": 0,
+        "initialOffset": 12,
         "loopAnim": true,
         "destroyOnHit": true,
         "collisionGroup": "1",
         "collisionMask": [
           "1"
         ],
-        "__collapse": true
+        "__collapse": false
       },
       "id": "720b8080-7862-4e70-8503-50cc23cd6b0a"
     },
@@ -54,7 +54,7 @@
         "speed": 3,
         "animSpeed": 15,
         "lifeTime": 1,
-        "initialOffset": 0,
+        "initialOffset": 12,
         "loopAnim": true,
         "destroyOnHit": true,
         "collisionGroup": "3",
@@ -62,7 +62,7 @@
           "1",
           "3"
         ],
-        "__collapse": true
+        "__collapse": false
       },
       "id": "2c792aee-14ef-426b-875f-6d963ac0164d"
     },

@@ -30,14 +30,14 @@
               "speed": 2,
               "animSpeed": 15,
               "lifeTime": 1.5,
-              "initialOffset": 0,
+              "initialOffset": 12,
               "loopAnim": true,
               "destroyOnHit": true,
               "collisionGroup": "1",
               "collisionMask": [
                 "1"
               ],
-              "__collapse": true
+              "__collapse": false
             },
             "id": "0dd0c719-6426-4df6-a244-406a9e258597"
           },

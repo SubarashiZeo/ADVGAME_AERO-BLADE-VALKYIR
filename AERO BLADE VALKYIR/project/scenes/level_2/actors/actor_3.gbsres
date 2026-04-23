@@ -251,7 +251,7 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "EnemyScore",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -355,6 +355,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 11,
-  "y": 174,
+  "y": 157,
   "_index": 3
 }

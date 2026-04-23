@@ -39,27 +39,6 @@
       "id": "bfb2c8dd-e02f-4aa1-b145-688decd8be85"
     },
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "11",
-        "value": {
-          "type": "add",
-          "valueA": {
-            "type": "variable",
-            "value": "11"
-          },
-          "valueB": {
-            "type": "property",
-            "target": "player",
-            "property": "xpos"
-          }
-        },
-        "__collapse": false,
-        "__comment": true
-      },
-      "id": "d70bbe5e-9474-4b8f-9856-25fdb0505b60"
-    },
-    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "cc8cb5fb-1458-4916-b299-509ca9d23fb3",

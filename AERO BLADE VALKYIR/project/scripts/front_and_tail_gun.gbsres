@@ -95,7 +95,7 @@
               "speed": 3,
               "animSpeed": 15,
               "lifeTime": 1,
-              "initialOffset": 0,
+              "initialOffset": 12,
               "loopAnim": true,
               "destroyOnHit": true,
               "collisionGroup": "1",
