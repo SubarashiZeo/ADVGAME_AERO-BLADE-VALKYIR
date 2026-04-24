@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "efbf3ae7-537d-40e9-b180-592dda2dfc19",
+  "id": "3ddd4f36-9904-4072-9e47-16236eead6fe",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,16 +15,16 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_33",
+  "symbol": "actor_41",
   "script": [],
   "startScript": [],
   "updateScript": [
     {
-      "id": "f45e9071-ce8e-47d7-8258-5ff68b1ad6bc",
+      "id": "973f8dfa-7723-48ca-a4b9-23797ac1c115",
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Health UI",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -35,8 +35,7 @@
                 "type": "variable",
                 "value": "15"
               },
-              "__collapseElse": true,
-              "__collapse": false
+              "__collapseElse": true
             },
             "children": {
               "true": [
@@ -66,12 +65,12 @@
                           "spriteStateId": "",
                           "loopAnim": true
                         },
-                        "id": "28226699-f04d-4aa3-8fdd-2d75664f67e0"
+                        "id": "dea7ca24-e1c5-4bc6-bd23-53dd38ddaa74"
                       }
                     ],
                     "false": []
                   },
-                  "id": "76818162-fc11-4e6e-a598-8b0990d42a00"
+                  "id": "c5fc6bf1-09ea-425d-a3a5-10882fdc4be5"
                 },
                 {
                   "command": "EVENT_IF",
@@ -88,7 +87,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -100,12 +99,12 @@
                           "loopAnim": true,
                           "__collapse": true
                         },
-                        "id": "b9438ebc-59a1-4124-a6a1-49c4f14305bb"
+                        "id": "48be8584-5cff-4e44-85d7-1e8f633f378f"
                       },
                       {
                         "command": "EVENT_GBVM_SCRIPT",
                         "args": {
-                          "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 187, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 187, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 2, 188, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 16\nVM_REPLACE_TILE_XY 3, 188, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+                          "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 15\nVM_REPLACE_TILE_XY 2, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 16\nVM_REPLACE_TILE_XY 3, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
                           "references": [
                             {
                               "type": "background",
@@ -115,12 +114,12 @@
                           "__comment": false,
                           "__collapse": false
                         },
-                        "id": "1cfa05d8-8f9b-450a-909e-dddcd677273a"
+                        "id": "8ab93048-b759-4987-9c97-7e05dd91fade"
                       }
                     ],
                     "false": []
                   },
-                  "id": "b8b5431d-4b3b-4db6-8a19-7c0107521098"
+                  "id": "0c55ec80-3fc8-4f60-9a5e-12639daed455"
                 },
                 {
                   "command": "EVENT_IF",
@@ -137,7 +136,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -149,12 +148,12 @@
                           "loopAnim": true,
                           "__collapse": true
                         },
-                        "id": "94f2b44d-0148-4b83-b331-ee2feb456565"
+                        "id": "348e6c3a-9052-4d2a-83f8-a70cacf35e95"
                       },
                       {
                         "command": "EVENT_GBVM_SCRIPT",
                         "args": {
-                          "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 187, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 187, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 17\nVM_REPLACE_TILE_XY 2, 188, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 18\nVM_REPLACE_TILE_XY 3, 188, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+                          "script": "VM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 2, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 14\nVM_REPLACE_TILE_XY 3, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 17\nVM_REPLACE_TILE_XY 2, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 18\nVM_REPLACE_TILE_XY 3, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
                           "references": [
                             {
                               "type": "background",
@@ -162,14 +161,14 @@
                             }
                           ],
                           "__comment": false,
-                          "__collapse": false
+                          "__collapse": true
                         },
-                        "id": "e5551b51-4ccb-43b2-b30a-378391e47057"
+                        "id": "4bbdfd21-9dee-4654-8fbe-903078f4e340"
                       }
                     ],
                     "false": []
                   },
-                  "id": "5a8bd251-511f-4768-9d35-96ebf4a0b99b"
+                  "id": "d9d28159-136f-44fd-947e-d28f5cf7cccc"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -179,23 +178,23 @@
                       "type": "false"
                     }
                   },
-                  "id": "d0bd2526-7ce8-4556-bcc4-2eda3379c42e"
+                  "id": "ff589fd4-585a-486c-b3fb-7dd0d6b4e3e6"
                 }
               ],
               "false": []
             },
-            "id": "2c3e69e4-1c4f-4262-b714-4fc04107f920"
+            "id": "e8fb1382-5908-44df-ae96-45e497ddf0c4"
           }
         ]
       }
     },
     {
-      "id": "95b34114-7f06-412e-bafb-cf080e8a80c4",
+      "id": "63521989-dc31-4f37-9aa4-0257b052ca9e",
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Scoring UI",
         "__comment": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -229,14 +228,14 @@
                       "value": 0
                     }
                   },
-                  "id": "30983298-7c85-4a85-a8a3-825aa67b8a35"
+                  "id": "3f710206-093f-46d6-9f6a-5e8c55d66816"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
                     "variable": "8"
                   },
-                  "id": "526a5027-0191-4f86-9c28-c116fb4cd438"
+                  "id": "30562ad6-915c-4821-a4b5-75454dd78ab5"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -247,12 +246,12 @@
                       "value": 1
                     }
                   },
-                  "id": "3f45115f-f2b9-4b91-93d6-98ee422fe578"
+                  "id": "6b41e44d-74b3-4aff-818c-1a511d66301b"
                 }
               ],
               "false": []
             },
-            "id": "f4f603a2-e477-415f-b91d-e76e74855eec"
+            "id": "386096cf-8445-45ad-8f75-8bf898520c20"
           },
           {
             "command": "EVENT_IF",
@@ -283,19 +282,19 @@
                       "value": 0
                     }
                   },
-                  "id": "246581e2-a740-409a-937b-b573d4f26888"
+                  "id": "f07fe5b0-b083-4206-9a93-60d51d7b6782"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
                     "variable": "9"
                   },
-                  "id": "8ebe451e-bc71-4415-a0ad-c2f38ccf6146"
+                  "id": "076b5726-1aad-4c5a-8f53-cdebe0d2be8b"
                 }
               ],
               "false": []
             },
-            "id": "5affdf17-db63-4185-b347-8acc2c0dcf09"
+            "id": "13099bea-a4ed-495d-b35e-599221308b5e"
           },
           {
             "command": "EVENT_IF",
@@ -326,19 +325,19 @@
                       "value": 0
                     }
                   },
-                  "id": "2c572841-ab1f-44f0-938a-b461a1a45be4"
+                  "id": "16cdd070-6b97-405d-a60a-87aff34d6541"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
                     "variable": "13"
                   },
-                  "id": "f119e951-342d-41ad-a06d-bfadb221d713"
+                  "id": "e514efcb-5698-413b-9426-014bb8fb7970"
                 }
               ],
               "false": []
             },
-            "id": "a98ee4a2-da62-42d6-8a4d-bdc4454bbc1b"
+            "id": "43493291-3a96-4324-bf04-804ce94c5edc"
           },
           {
             "command": "EVENT_IF",
@@ -369,7 +368,7 @@
                       "value": 9
                     }
                   },
-                  "id": "7c049b44-fb30-4f7f-bc0c-adb3b98fdd65"
+                  "id": "a8df39dd-7214-4f1b-a5ba-8dbee41301e0"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -380,7 +379,7 @@
                       "value": 9
                     }
                   },
-                  "id": "a568a410-b287-4feb-b9b1-0e3118f69fc1"
+                  "id": "1b832b21-32a3-43a7-ab7e-c612a93af363"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -391,7 +390,7 @@
                       "value": 9
                     }
                   },
-                  "id": "6672b000-fc3f-4081-bb05-53ebf774fd49"
+                  "id": "b0b29f19-1666-44aa-9f84-a785991a1437"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -402,12 +401,12 @@
                       "value": 9
                     }
                   },
-                  "id": "e9af7910-807d-4ade-9fa7-a8eda9aca0dd"
+                  "id": "2f9431b9-03fe-467e-847e-07b9ac508250"
                 }
               ],
               "false": []
             },
-            "id": "d4bfbb03-d89c-4b42-adc9-986bb62c8447"
+            "id": "90cfecc9-9e8f-411c-8ccf-acde87d275b7"
           },
           {
             "command": "EVENT_IF",
@@ -424,10 +423,10 @@
                 {
                   "command": "EVENT_GBVM_SCRIPT",
                   "args": {
-                    "script": "VM_PUSH_VALUE VAR_SCOREONES\nVM_REPLACE_TILE_XY 19, 188, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETENS\nVM_REPLACE_TILE_XY 18, 188, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCOREHUNDREDS\nVM_REPLACE_TILE_XY 17, 188, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETHOUSANDS\nVM_REPLACE_TILE_XY 16, 188, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+                    "script": "VM_PUSH_VALUE VAR_SCOREONES\nVM_REPLACE_TILE_XY 19, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETENS\nVM_REPLACE_TILE_XY 18, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCOREHUNDREDS\nVM_REPLACE_TILE_XY 17, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETHOUSANDS\nVM_REPLACE_TILE_XY 16, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
                     "__collapse": false
                   },
-                  "id": "8d2ed6cd-f42f-496c-9d87-a9192171dc7d"
+                  "id": "63b64ffc-9cad-4e42-a939-acea284d9add"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -437,12 +436,12 @@
                       "type": "false"
                     }
                   },
-                  "id": "fdc470b8-187e-40f1-bec4-602cd43b674d"
+                  "id": "4443de3e-9d2f-4e45-8c85-3f0a604af82a"
                 }
               ],
               "false": []
             },
-            "id": "6a435fc1-b3c1-478f-9c61-f3a8bdbdb8ca"
+            "id": "78035f5a-3917-4581-8874-d9215989f2d7"
           }
         ]
       }

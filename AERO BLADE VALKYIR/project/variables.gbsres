@@ -165,6 +165,36 @@
       "id": "3cf33ead-b007-4db6-a9d0-048ca6df74f2__L0",
       "name": "Local 0",
       "symbol": "var_local_16"
+    },
+    {
+      "id": "2f883a59-5e71-4b37-8b40-081611cd758c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_17"
+    },
+    {
+      "id": "672a9620-9877-4f34-97b9-de5a4f71f65f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_18"
+    },
+    {
+      "id": "790243fc-7814-4fcd-87b0-df72cafd60cc__L0",
+      "name": "Local 0",
+      "symbol": "var_local_19"
+    },
+    {
+      "id": "82f43d92-59d5-4c8b-9d4f-94107b28b658__L0",
+      "name": "Local 0",
+      "symbol": "var_local_20"
+    },
+    {
+      "id": "24acd386-28c7-4618-b82d-a83863784f54__L0",
+      "name": "Local 0",
+      "symbol": "var_local_21"
+    },
+    {
+      "id": "85c12afc-db6a-46b0-8e75-be322553af1b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_22"
     }
   ],
   "constants": []
