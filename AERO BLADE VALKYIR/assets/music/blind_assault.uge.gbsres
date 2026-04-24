@@ -1,9 +1,9 @@
 {
   "_resourceType": "music",
   "id": "6bfbd9f8-e25b-49fe-a4d8-52e83495e2bf",
-  "name": "song_template",
+  "name": "blind_assault",
   "symbol": "song_song_template_1",
   "settings": {},
-  "filename": "song_template.uge",
+  "filename": "blind_assault.uge",
   "type": "uge"
 }
