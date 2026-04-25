@@ -224,9 +224,17 @@
                   "args": {
                     "variable": "0",
                     "value": {
-                      "type": "number",
-                      "value": 0
-                    }
+                      "type": "sub",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 10
+                      }
+                    },
+                    "__collapse": false
                   },
                   "id": "b65c61b8-c6fb-4b60-a18a-6e181e96351b"
                 },
@@ -278,11 +286,19 @@
                   "args": {
                     "variable": "8",
                     "value": {
-                      "type": "number",
-                      "value": 0
-                    }
+                      "type": "sub",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "8"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 10
+                      }
+                    },
+                    "__collapse": true
                   },
-                  "id": "bea363c4-5c08-45c5-94ec-83ec0d3225fa"
+                  "id": "a124336e-2d30-4de8-a365-420fcf196e39"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
@@ -321,11 +337,19 @@
                   "args": {
                     "variable": "9",
                     "value": {
-                      "type": "number",
-                      "value": 0
-                    }
+                      "type": "sub",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "9"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 10
+                      }
+                    },
+                    "__collapse": true
                   },
-                  "id": "f5dec89c-ad1d-4108-b14a-fc74ced20bcc"
+                  "id": "48b2cf96-3e9f-44ca-a612-ef7aff42bb79"
                 },
                 {
                   "command": "EVENT_INC_VALUE",

@@ -3,14 +3,14 @@
   "id": "82f43d92-59d5-4c8b-9d4f-94107b28b658",
   "_index": 8,
   "name": "Level 2.2",
-  "backgroundId": "1e7b3420-2bf1-4c0f-b6d2-5cb2d3a3951c",
+  "backgroundId": "73bfe25d-5753-4c44-8f5b-c7e8dbabb32d",
   "tilesetId": "",
   "width": 25,
   "height": 252,
   "type": "SHMUP",
   "colorModeOverride": "none",
   "paletteIds": [
-    "default-bg-5",
+    "f510f871-79d0-4285-a7f2-719133ac3940",
     "",
     "773b463f-6eda-437b-befc-8ad1d6a25fd1",
     "bb719280-ea26-49be-b84d-4409914e2131",
@@ -420,7 +420,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Score VarGroup",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {

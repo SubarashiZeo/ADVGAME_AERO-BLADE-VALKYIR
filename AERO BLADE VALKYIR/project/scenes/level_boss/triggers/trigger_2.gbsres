@@ -1,0 +1,158 @@
+{
+  "_resourceType": "trigger",
+  "id": "485a92b9-3b4d-4db2-9ed9-60159c3c3ffe",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 207,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 25,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "619a447a-7e92-4190-a22e-be94d0406d89"
+            },
+            "id": "ef03a424-a822-4264-b07b-e8d109a9a439"
+          },
+          {
+            "id": "1e8b15de-bc49-4456-bb76-28dfbb985cd5",
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "32a991e4-67b0-4de4-9180-e96280af8a86"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "2a7e8e30-8d7a-4823-a55e-2e44ce828cd1",
+                    "spriteStateId": "Empty",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "1c8d6410-b415-4c8a-a7e4-88402506ac6e"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "\\007\\2!S1!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!test "
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 5,
+                    "maxHeight": 5,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 3,
+                    "position": "top",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": -3,
+                    "speedOut": -3,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 1,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "17c92254-7ddf-4cdc-9ccd-8d5e3388a8c7"
+                }
+              ]
+            }
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "c8b8bf5a-816d-4fa6-b751-20faf497516d"
+            },
+            "id": "9669cecb-5340-4043-9d62-183859bf4d64"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "2a7e8e30-8d7a-4823-a55e-2e44ce828cd1",
+              "spriteStateId": "",
+              "loopAnim": true,
+              "__collapse": true
+            },
+            "id": "9f53a916-9955-4f94-a007-d192ffb44b5d"
+          },
+          {
+            "command": "EVENT_OVERLAY_SHOW",
+            "args": {
+              "color": "black",
+              "x": 0,
+              "y": 16,
+              "__collapse": true
+            },
+            "id": "77cf264d-1e79-4f90-918e-e383b4e4aea6"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_OVERLAY_SET_SUBMAP 0, 0, 20, 2, 0, 250",
+              "references": [],
+              "__collapse": true,
+              "__comment": false,
+              "__label": "GBVM Script (HUD)"
+            },
+            "id": "b14e320f-e1c6-4b27-8927-a5d1c8a034bd"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "648fa5f9-6965-4b3b-b799-ec591d703a95"
+          }
+        ],
+        "false": []
+      },
+      "id": "ad05a6bc-e5c7-4f13-8ae3-dd47982c384c"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

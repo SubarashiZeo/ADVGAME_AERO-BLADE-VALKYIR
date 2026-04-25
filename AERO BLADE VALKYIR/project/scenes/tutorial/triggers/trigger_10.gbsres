@@ -29,6 +29,27 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "player",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "number",
+                "value": 53
+              },
+              "collideWith": [],
+              "lockDirection": [],
+              "moveType": "diagonal",
+              "__comment": false
+            },
+            "id": "bcb49e2a-3845-4967-a4fb-754b5dceb105"
+          },
+          {
             "id": "4662f9a6-e88a-4683-813a-4dae868fc326",
             "command": "EVENT_GROUP",
             "args": {

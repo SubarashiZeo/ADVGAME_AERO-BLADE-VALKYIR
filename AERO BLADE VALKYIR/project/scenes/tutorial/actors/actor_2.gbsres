@@ -52,7 +52,7 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "8",
+                    "variable": "0",
                     "value": {
                       "type": "add",
                       "valueA": {
@@ -333,7 +333,7 @@
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "3956f026-aab4-47d2-bbc0-d8e08028c9c2",
-              "$actor[1]$": "38f770d9-fdd3-4053-b351-cd41e90c45db",
+              "$actor[1]$": "de628157-2de7-49d8-aa9a-ac1d73e0e166",
               "$variable[V1]$": {
                 "type": "variable",
                 "value": "2"

@@ -267,7 +267,7 @@
                       },
                       "valueB": {
                         "type": "number",
-                        "value": 2
+                        "value": 5
                       }
                     },
                     "__collapse": false

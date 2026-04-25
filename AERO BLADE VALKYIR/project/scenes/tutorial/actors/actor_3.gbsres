@@ -57,7 +57,7 @@
                       "type": "add",
                       "valueA": {
                         "type": "variable",
-                        "value": "8"
+                        "value": "0"
                       },
                       "valueB": {
                         "type": "number",

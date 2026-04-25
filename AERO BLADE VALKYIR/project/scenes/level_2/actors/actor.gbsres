@@ -189,12 +189,12 @@
       }
     },
     {
-      "id": "63521989-dc31-4f37-9aa4-0257b052ca9e",
+      "id": "c1476a50-1737-4805-b6ef-18b26f4e515c",
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Scoring UI",
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -224,18 +224,26 @@
                   "args": {
                     "variable": "0",
                     "value": {
-                      "type": "number",
-                      "value": 0
-                    }
+                      "type": "sub",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 10
+                      }
+                    },
+                    "__collapse": false
                   },
-                  "id": "3f710206-093f-46d6-9f6a-5e8c55d66816"
+                  "id": "2b593010-8345-4414-8acb-09f63aa450ae"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
                     "variable": "8"
                   },
-                  "id": "30562ad6-915c-4821-a4b5-75454dd78ab5"
+                  "id": "1f67fb97-5d86-4cb8-b992-4c18a3eeb54d"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -246,12 +254,12 @@
                       "value": 1
                     }
                   },
-                  "id": "6b41e44d-74b3-4aff-818c-1a511d66301b"
+                  "id": "6432bf8a-44a9-4969-ab8f-0a68bb39265e"
                 }
               ],
               "false": []
             },
-            "id": "386096cf-8445-45ad-8f75-8bf898520c20"
+            "id": "6956249f-052f-4f9c-9b27-39f25e3ac956"
           },
           {
             "command": "EVENT_IF",
@@ -278,23 +286,31 @@
                   "args": {
                     "variable": "8",
                     "value": {
-                      "type": "number",
-                      "value": 0
-                    }
+                      "type": "sub",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "8"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 10
+                      }
+                    },
+                    "__collapse": true
                   },
-                  "id": "f07fe5b0-b083-4206-9a93-60d51d7b6782"
+                  "id": "44ae6ebd-b622-4c1b-aa38-97a31bca483c"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
                     "variable": "9"
                   },
-                  "id": "076b5726-1aad-4c5a-8f53-cdebe0d2be8b"
+                  "id": "7b465407-68de-46e7-a006-36a6f56c1538"
                 }
               ],
               "false": []
             },
-            "id": "13099bea-a4ed-495d-b35e-599221308b5e"
+            "id": "4f318262-9ff2-483a-b0a4-557f511a8073"
           },
           {
             "command": "EVENT_IF",
@@ -321,23 +337,31 @@
                   "args": {
                     "variable": "9",
                     "value": {
-                      "type": "number",
-                      "value": 0
-                    }
+                      "type": "sub",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "9"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 10
+                      }
+                    },
+                    "__collapse": true
                   },
-                  "id": "16cdd070-6b97-405d-a60a-87aff34d6541"
+                  "id": "2b8f977e-7157-484f-a07f-73211a51b532"
                 },
                 {
                   "command": "EVENT_INC_VALUE",
                   "args": {
                     "variable": "13"
                   },
-                  "id": "e514efcb-5698-413b-9426-014bb8fb7970"
+                  "id": "5af7c157-9fff-4577-ad1d-9780dd7a72e2"
                 }
               ],
               "false": []
             },
-            "id": "43493291-3a96-4324-bf04-804ce94c5edc"
+            "id": "ae058240-4159-4d1a-8efd-8ac3cd08fc0d"
           },
           {
             "command": "EVENT_IF",
@@ -368,7 +392,7 @@
                       "value": 9
                     }
                   },
-                  "id": "a8df39dd-7214-4f1b-a5ba-8dbee41301e0"
+                  "id": "a92c3289-e4b4-4fd8-86f3-0789c1df0e74"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -379,7 +403,7 @@
                       "value": 9
                     }
                   },
-                  "id": "1b832b21-32a3-43a7-ab7e-c612a93af363"
+                  "id": "3a17059f-9b30-4ba1-93d4-44d6aa332820"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -390,7 +414,7 @@
                       "value": 9
                     }
                   },
-                  "id": "b0b29f19-1666-44aa-9f84-a785991a1437"
+                  "id": "22bb0a2f-4c61-4449-82fa-33d5b6fb3edb"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -401,12 +425,12 @@
                       "value": 9
                     }
                   },
-                  "id": "2f9431b9-03fe-467e-847e-07b9ac508250"
+                  "id": "636899ac-d568-4825-ab59-fa2d6046f348"
                 }
               ],
               "false": []
             },
-            "id": "90cfecc9-9e8f-411c-8ccf-acde87d275b7"
+            "id": "4f1f9c85-602f-464b-8540-c61355d75200"
           },
           {
             "command": "EVENT_IF",
@@ -426,7 +450,7 @@
                     "script": "VM_PUSH_VALUE VAR_SCOREONES\nVM_REPLACE_TILE_XY 19, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETENS\nVM_REPLACE_TILE_XY 18, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCOREHUNDREDS\nVM_REPLACE_TILE_XY 17, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETHOUSANDS\nVM_REPLACE_TILE_XY 16, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
                     "__collapse": false
                   },
-                  "id": "63b64ffc-9cad-4e42-a939-acea284d9add"
+                  "id": "74b77eed-5501-48b3-8d86-0d037164eabd"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -436,12 +460,12 @@
                       "type": "false"
                     }
                   },
-                  "id": "4443de3e-9d2f-4e45-8c85-3f0a604af82a"
+                  "id": "c55ced18-b749-4f52-a153-d051cde2a4cb"
                 }
               ],
               "false": []
             },
-            "id": "78035f5a-3917-4581-8874-d9215989f2d7"
+            "id": "e27b4223-d145-4cf2-a767-0f04fd4219c5"
           }
         ]
       }

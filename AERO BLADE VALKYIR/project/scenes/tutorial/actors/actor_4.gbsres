@@ -52,7 +52,7 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "8",
+                    "variable": "0",
                     "value": {
                       "type": "add",
                       "valueA": {

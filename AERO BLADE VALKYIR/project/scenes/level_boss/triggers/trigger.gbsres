@@ -1,0 +1,90 @@
+{
+  "_resourceType": "trigger",
+  "id": "58b8d292-0c8f-4411-a29d-e3e77581129e",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 35,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 25,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "11",
+        "vectorY": "12"
+      },
+      "id": "2af93570-f4a9-4b56-b968-96402a663376"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "12"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 198
+          }
+        },
+        "__collapse": false
+      },
+      "id": "4d051d39-6d35-4c14-a510-931cb023509e"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "cc471d5f-e795-49ca-b00c-f006ab53e669",
+        "x": {
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "add",
+          "valueA": {
+            "type": "property",
+            "target": "camera",
+            "property": "ypos"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 198
+          }
+        },
+        "direction": "up",
+        "fadeSpeed": 0,
+        "__collapse": false
+      },
+      "id": "0ea226ab-60aa-4777-b6e3-a482326b4e53"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "cc8cb5fb-1458-4916-b299-509ca9d23fb3",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "up",
+        "fadeSpeed": 2,
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "d5a68f06-6a09-44d0-8558-d203297df0ed"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

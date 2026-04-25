@@ -402,7 +402,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Score VarGroup",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -414,7 +414,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "409b0112-a549-452c-85ea-aed0e18b461d"
           },
@@ -426,7 +426,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": false
+              "__collapse": true
             },
             "id": "de51ad24-2c9b-4b49-9c2d-dd9d3ab0d683"
           },
@@ -453,6 +453,14 @@
               "__collapse": true
             },
             "id": "2bdce1be-3943-4d5c-ace9-f60ca660a139"
+          },
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_PUSH_VALUE VAR_SCOREONES\nVM_REPLACE_TILE_XY 19, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETENS\nVM_REPLACE_TILE_XY 18, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCOREHUNDREDS\nVM_REPLACE_TILE_XY 17, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETHOUSANDS\nVM_REPLACE_TILE_XY 16, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+              "__collapse": false
+            },
+            "id": "b6a33ca3-e37e-4cc9-9ab6-642fba20218f"
           }
         ]
       }
