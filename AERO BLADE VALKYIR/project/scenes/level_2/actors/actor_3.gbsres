@@ -52,12 +52,12 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "0",
+                    "variable": "8",
                     "value": {
                       "type": "add",
                       "valueA": {
                         "type": "variable",
-                        "value": "0"
+                        "value": "8"
                       },
                       "valueB": {
                         "type": "number",
@@ -356,5 +356,5 @@
   "coordinateType": "tiles",
   "x": 11,
   "y": 157,
-  "_index": 3
+  "_index": 2
 }

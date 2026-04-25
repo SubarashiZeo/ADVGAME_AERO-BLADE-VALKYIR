@@ -23,7 +23,8 @@
       "id": "d3ee6215-f535-41ee-8965-afb49e0427ae",
       "command": "EVENT_GROUP",
       "args": {
-        "__label": "Health UI"
+        "__label": "Health UI",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -193,7 +194,7 @@
       "args": {
         "__label": "Scoring UI",
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -452,5 +453,5 @@
   "coordinateType": "tiles",
   "x": 2,
   "y": 17,
-  "_index": 5
+  "_index": 4
 }

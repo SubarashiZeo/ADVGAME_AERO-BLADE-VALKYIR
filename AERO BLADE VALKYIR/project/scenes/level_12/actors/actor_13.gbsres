@@ -28,9 +28,10 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "efdb4d34-efa8-45b9-8c13-19f0f794f835"
+              "spriteSheetId": "efdb4d34-efa8-45b9-8c13-19f0f794f835",
+              "__collapse": false
             },
-            "id": "24ec8ed7-aeac-47ad-8c08-abbf0d7c63b3"
+            "id": "7dac7bd3-9941-41e8-8f97-d4b386969824"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
@@ -38,18 +39,94 @@
               "actorId": "$self$",
               "__comment": false
             },
-            "id": "c170544c-761e-444e-9ae2-2a138d98cf64"
+            "id": "333064bc-e762-4874-b3ba-41b817d33520"
           },
           {
-            "id": "729d294e-e57c-482d-bc52-64b0ab199fe9",
+            "id": "d208d339-79b2-44a1-9a3d-fd6f488678b8",
             "command": "EVENT_GROUP",
             "args": {
               "__label": "EnemyScore"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "add",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 5
+                      }
+                    },
+                    "__collapse": false
+                  },
+                  "id": "7e69b212-c7de-41c3-9423-edaec20f6f1e"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "14",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "0f86bfca-68ea-4609-a91f-11da19f2efb9"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "14"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_GBVM_SCRIPT",
+                        "args": {
+                          "script": "VM_PUSH_VALUE VAR_SCOREONES\nVM_REPLACE_TILE_XY 19, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETENS\nVM_REPLACE_TILE_XY 18, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCOREHUNDREDS\nVM_REPLACE_TILE_XY 17, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETHOUSANDS\nVM_REPLACE_TILE_XY 16, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+                          "__collapse": false
+                        },
+                        "id": "47c9fe1e-1c22-44cc-bd4e-1acf17c4272c"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "14",
+                          "value": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "72c7141f-b0e5-4487-8861-a846d2d03ccb"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "5acf9a10-3a70-4a56-b564-e8aac93fc1dc"
+                }
+              ]
             }
           }
         ]
       },
-      "id": "cc1433e1-78be-44b2-8c0a-17d652c1b62e"
+      "id": "86502344-45fc-4c60-991f-57db287252ac"
     }
   ],
   "startScript": [],
@@ -205,5 +282,5 @@
   "coordinateType": "tiles",
   "x": 14,
   "y": 72,
-  "_index": 13
+  "_index": 12
 }
