@@ -60,7 +60,7 @@
                       },
                       "valueB": {
                         "type": "number",
-                        "value": 2
+                        "value": 5
                       }
                     },
                     "__collapse": false
@@ -356,5 +356,5 @@
   "coordinateType": "tiles",
   "x": 9,
   "y": 151,
-  "_index": 5
+  "_index": 4
 }

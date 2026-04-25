@@ -149,7 +149,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Health",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -402,7 +402,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Score VarGroup",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -414,7 +414,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "409b0112-a549-452c-85ea-aed0e18b461d"
           },
@@ -426,7 +426,7 @@
                 "type": "number",
                 "value": 0
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "de51ad24-2c9b-4b49-9c2d-dd9d3ab0d683"
           },

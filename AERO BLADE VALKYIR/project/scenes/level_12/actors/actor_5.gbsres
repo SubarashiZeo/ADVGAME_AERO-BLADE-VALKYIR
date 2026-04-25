@@ -20,7 +20,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -28,9 +28,10 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "efdb4d34-efa8-45b9-8c13-19f0f794f835"
+              "spriteSheetId": "efdb4d34-efa8-45b9-8c13-19f0f794f835",
+              "__collapse": false
             },
-            "id": "8de4ed27-ca9d-4360-a4e7-49962c3a5f28"
+            "id": "ed1db4b1-26bd-40c3-b589-ae77d1e45cad"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
@@ -38,19 +39,94 @@
               "actorId": "$self$",
               "__comment": false
             },
-            "id": "cbf5824d-0c7c-496b-9501-0f6fe5e89652"
+            "id": "de941ea4-b385-4d91-b399-0c8497f4e7bf"
           },
           {
-            "command": "EVENT_INC_VALUE",
+            "id": "29f31331-e664-4d2e-881f-2af4081c5d56",
+            "command": "EVENT_GROUP",
             "args": {
-              "variable": "0",
-              "__collapse": false
+              "__label": "EnemyScore"
             },
-            "id": "bd0b0c37-7023-4e47-8c03-a6cc7b6058d0"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "add",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 5
+                      }
+                    },
+                    "__collapse": false
+                  },
+                  "id": "3d7de272-e457-4434-8669-cc7ea1a9505c"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "14",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "82b42d90-ed6b-4125-b7cb-bfbd6d61e4aa"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "14"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_GBVM_SCRIPT",
+                        "args": {
+                          "script": "VM_PUSH_VALUE VAR_SCOREONES\nVM_REPLACE_TILE_XY 19, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETENS\nVM_REPLACE_TILE_XY 18, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCOREHUNDREDS\nVM_REPLACE_TILE_XY 17, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETHOUSANDS\nVM_REPLACE_TILE_XY 16, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+                          "__collapse": false
+                        },
+                        "id": "1a4e909f-75de-49aa-9709-2566d91759c5"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "14",
+                          "value": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "fb2382a5-a39f-4e90-a22f-91c4edf5afb9"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "20ce3826-2ab3-4963-83dc-819df23f0d3d"
+                }
+              ]
+            }
           }
         ]
       },
-      "id": "86010d75-d1a3-4694-a0e3-d3167590e1b1"
+      "id": "1b5ec4c6-47b9-4977-9ba5-bb8cd935e6ed"
     }
   ],
   "startScript": [],
@@ -206,5 +282,5 @@
   "coordinateType": "tiles",
   "x": 17,
   "y": 207,
-  "_index": 5
+  "_index": 4
 }
