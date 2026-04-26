@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "485a92b9-3b4d-4db2-9ed9-60159c3c3ffe",
+  "id": "86bfdd99-a738-4476-8e94-463297f6849c",
   "name": "",
   "prefabId": "",
   "x": 0,
-  "y": 207,
-  "symbol": "trigger_1",
+  "y": 227,
+  "symbol": "trigger_7",
   "prefabScriptOverrides": {},
   "width": 25,
   "height": 1,
@@ -30,14 +30,12 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_MUSIC_PLAY",
-            "args": {
-              "musicId": "619a447a-7e92-4190-a22e-be94d0406d89"
-            },
-            "id": "ef03a424-a822-4264-b07b-e8d109a9a439"
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "d2791ad7-52cb-4e03-b3f6-d8c165902f48"
           },
           {
-            "id": "1e8b15de-bc49-4456-bb76-28dfbb985cd5",
+            "id": "6105e804-b1ee-46ee-8956-3fb1cd034aac",
             "command": "EVENT_GROUP",
             "args": {
               "__collapse": false
@@ -57,23 +55,24 @@
                     },
                     "__collapse": true
                   },
-                  "id": "32a991e4-67b0-4de4-9180-e96280af8a86"
+                  "id": "0d54fc91-5f92-43fb-a7b6-2b77378b1602"
                 },
                 {
                   "command": "EVENT_ACTOR_SET_STATE",
                   "args": {
-                    "actorId": "4a3f8900-ff2f-4974-b7bc-e4bf6e5ffc6f",
-                    "spriteStateId": "Empty",
+                    "actorId": "28e4521c-7916-4cf9-8057-9ad6482a3693",
+                    "spriteStateId": "Lila",
                     "loopAnim": true,
                     "__collapse": true
                   },
-                  "id": "1c8d6410-b415-4c8a-a7e4-88402506ac6e"
+                  "id": "2611344a-4aa3-4ff4-8a11-389c3ff7385e"
                 },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S1!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!test "
+                      "\\007\\2!S1!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!What the!S5!...",
+                      "\\007\\2!S1!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!What just happened?"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -93,7 +92,7 @@
                     "closeDelayFrames": 30,
                     "__collapse": false
                   },
-                  "id": "17c92254-7ddf-4cdc-9ccd-8d5e3388a8c7"
+                  "id": "b862ae3b-a160-4e9f-b5d7-684ad175a03f"
                 }
               ]
             }
@@ -101,19 +100,19 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "c8b8bf5a-816d-4fa6-b751-20faf497516d"
+              "musicId": "f49dc793-d2fa-496d-adbb-b02b3364da8b"
             },
-            "id": "9669cecb-5340-4043-9d62-183859bf4d64"
+            "id": "fcdff4ec-88ec-4332-9a48-709f2bf4ab9f"
           },
           {
             "command": "EVENT_ACTOR_SET_STATE",
             "args": {
-              "actorId": "4a3f8900-ff2f-4974-b7bc-e4bf6e5ffc6f",
+              "actorId": "28e4521c-7916-4cf9-8057-9ad6482a3693",
               "spriteStateId": "",
               "loopAnim": true,
               "__collapse": true
             },
-            "id": "9f53a916-9955-4f94-a007-d192ffb44b5d"
+            "id": "b6ba4827-5f4a-451a-9e19-3f977875d59d"
           },
           {
             "command": "EVENT_OVERLAY_SHOW",
@@ -123,7 +122,7 @@
               "y": 16,
               "__collapse": true
             },
-            "id": "77cf264d-1e79-4f90-918e-e383b4e4aea6"
+            "id": "542002e7-15d5-4e23-9f57-4aebf1f5abb3"
           },
           {
             "command": "EVENT_GBVM_SCRIPT",
@@ -134,7 +133,7 @@
               "__comment": false,
               "__label": "GBVM Script (HUD)"
             },
-            "id": "b14e320f-e1c6-4b27-8927-a5d1c8a034bd"
+            "id": "7f58475f-0dff-46d2-9f73-b7251e6e52b9"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -145,12 +144,12 @@
                 "value": 1
               }
             },
-            "id": "648fa5f9-6965-4b3b-b799-ec591d703a95"
+            "id": "679f27e5-64c4-4aa2-b9aa-4747cd2b3725"
           }
         ],
         "false": []
       },
-      "id": "ad05a6bc-e5c7-4f13-8ae3-dd47982c384c"
+      "id": "342511bf-9d5e-4345-ae31-411e1116031a"
     }
   ],
   "leaveScript": [],

@@ -75,9 +75,9 @@
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "6bfbd9f8-e25b-49fe-a4d8-52e83495e2bf",
+        "musicId": "1c3c36f6-d457-4320-a00d-0520a1f21654",
         "__comment": false,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "3ff2f3e9-ec0a-4e68-a16d-7220b7c8cc53"
     },

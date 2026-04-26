@@ -194,7 +194,7 @@
       "args": {
         "__label": "Scoring UI",
         "__comment": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

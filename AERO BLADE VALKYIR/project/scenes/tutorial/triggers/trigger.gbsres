@@ -86,7 +86,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Done and dusted!!S5! !S2!\nFairly stable as well!"
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Done and dusted.!S5! !S2!\nFairly stable as well."
                     ],
                     "__section": "text",
                     "avatarId": "",

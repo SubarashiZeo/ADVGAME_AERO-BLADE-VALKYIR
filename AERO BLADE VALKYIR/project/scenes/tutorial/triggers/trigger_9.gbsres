@@ -192,7 +192,7 @@
             "id": "1588bac7-6e4e-4c3a-a75d-161c96c96031",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -518,7 +518,7 @@
             "id": "b1df12c1-ff20-4bd7-9ebc-6237868c4246",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [

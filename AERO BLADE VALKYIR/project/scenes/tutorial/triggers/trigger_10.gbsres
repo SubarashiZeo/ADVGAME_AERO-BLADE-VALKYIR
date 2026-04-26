@@ -179,7 +179,7 @@
             "id": "0c44dcb8-c01e-4f95-91e6-eccff3b33f75",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -212,7 +212,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Aye-aye,!S5! !S2!Intimidator!\nEngaging all targets!"
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Aye-aye,!S5! !S2!Intimidator!\nEngaging!S5! !S2!all!S5! !S2!targets."
                     ],
                     "__section": "text",
                     "avatarId": "",

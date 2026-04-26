@@ -53,7 +53,7 @@
             "id": "767fa318-fb8c-4c55-a319-ec0d92fcbfca",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [

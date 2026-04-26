@@ -128,7 +128,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\1!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Lila!S5! !S2!Fennec\\007\\2,!S5! !S2!     \nreporting for duty at\nthe test flight!"
+                      "\\007\\1!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Lila!S5! !S2!Fennec\\007\\2,!S5! !S2!     \nreporting for duty at\nthe test flight."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -316,8 +316,8 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Ready as I'll ever be! ",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!I am !S4!SO!S2! excited to\ntake this out for\na spin!"
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Ready as I'll ever be.",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!I am looking forward to\ntake this out for\na spin."
                     ],
                     "__section": "text",
                     "avatarId": "",

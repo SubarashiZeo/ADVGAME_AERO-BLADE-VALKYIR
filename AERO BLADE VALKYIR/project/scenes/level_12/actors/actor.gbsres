@@ -35,7 +35,8 @@
                 "type": "variable",
                 "value": "15"
               },
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -87,7 +88,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [

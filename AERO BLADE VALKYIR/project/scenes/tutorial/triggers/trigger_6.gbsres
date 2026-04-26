@@ -216,7 +216,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Affirmative!!S5! !S2!\nBring 'em at me!"
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Affirmative.!S5! !S2!\nBring 'em at me."
                     ],
                     "__section": "text",
                     "avatarId": "",

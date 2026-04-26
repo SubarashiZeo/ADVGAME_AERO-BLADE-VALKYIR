@@ -53,7 +53,7 @@
             "id": "17f9bfe7-7ba1-470a-9cd1-2e32f5833581",
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -87,7 +87,7 @@
                   "args": {
                     "text": [
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Oh hey!",
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!The suit made a brand\nnew weapon from that\ndrone!"
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!The suit made a brand\nnew weapon from that\ndrone."
                     ],
                     "__section": "text",
                     "avatarId": "",

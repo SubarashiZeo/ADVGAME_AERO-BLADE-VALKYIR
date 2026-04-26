@@ -35,7 +35,8 @@
                 "type": "variable",
                 "value": "15"
               },
-              "__collapseElse": true
+              "__collapseElse": true,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -194,7 +195,7 @@
       "args": {
         "__label": "Scoring UI",
         "__comment": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
