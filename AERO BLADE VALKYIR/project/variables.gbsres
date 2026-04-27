@@ -230,6 +230,11 @@
       "id": "01120404-0a05-4d6e-aa29-915bc5426e39__L0",
       "name": "Local 0",
       "symbol": "var_local_29"
+    },
+    {
+      "id": "7",
+      "name": "LevelCounter",
+      "symbol": "var_levelcounter"
     }
   ],
   "constants": []

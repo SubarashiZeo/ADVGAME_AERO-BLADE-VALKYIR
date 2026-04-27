@@ -83,6 +83,14 @@
         "__comment": true
       },
       "id": "684ec28c-0595-4d15-ad7b-70ad0d6de813"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "7",
+        "__comment": true
+      },
+      "id": "1b91898a-4e5e-4bf7-8305-d47bdfbd183d"
     }
   ],
   "leaveScript": [],

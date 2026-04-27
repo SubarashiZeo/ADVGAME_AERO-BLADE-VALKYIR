@@ -3,7 +3,7 @@
   "id": "6b72de1c-ae25-4e08-972f-0695880c693a",
   "name": "screen_GameOver",
   "symbol": "bg_screen_gameover",
-  "tileColors": "03f+072+053+03e+07!055+03e+073+054+036+057+07!056+039+053+072+0512+07!0542+042+05b2+",
+  "tileColors": "03f+072+053+03e+07!055+03e+073+054+036+057+07!056+039+053+072+0512+07!05f6+",
   "filename": "screen_GameOver.png",
   "width": 20,
   "height": 18,
