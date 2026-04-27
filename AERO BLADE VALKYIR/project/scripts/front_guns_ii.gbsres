@@ -1,11 +1,11 @@
 {
   "_resourceType": "script",
-  "id": "2eaabfae-5de7-471f-958e-1a1a73fd228d",
-  "name": "Front Guns",
+  "id": "787c7ebf-4be2-4ebb-9b94-6cfb25540a39",
+  "name": "Front Guns II",
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_2",
+  "symbol": "script_10",
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -27,7 +27,7 @@
               "angle": 0,
               "angleVariable": "0",
               "targetActorId": "$self$",
-              "speed": 2,
+              "speed": 3,
               "animSpeed": 15,
               "lifeTime": 1.5,
               "initialOffset": 12,
@@ -39,7 +39,7 @@
               ],
               "__collapse": false
             },
-            "id": "0dd0c719-6426-4df6-a244-406a9e258597"
+            "id": "67038e4d-44e7-426e-89be-534d07a188fe"
           },
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -53,7 +53,7 @@
               "effect": 0,
               "__collapse": true
             },
-            "id": "308ff796-6e4e-4ce9-8ee7-0783ed972376"
+            "id": "2a271d4c-0679-45bd-ac0b-a6603569bfb6"
           },
           {
             "command": "EVENT_WAIT",
@@ -68,11 +68,11 @@
               },
               "__collapse": true
             },
-            "id": "6c0a3a42-9081-48b6-a87e-6761daa88daf"
+            "id": "d8d48668-1a3f-4249-bcc4-5758a176a4ea"
           }
         ]
       },
-      "id": "923efc61-193d-4ed9-ae18-779f69694540"
+      "id": "385bde22-b644-4e41-b309-cc65802eae6d"
     }
   ]
 }

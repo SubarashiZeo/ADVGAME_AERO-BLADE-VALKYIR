@@ -42,7 +42,8 @@
                 }
               },
               "__collapseElse": true,
-              "__disableElse": true
+              "__disableElse": true,
+              "__collapse": false
             },
             "children": {
               "true": [

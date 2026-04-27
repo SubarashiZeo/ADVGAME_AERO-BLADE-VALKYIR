@@ -1,0 +1,78 @@
+{
+  "_resourceType": "script",
+  "id": "eac024d4-7007-4fb2-9871-a007cde39d84",
+  "name": "Front Guns III",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "up",
+              "angle": 0,
+              "angleVariable": "0",
+              "targetActorId": "$self$",
+              "speed": 4,
+              "animSpeed": 15,
+              "lifeTime": 1.5,
+              "initialOffset": 12,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "1"
+              ],
+              "__collapse": false
+            },
+            "id": "4b30894e-512a-4434-bca8-2c1f246f835f"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "a43f764a-f632-4e99-9388-5b8da664202c"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.25
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "72e680c2-38f4-45e8-9108-cd9a738d0326"
+          }
+        ]
+      },
+      "id": "0d4edee7-f696-4011-aaeb-13e84aafad4a"
+    }
+  ]
+}

@@ -111,7 +111,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "abd9d09c-32ff-486a-9c66-62b04f5f7f96"
     },
@@ -147,7 +147,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {

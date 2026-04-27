@@ -59,7 +59,7 @@
       "args": {
         "musicId": "136952c9-1de1-4a28-9028-6cb0b73799d3",
         "__comment": false,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "db5798a0-3f46-4d60-a21a-f01855f9f31f"
     },
@@ -93,7 +93,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "6c4723d8-8e50-4951-804b-b7d2d2790898"
     },
@@ -105,7 +105,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "children": {
@@ -402,7 +402,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Score VarGroup",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

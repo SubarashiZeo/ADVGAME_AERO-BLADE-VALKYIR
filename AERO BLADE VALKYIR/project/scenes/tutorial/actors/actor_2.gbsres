@@ -125,6 +125,13 @@
                 }
               ]
             }
+          },
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "96711a57-a798-40be-aa4d-2d59106b1a3c"
           }
         ]
       },
