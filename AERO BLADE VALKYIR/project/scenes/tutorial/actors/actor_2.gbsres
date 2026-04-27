@@ -129,7 +129,7 @@
           {
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
-              "actorId": "$self$"
+              "actorId": "de628157-2de7-49d8-aa9a-ac1d73e0e166"
             },
             "id": "96711a57-a798-40be-aa4d-2d59106b1a3c"
           }

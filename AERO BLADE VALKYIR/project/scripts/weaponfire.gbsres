@@ -58,6 +58,28 @@
               "false": []
             },
             "id": "e87ce201-88c6-4f24-a929-b3e66f5150a1"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "3"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "f2e3103f-4ca9-4126-8f8e-43abc70a9ee5"
           }
         ],
         "false": []

@@ -37,6 +37,11 @@
       "symbol": "var_slot3"
     },
     {
+      "id": "7",
+      "name": "LevelCounter",
+      "symbol": "var_levelcounter"
+    },
+    {
       "id": "8",
       "name": "scoretens",
       "symbol": "var_scoretens"
@@ -232,9 +237,19 @@
       "symbol": "var_local_29"
     },
     {
-      "id": "7",
-      "name": "LevelCounter",
-      "symbol": "var_levelcounter"
+      "id": "16",
+      "name": "Front Guns Counter",
+      "symbol": "var_front_guns_counter"
+    },
+    {
+      "id": "17",
+      "name": "Front and Tail Guns Counter",
+      "symbol": "var_front_and_tail_guns_cou"
+    },
+    {
+      "id": "23",
+      "name": "2",
+      "symbol": "var_2"
     }
   ],
   "constants": []

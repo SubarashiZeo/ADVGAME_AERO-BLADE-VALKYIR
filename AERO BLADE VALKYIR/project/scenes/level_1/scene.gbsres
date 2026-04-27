@@ -66,7 +66,7 @@
           "type": "variable",
           "value": "12"
         },
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "id": "864a4010-9c5b-4b1e-92f0-b4c8819c09ec"
@@ -76,14 +76,14 @@
       "args": {
         "musicId": "1c22a5d5-44f7-4d28-a2a1-f72b003289a7",
         "__comment": false,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "7c4c8eee-148e-4127-8a79-110af9aaa60e"
     },
     {
       "command": "XV_ARRAY_MANAGER_SET",
       "args": {
-        "array_manager_set_tabs": "tabSetupArray",
+        "array_manager_set_tabs": "tabSetValue",
         "var1": "4",
         "var2": "5",
         "var3": "6",
@@ -110,7 +110,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "0336d00b-0d27-4a17-b446-0a349da1d4df"
     },
