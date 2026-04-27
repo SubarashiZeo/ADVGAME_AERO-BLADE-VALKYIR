@@ -105,6 +105,75 @@
             "id": "fcdff4ec-88ec-4332-9a48-709f2bf4ab9f"
           },
           {
+            "id": "93e10ac6-9c20-4adb-a1bd-88a7f3ce52ba",
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "__collapse": true
+                  },
+                  "id": "1479f7d5-f333-4808-9c4b-abfead0da25f"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_STATE",
+                  "args": {
+                    "actorId": "28e4521c-7916-4cf9-8057-9ad6482a3693",
+                    "spriteStateId": "Intimidator",
+                    "loopAnim": true,
+                    "__collapse": true
+                  },
+                  "id": "22b4c99f-ce51-403f-b26d-fca0c4621779"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "\\007\\2!S1!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!blahblahbalh"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 5,
+                    "maxHeight": 5,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 3,
+                    "position": "top",
+                    "clearPrevious": true,
+                    "showFrame": true,
+                    "speedIn": -3,
+                    "speedOut": -3,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 1,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "ff1d2e7a-fe4e-4b91-b075-d2caec5a0fe7"
+                }
+              ]
+            }
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "6bfbd9f8-e25b-49fe-a4d8-52e83495e2bf"
+            },
+            "id": "01544139-ef8a-40fc-9295-9af334ad5530"
+          },
+          {
             "command": "EVENT_ACTOR_SET_STATE",
             "args": {
               "actorId": "28e4521c-7916-4cf9-8057-9ad6482a3693",

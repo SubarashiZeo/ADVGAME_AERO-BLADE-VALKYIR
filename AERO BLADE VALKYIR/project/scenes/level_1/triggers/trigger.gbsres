@@ -64,6 +64,14 @@
         "__collapse": false
       },
       "id": "7f0e60de-d169-4e52-9d0a-8d8df599e748"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "7",
+        "__comment": true
+      },
+      "id": "ccb86a3e-1d81-4ccb-8ddd-23910491cc19"
     }
   ],
   "leaveScript": [],

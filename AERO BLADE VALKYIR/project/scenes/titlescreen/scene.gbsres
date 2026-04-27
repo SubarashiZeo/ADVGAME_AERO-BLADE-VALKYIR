@@ -30,6 +30,17 @@
       "id": "6e67484f-4ef5-494a-bf2e-aa955bda3b9f"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "2770def1-dfdf-4ef2-893a-aa5088f2a4b9"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [

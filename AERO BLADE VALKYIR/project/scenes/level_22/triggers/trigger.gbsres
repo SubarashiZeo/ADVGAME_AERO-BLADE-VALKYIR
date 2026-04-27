@@ -11,6 +11,13 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "7"
+      },
+      "id": "9d08329a-98b3-475f-b48c-c9f64ee31063"
+    },
+    {
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
@@ -37,6 +44,13 @@
         "__collapse": false
       },
       "id": "21619b32-bfab-440f-ab73-77d41aa685d9"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "1c3c36f6-d457-4320-a00d-0520a1f21654"
+      },
+      "id": "72b68830-10aa-45ea-948e-902e9edf3e58"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

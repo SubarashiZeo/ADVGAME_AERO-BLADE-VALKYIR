@@ -11,6 +11,13 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "7"
+      },
+      "id": "54aa1b85-6f18-4491-a23d-16ce68e8aaf3"
+    },
+    {
       "command": "EVENT_ACTOR_GET_POSITION",
       "args": {
         "actorId": "$self$",
