@@ -82,6 +82,21 @@
       "symbol": "var_playerhit"
     },
     {
+      "id": "16",
+      "name": "Front Guns Counter",
+      "symbol": "var_front_guns_counter"
+    },
+    {
+      "id": "17",
+      "name": "Front and Tail Guns Counter",
+      "symbol": "var_front_and_tail_guns_cou"
+    },
+    {
+      "id": "23",
+      "name": "2",
+      "symbol": "var_2"
+    },
+    {
       "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
       "name": "Pla",
       "symbol": "var_pla"
@@ -237,19 +252,9 @@
       "symbol": "var_local_29"
     },
     {
-      "id": "16",
-      "name": "Front Guns Counter",
-      "symbol": "var_front_guns_counter"
-    },
-    {
-      "id": "17",
-      "name": "Front and Tail Guns Counter",
-      "symbol": "var_front_and_tail_guns_cou"
-    },
-    {
-      "id": "23",
-      "name": "2",
-      "symbol": "var_2"
+      "id": "18",
+      "name": "TriGun Counter",
+      "symbol": "var_trigun_counter"
     }
   ],
   "constants": []

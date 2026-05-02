@@ -24,7 +24,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Health UI",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

@@ -66,7 +66,7 @@
     {
       "command": "XV_ARRAY_MANAGER_SET",
       "args": {
-        "array_manager_set_tabs": "tabSetValue",
+        "array_manager_set_tabs": "tabSetupArray",
         "var1": "4",
         "var2": "5",
         "var3": "6",
@@ -93,7 +93,7 @@
           "type": "number",
           "value": 0
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "6c4723d8-8e50-4951-804b-b7d2d2790898"
     },
