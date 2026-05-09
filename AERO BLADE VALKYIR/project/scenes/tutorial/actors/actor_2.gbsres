@@ -129,7 +129,8 @@
           {
             "command": "EVENT_ACTOR_ACTIVATE",
             "args": {
-              "actorId": "de628157-2de7-49d8-aa9a-ac1d73e0e166"
+              "actorId": "de628157-2de7-49d8-aa9a-ac1d73e0e166",
+              "__collapse": false
             },
             "id": "96711a57-a798-40be-aa4d-2d59106b1a3c"
           }

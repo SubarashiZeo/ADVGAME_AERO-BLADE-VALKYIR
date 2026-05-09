@@ -12,11 +12,19 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
-  "collisionGroup": "1",
+  "collisionGroup": "2",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_2",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3ef92156-c188-457f-af24-917656764749"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_HIDE",
