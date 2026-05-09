@@ -177,11 +177,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 9
+                "value": 8
               },
               "y": {
                 "type": "number",
-                "value": 187
+                "value": 147
               },
               "__collapseElse": false
             },

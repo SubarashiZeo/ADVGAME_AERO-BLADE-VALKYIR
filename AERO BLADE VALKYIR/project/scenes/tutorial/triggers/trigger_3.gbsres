@@ -25,7 +25,8 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": false,
+        "__comment": true
       },
       "children": {
         "true": [

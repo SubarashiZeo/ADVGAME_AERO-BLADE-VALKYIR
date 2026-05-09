@@ -56,7 +56,8 @@
                     "collisionMask": [
                       "1"
                     ],
-                    "__collapse": true
+                    "__collapse": false,
+                    "__presetId": "51cd0981-7d9c-4550-b1d6-7273d46822ab"
                   },
                   "id": "0dd0c719-6426-4df6-a244-406a9e258597"
                 },

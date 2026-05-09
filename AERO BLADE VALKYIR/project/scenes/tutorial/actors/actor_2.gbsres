@@ -145,30 +145,96 @@
       "args": {
         "actorId": "$self$",
         "x": {
-          "type": "number",
-          "value": 0
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
         },
         "y": {
-          "type": "number",
-          "value": 172
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
         },
         "__collapseElse": false,
+        "__collapse": false,
+        "__disableElse": true,
+        "__comment": false
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "1adab07b-48b2-44aa-9189-ed646d44b455"
+    },
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "property",
+            "target": "$self$",
+            "property": "ypos"
+          },
+          "valueB": {
+            "type": "property",
+            "target": "player",
+            "property": "ypos"
+          }
+        },
         "__collapse": false
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "down",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "speed": 2,
+              "animSpeed": 63,
+              "lifeTime": 4,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "3",
+                "player"
+              ]
+            },
+            "id": "0c8a7284-84b4-4b4d-97b3-f99b979dbc05"
+          },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "__section": "movement",
               "actorId": "$self$",
               "x": {
-                "type": "number",
-                "value": 10
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
               },
               "y": {
-                "type": "number",
-                "value": 175
+                "type": "sub",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
               },
               "collideWith": [
                 "walls"
@@ -176,62 +242,11 @@
               "lockDirection": [],
               "moveType": "horizontal"
             },
-            "id": "df125c74-b577-447a-b390-567f29b44fbc"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_AT_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 10
-              },
-              "y": {
-                "type": "number",
-                "value": 191
-              },
-              "__collapseElse": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_LAUNCH_PROJECTILE",
-                  "args": {
-                    "__section": "projectile",
-                    "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
-                    "spriteStateId": "",
-                    "actorId": "$self$",
-                    "x": 0,
-                    "y": 0,
-                    "directionType": "direction",
-                    "otherActorId": "$self$",
-                    "direction": "down",
-                    "angle": 0,
-                    "angleVariable": "L0",
-                    "targetActorId": "$self$",
-                    "speed": 2,
-                    "animSpeed": 63,
-                    "lifeTime": 4,
-                    "initialOffset": 0,
-                    "loopAnim": true,
-                    "destroyOnHit": true,
-                    "collisionGroup": "3",
-                    "collisionMask": [
-                      "3",
-                      "player"
-                    ]
-                  },
-                  "id": "0c8a7284-84b4-4b4d-97b3-f99b979dbc05"
-                }
-              ],
-              "false": []
-            },
-            "id": "ac63df4d-8c43-41d5-8481-277d51d75573"
+            "id": "e1619ee4-fd6c-4bd0-b656-70e96368458c"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "1adab07b-48b2-44aa-9189-ed646d44b455"
+      "id": "2ca98c1f-25b5-40cf-958b-b8525409bc7a"
     }
   ],
   "hit1Script": [
@@ -365,6 +380,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 0,
-  "y": 172,
+  "y": 179,
   "_index": 1
 }
