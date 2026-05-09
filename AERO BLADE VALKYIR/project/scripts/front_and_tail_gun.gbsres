@@ -11,7 +11,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Front and Tail Gun Loader",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -92,19 +92,6 @@
                     ]
                   },
                   "id": "278fbc9d-2883-42b5-82b5-ffa1ed02b960"
-                },
-                {
-                  "command": "EVENT_SOUND_PLAY_EFFECT",
-                  "args": {
-                    "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
-                    "priority": "medium",
-                    "pitch": 4,
-                    "frequency": 200,
-                    "duration": 0.5,
-                    "wait": true,
-                    "effect": 0
-                  },
-                  "id": "c2282e2b-fb54-469e-b28b-71771f8ce3b6"
                 },
                 {
                   "command": "EVENT_WAIT",
@@ -204,19 +191,6 @@
                   "id": "e4bc69d0-2ace-4f41-bc39-2456f967e2e0"
                 },
                 {
-                  "command": "EVENT_SOUND_PLAY_EFFECT",
-                  "args": {
-                    "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
-                    "priority": "medium",
-                    "pitch": 4,
-                    "frequency": 200,
-                    "duration": 0.5,
-                    "wait": true,
-                    "effect": 0
-                  },
-                  "id": "65df2b5b-77f9-493c-8e0b-73350fae2ce2"
-                },
-                {
                   "command": "EVENT_WAIT",
                   "args": {
                     "time": {
@@ -314,19 +288,6 @@
                   "id": "bd275a58-5795-4497-ad95-735f9a50e184"
                 },
                 {
-                  "command": "EVENT_SOUND_PLAY_EFFECT",
-                  "args": {
-                    "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
-                    "priority": "medium",
-                    "pitch": 4,
-                    "frequency": 200,
-                    "duration": 0.5,
-                    "wait": true,
-                    "effect": 0
-                  },
-                  "id": "8dab18ca-6e42-47a2-885f-4d285bc6bc0a"
-                },
-                {
                   "command": "EVENT_WAIT",
                   "args": {
                     "time": {
@@ -406,6 +367,19 @@
               "slot": 4
             },
             "id": "ef0e09f3-b729-4bda-b4c1-24af0da4b190"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "bb3e3721-dcb6-4bff-b877-e7eee2fa6d30"
           }
         ]
       },
