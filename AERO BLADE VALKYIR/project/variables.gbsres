@@ -92,6 +92,11 @@
       "symbol": "var_front_and_tail_guns_cou"
     },
     {
+      "id": "18",
+      "name": "WideGun Counter",
+      "symbol": "var_widegun_counter"
+    },
+    {
       "id": "23",
       "name": "2",
       "symbol": "var_2"
@@ -250,11 +255,6 @@
       "id": "01120404-0a05-4d6e-aa29-915bc5426e39__L0",
       "name": "Local 0",
       "symbol": "var_local_29"
-    },
-    {
-      "id": "18",
-      "name": "TriGun Counter",
-      "symbol": "var_trigun_counter"
     }
   ],
   "constants": []

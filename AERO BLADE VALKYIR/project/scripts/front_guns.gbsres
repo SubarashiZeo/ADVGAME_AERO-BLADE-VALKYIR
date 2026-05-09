@@ -9,7 +9,10 @@
   "script": [
     {
       "command": "EVENT_GROUP",
-      "args": {},
+      "args": {
+        "__collapse": true,
+        "__comment": true
+      },
       "children": {
         "true": [
           {
@@ -56,7 +59,8 @@
                     "collisionMask": [
                       "1"
                     ],
-                    "__collapse": true
+                    "__collapse": false,
+                    "__presetId": "595cb5f4-3829-4882-a794-88f30887188c"
                   },
                   "id": "0dd0c719-6426-4df6-a244-406a9e258597"
                 },
@@ -70,7 +74,7 @@
                     "duration": 0.5,
                     "wait": true,
                     "effect": 0,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "308ff796-6e4e-4ce9-8ee7-0783ed972376"
                 },
@@ -109,7 +113,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -261,6 +265,255 @@
         ]
       },
       "id": "923efc61-193d-4ed9-ae18-779f69694540"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "Projectile Loading"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "16"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LOAD_PROJECTILE_SLOT",
+                  "args": {
+                    "__presetId": "",
+                    "__section": "projectile",
+                    "slot": 0,
+                    "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+                    "spriteStateId": "",
+                    "speed": 2,
+                    "animSpeed": 15,
+                    "lifeTime": 1.5,
+                    "initialOffset": 12,
+                    "loopAnim": true,
+                    "destroyOnHit": true,
+                    "collisionGroup": "1",
+                    "collisionMask": [
+                      "1"
+                    ],
+                    "__collapse": false
+                  },
+                  "id": "fd949680-6287-4b02-a32d-f563ae2e039b"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "be739fd0-566b-481a-9a1f-427aab824d1a"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "7baf5181-829c-4d47-80b2-64eeed7bd237"
+                }
+              ],
+              "false": []
+            },
+            "id": "152efd4c-62c9-45a6-a169-88cc6407d823"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "16"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LOAD_PROJECTILE_SLOT",
+                  "args": {
+                    "__presetId": "",
+                    "__section": "projectile",
+                    "slot": 0,
+                    "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+                    "spriteStateId": "",
+                    "speed": 3,
+                    "animSpeed": 15,
+                    "lifeTime": 1,
+                    "initialOffset": 12,
+                    "loopAnim": true,
+                    "destroyOnHit": true,
+                    "collisionGroup": "1",
+                    "collisionMask": [
+                      "1"
+                    ],
+                    "__collapse": false
+                  },
+                  "id": "1772bb58-3210-4568-a056-099c85ba18ab"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "86611337-8769-4010-b727-3bc77c397877"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.75
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "253b81de-dc1b-4c50-82d3-8f74fbeff937"
+                }
+              ],
+              "false": []
+            },
+            "id": "2e51e25f-baf1-46a8-be5b-3a8a4f57ea93"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "16"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LOAD_PROJECTILE_SLOT",
+                  "args": {
+                    "__presetId": "",
+                    "__section": "projectile",
+                    "slot": 0,
+                    "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+                    "spriteStateId": "",
+                    "speed": 4,
+                    "animSpeed": 15,
+                    "lifeTime": 1.5,
+                    "initialOffset": 12,
+                    "loopAnim": true,
+                    "destroyOnHit": true,
+                    "collisionGroup": "1",
+                    "collisionMask": [
+                      "1"
+                    ],
+                    "__collapse": false
+                  },
+                  "id": "bf028adb-ded8-4b72-a8d7-e282023dcd3f"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "457f2938-a11e-4073-ae10-4071de6ea82e"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.55
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "1b564118-8c0a-43c3-a612-720c7d02c7f0"
+                }
+              ],
+              "false": []
+            },
+            "id": "1ed2b496-e2c6-431b-9db8-3ef2d9acda48"
+          }
+        ]
+      },
+      "id": "728c34c7-5aca-4b07-82ee-be370e33524c"
+    },
+    {
+      "command": "EVENT_LAUNCH_PROJECTILE_SLOT",
+      "args": {
+        "__section": "source",
+        "actorId": "$self$",
+        "x": 0,
+        "y": 5,
+        "directionType": "direction",
+        "otherActorId": "$self$",
+        "direction": "up",
+        "angle": 0,
+        "angleVariable": "V0",
+        "targetActorId": "$self$",
+        "slot": 0,
+        "__collapse": false
+      },
+      "id": "c8cf6b68-6ae5-485a-b62d-c6d2fcd73bb9"
     }
   ]
 }
