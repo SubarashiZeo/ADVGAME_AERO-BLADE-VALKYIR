@@ -7,7 +7,7 @@
   "spriteSheetId": "97b748e7-583d-4323-9937-a31e21b1b5b5",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 1,
+  "moveSpeed": 0.5,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
@@ -134,18 +134,21 @@
   "startScript": [],
   "updateScript": [
     {
-      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "command": "EVENT_LOOP_WHILE",
       "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 18
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "property",
+            "target": "ede5448c-3933-4362-a565-d057278dce58",
+            "property": "ypos"
+          },
+          "valueB": {
+            "type": "property",
+            "target": "player",
+            "property": "ypos"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 135
-        },
-        "__collapseElse": true,
         "__collapse": false
       },
       "children": {
@@ -154,14 +157,30 @@
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "__section": "movement",
-              "actorId": "$self$",
+              "actorId": "ede5448c-3933-4362-a565-d057278dce58",
               "x": {
-                "type": "number",
-                "value": 10
+                "type": "sub",
+                "valueA": {
+                  "type": "property",
+                  "target": "ede5448c-3933-4362-a565-d057278dce58",
+                  "property": "xpos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 12
+                }
               },
               "y": {
-                "type": "number",
-                "value": 142
+                "type": "sub",
+                "valueA": {
+                  "type": "property",
+                  "target": "ede5448c-3933-4362-a565-d057278dce58",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
               },
               "collideWith": [
                 "walls"
@@ -169,62 +188,11 @@
               "lockDirection": [],
               "moveType": "horizontal"
             },
-            "id": "d4094473-4615-45c4-8963-32d59b6aa140"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_AT_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 8
-              },
-              "y": {
-                "type": "number",
-                "value": 147
-              },
-              "__collapseElse": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_LAUNCH_PROJECTILE",
-                  "args": {
-                    "__section": "projectile",
-                    "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
-                    "spriteStateId": "",
-                    "actorId": "$self$",
-                    "x": 0,
-                    "y": 0,
-                    "directionType": "direction",
-                    "otherActorId": "$self$",
-                    "direction": "down",
-                    "angle": 0,
-                    "angleVariable": "L0",
-                    "targetActorId": "$self$",
-                    "speed": 2,
-                    "animSpeed": 63,
-                    "lifeTime": 4,
-                    "initialOffset": 0,
-                    "loopAnim": true,
-                    "destroyOnHit": true,
-                    "collisionGroup": "3",
-                    "collisionMask": [
-                      "3",
-                      "player"
-                    ]
-                  },
-                  "id": "91b0d4b0-62ef-4d57-8fb2-2c0b39d8b013"
-                }
-              ],
-              "false": []
-            },
-            "id": "08d774d1-95ec-44d5-b80e-99bd4290af12"
+            "id": "9b4d333d-7ab5-4027-a8ac-733d9156aa5c"
           }
-        ],
-        "false": []
+        ]
       },
-      "id": "3c170917-2d89-4b76-9931-25fcd5652beb"
+      "id": "9cf7fa9f-7fef-4557-9c69-6941f2cddf37"
     }
   ],
   "hit1Script": [
@@ -342,6 +310,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 18,
-  "y": 135,
+  "y": 128,
   "_index": 2
 }

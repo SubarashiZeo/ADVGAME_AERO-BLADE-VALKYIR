@@ -7,7 +7,7 @@
   "spriteSheetId": "97b748e7-583d-4323-9937-a31e21b1b5b5",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 1,
+  "moveSpeed": 0.5,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
@@ -141,31 +141,6 @@
   "startScript": [],
   "updateScript": [
     {
-      "command": "EVENT_IF_ACTOR_AT_POSITION",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "property",
-          "target": "$self$",
-          "property": "xpos"
-        },
-        "y": {
-          "type": "property",
-          "target": "$self$",
-          "property": "ypos"
-        },
-        "__collapseElse": false,
-        "__collapse": false,
-        "__disableElse": true,
-        "__comment": false
-      },
-      "children": {
-        "true": [],
-        "false": []
-      },
-      "id": "1adab07b-48b2-44aa-9189-ed646d44b455"
-    },
-    {
       "command": "EVENT_LOOP_WHILE",
       "args": {
         "condition": {
@@ -212,7 +187,7 @@
                 "player"
               ]
             },
-            "id": "0c8a7284-84b4-4b4d-97b3-f99b979dbc05"
+            "id": "3bccf1a5-6441-4ff9-bd23-dfd1236c05ea"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -228,7 +203,7 @@
                 "type": "sub",
                 "valueA": {
                   "type": "property",
-                  "target": "player",
+                  "target": "$self$",
                   "property": "ypos"
                 },
                 "valueB": {
@@ -242,11 +217,11 @@
               "lockDirection": [],
               "moveType": "horizontal"
             },
-            "id": "e1619ee4-fd6c-4bd0-b656-70e96368458c"
+            "id": "65deae9f-8709-4ebc-8ef1-5ea44c7f16ef"
           }
         ]
       },
-      "id": "2ca98c1f-25b5-40cf-958b-b8525409bc7a"
+      "id": "4c427e5f-764f-4b7d-b339-980d324ecbc8"
     }
   ],
   "hit1Script": [
