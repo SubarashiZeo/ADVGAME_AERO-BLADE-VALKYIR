@@ -105,9 +105,9 @@
   "compilerPreset": 3000,
   "scriptEventPresets": {
     "EVENT_LAUNCH_PROJECTILE": {
-      "51cd0981-7d9c-4550-b1d6-7273d46822ab": {
-        "id": "51cd0981-7d9c-4550-b1d6-7273d46822ab",
-        "name": "Preset 1",
+      "595cb5f4-3829-4882-a794-88f30887188c": {
+        "id": "595cb5f4-3829-4882-a794-88f30887188c",
+        "name": "Front Guns",
         "groups": [
           "projectile",
           "source",

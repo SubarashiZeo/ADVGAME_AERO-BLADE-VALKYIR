@@ -127,11 +127,12 @@
             }
           },
           {
-            "command": "EVENT_ACTOR_ACTIVATE",
+            "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "actorId": "de628157-2de7-49d8-aa9a-ac1d73e0e166"
+              "customEventId": "b0c250ab-0c19-44b2-acbd-def61603131a",
+              "$actor[1]$": "de628157-2de7-49d8-aa9a-ac1d73e0e166"
             },
-            "id": "96711a57-a798-40be-aa4d-2d59106b1a3c"
+            "id": "e1be814b-d35b-4327-a9f9-e617418b457b"
           }
         ]
       },
@@ -239,11 +240,16 @@
             "id": "672e91c3-3f17-4fa6-8359-2f6833e447e2"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "actorId": "$self$"
+              "customEventId": "b0c250ab-0c19-44b2-acbd-def61603131a",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "17"
+              },
+              "$actor[1]$": "de628157-2de7-49d8-aa9a-ac1d73e0e166"
             },
-            "id": "d9120f4c-d4aa-4d38-b93d-b002478da9f7"
+            "id": "43528687-c4e7-4ded-9324-f750b9cae108"
           },
           {
             "id": "d8489381-7985-4978-a6ce-34146fb7cd1b",
@@ -331,20 +337,12 @@
             }
           },
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "customEventId": "3956f026-aab4-47d2-bbc0-d8e08028c9c2",
-              "$actor[1]$": "de628157-2de7-49d8-aa9a-ac1d73e0e166",
-              "$variable[V1]$": {
-                "type": "variable",
-                "value": "2"
-              },
-              "$variable[V0]$": {
-                "type": "variable",
-                "value": "L0"
-              }
+              "actorId": "$self$",
+              "__collapse": true
             },
-            "id": "05bbb701-2592-4885-b645-540dc0232ded"
+            "id": "d9120f4c-d4aa-4d38-b93d-b002478da9f7"
           }
         ]
       },

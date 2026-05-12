@@ -1,0 +1,45 @@
+{
+  "_resourceType": "script",
+  "id": "b0c250ab-0c19-44b2-acbd-def61603131a",
+  "name": "PlasSpawnCapsule",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    },
+    "1": {
+      "id": "1",
+      "name": "Actor B"
+    }
+  },
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "1",
+        "x": {
+          "type": "property",
+          "target": "0",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "0",
+          "property": "ypos"
+        },
+        "__label": "Teleport Capsule to Defeated Enemy"
+      },
+      "id": "5f770274-6762-4f13-b8d9-9ea91ccc9df5"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "1"
+      },
+      "id": "22e162b3-7cb8-4391-b7c9-5e9fea1882cf"
+    }
+  ]
+}

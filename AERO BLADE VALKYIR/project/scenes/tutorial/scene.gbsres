@@ -321,7 +321,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__label": "Pause"
       },
       "children": {
@@ -330,7 +330,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Game Paused...\nScore: $13$$09$$08$$00$\nHealth: $01$\nIndex: $03$"
+                "Game Paused...\nScore: $13$$09$$08$$00$\nHealth: $01$\nFrontGun: $16$"
               ],
               "__section": "text",
               "avatarId": "",

@@ -93,8 +93,8 @@
     },
     {
       "id": "18",
-      "name": "TriGun Counter",
-      "symbol": "var_trigun_counter"
+      "name": "WideGun Counter",
+      "symbol": "var_widegun_counter"
     },
     {
       "id": "23",
@@ -255,16 +255,6 @@
       "id": "01120404-0a05-4d6e-aa29-915bc5426e39__L0",
       "name": "Local 0",
       "symbol": "var_local_29"
-    },
-    {
-      "id": "025a80be-9de1-4336-9e74-c8da6192b5c7__L0",
-      "name": "Local 0",
-      "symbol": "var_local_30"
-    },
-    {
-      "id": "d026a76d-dbbe-45a1-8528-f4b3340976be__L0",
-      "name": "Local 0",
-      "symbol": "var_local_31"
     }
   ],
   "constants": []
