@@ -1,0 +1,51 @@
+{
+  "_resourceType": "script",
+  "id": "78bbd9ff-746e-43b4-a27b-b522a798d46a",
+  "name": "PlasWeaponUpgrade",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "af679fd5-e345-4363-b346-5304f35e437f"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "V0"
+      },
+      "id": "7d7d3712-1516-4085-ac1e-0dbee7ac90f5"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 251
+        }
+      },
+      "id": "41b65e96-1eac-4b6a-a088-000a8bddb9a7"
+    }
+  ]
+}

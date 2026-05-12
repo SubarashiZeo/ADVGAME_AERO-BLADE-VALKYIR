@@ -1,0 +1,32 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "cd4504a0-a29c-451e-9650-abf256151300",
+  "name": "Wide Gun Capsule",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a2ef5297-088a-4a5c-b2f2-65a9fc1d261f",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "2",
+  "collisionExtraFlags": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "78bbd9ff-746e-43b4-a27b-b522a798d46a",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "18"
+        }
+      },
+      "id": "9d42984c-4c3f-4ca1-972c-5397d992470e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

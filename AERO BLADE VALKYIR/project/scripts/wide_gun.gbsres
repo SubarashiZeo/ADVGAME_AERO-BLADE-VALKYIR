@@ -3,7 +3,13 @@
   "id": "0dd1edb3-09a9-479b-9bad-8355971bdcd8",
   "name": "Wide Gun",
   "description": "",
-  "variables": {},
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
   "actors": {},
   "symbol": "script_1",
   "script": [
@@ -47,7 +53,7 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ],
@@ -68,26 +74,12 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
                   },
                   "id": "73c0b83d-9cf8-4c1b-8138-01bdd0e06dd0"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": {
-                      "type": "number",
-                      "value": 1.25
-                    },
-                    "frames": {
-                      "type": "number",
-                      "value": 1
-                    }
-                  },
-                  "id": "97a1effc-cdf8-4810-af34-d407e251197b"
                 }
               ],
               "false": []
@@ -126,7 +118,7 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ],
@@ -147,26 +139,12 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
                   },
                   "id": "2549aeb7-60cb-4253-b84e-3cdc9c44300e"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": {
-                      "type": "number",
-                      "value": 0.95
-                    },
-                    "frames": {
-                      "type": "number",
-                      "value": 1
-                    }
-                  },
-                  "id": "9172305e-87aa-41d8-bb4e-f23abefe6fc7"
                 }
               ],
               "false": []
@@ -205,7 +183,7 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ],
@@ -226,26 +204,12 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
                   },
                   "id": "f9d3ff2a-258b-43d9-9077-f7cf93ae8e04"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": {
-                      "type": "number",
-                      "value": 0.65
-                    },
-                    "frames": {
-                      "type": "number",
-                      "value": 1
-                    }
-                  },
-                  "id": "cb1158ac-8a0e-4c2c-b828-472c9d3cce79"
                 }
               ],
               "false": []
@@ -304,6 +268,128 @@
         "effect": 0
       },
       "id": "8878df2e-a97d-4057-a229-32f9772f24d8"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Weapon Cooldown"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "18"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 1.25
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "a6da8d4d-f241-4507-8b17-27869d18462a"
+                }
+              ],
+              "false": []
+            },
+            "id": "bc5dec34-2dd9-42d4-a8c3-6c0ec0d94e19"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "18"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.95
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "c34f670e-ff37-4d9c-aa80-25f623b462ef"
+                }
+              ],
+              "false": []
+            },
+            "id": "acb24668-52a4-4c64-b397-36b023e5d650"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.65
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "bd34eaa4-23d2-4ac1-aace-00a32b73d630"
+                }
+              ],
+              "false": []
+            },
+            "id": "a7fcfb45-36c7-4672-97e1-b87eacde985c"
+          }
+        ]
+      },
+      "id": "32fa1b0a-5ffe-445f-ba1d-449e27592b4d"
     }
   ]
 }

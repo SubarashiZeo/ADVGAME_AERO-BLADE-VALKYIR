@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "0309157e-88d9-4749-a2bd-b2b1d2c16dd5",
-  "name": "Capsule",
+  "id": "de628157-2de7-49d8-aa9a-ac1d73e0e166",
+  "name": "Front Guns Capsule",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "a2ef5297-088a-4a5c-b2f2-65a9fc1d261f",
@@ -12,28 +12,30 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": true,
-  "collisionGroup": "1",
+  "collisionGroup": "2",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_40",
+  "symbol": "actor_2",
   "script": [
     {
-      "command": "EVENT_ACTOR_HIDE",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "actorId": "$self$"
+        "customEventId": "78bbd9ff-746e-43b4-a27b-b522a798d46a",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "16"
+        }
       },
-      "id": "cc4a5675-0f17-418c-aad6-24e2fd5e8bd9"
+      "id": "a850fde6-ee9c-4b48-8d16-3b7399e46a66"
     }
   ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$",
-        "__comment": false,
-        "__collapse": false
+        "actorId": "$self$"
       },
-      "id": "3d1493b3-15df-40c5-997c-d5c8cd98b488"
+      "id": "a20efce5-44af-4f72-ab84-0147d8217ae7"
     }
   ],
   "updateScript": [],
@@ -43,5 +45,5 @@
   "coordinateType": "tiles",
   "x": 0,
   "y": 251,
-  "_index": 1
+  "_index": 6
 }

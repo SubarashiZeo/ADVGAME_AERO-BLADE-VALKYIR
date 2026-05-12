@@ -75,7 +75,8 @@
                 "type": "property",
                 "target": "0",
                 "property": "ypos"
-              }
+              },
+              "__label": "Teleport Capsule to Defeated Eenemy"
             },
             "id": "9a293ba2-be54-4e48-965f-f367dd6fc689"
           },

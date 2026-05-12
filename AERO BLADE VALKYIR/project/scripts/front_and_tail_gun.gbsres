@@ -46,7 +46,7 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
@@ -66,7 +66,7 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
@@ -86,26 +86,12 @@
                     "initialOffset": 12,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
                   },
                   "id": "278fbc9d-2883-42b5-82b5-ffa1ed02b960"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": {
-                      "type": "number",
-                      "value": 1.5
-                    },
-                    "frames": {
-                      "type": "number",
-                      "value": 1
-                    }
-                  },
-                  "id": "c7ce2b2a-2261-4c75-9545-550a5b148197"
                 }
               ],
               "false": []
@@ -143,7 +129,7 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
@@ -163,7 +149,7 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
@@ -183,26 +169,12 @@
                     "initialOffset": 12,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
                   },
                   "id": "e4bc69d0-2ace-4f41-bc39-2456f967e2e0"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": {
-                      "type": "number",
-                      "value": 1
-                    },
-                    "frames": {
-                      "type": "number",
-                      "value": 1
-                    }
-                  },
-                  "id": "c45d1c91-91db-4b88-8c87-394304be660f"
                 }
               ],
               "false": []
@@ -240,7 +212,7 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
@@ -260,7 +232,7 @@
                     "initialOffset": 0,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
@@ -280,26 +252,12 @@
                     "initialOffset": 12,
                     "loopAnim": true,
                     "destroyOnHit": true,
-                    "collisionGroup": "3",
+                    "collisionGroup": "1",
                     "collisionMask": [
                       "1"
                     ]
                   },
                   "id": "bd275a58-5795-4497-ad95-735f9a50e184"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": {
-                      "type": "number",
-                      "value": 0.65
-                    },
-                    "frames": {
-                      "type": "number",
-                      "value": 1
-                    }
-                  },
-                  "id": "63ced340-1540-4bb8-b37c-2b6a8f720bef"
                 }
               ],
               "false": []
@@ -384,6 +342,128 @@
         ]
       },
       "id": "f15dcd79-3ca7-48e5-82f7-141eada28e6a"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Weapon Cooldown"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "17"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 1.5
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "f8a47a32-6a49-4f65-b2f0-edfd2dfb283b"
+                }
+              ],
+              "false": []
+            },
+            "id": "b1b6d103-73b4-4dae-b06d-80deadfa92b6"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "17"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 1
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "0cd94e09-7dd7-48b8-b3b3-ed62857084df"
+                }
+              ],
+              "false": []
+            },
+            "id": "183d1a17-686b-4824-a6b0-8546eeef4749"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "17"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": {
+                      "type": "number",
+                      "value": 0.75
+                    },
+                    "frames": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "d5f3b2f3-9345-4aec-b845-e5ea47df6c29"
+                }
+              ],
+              "false": []
+            },
+            "id": "25aaf9b4-3119-42cd-8e70-25edc2a48477"
+          }
+        ]
+      },
+      "id": "745cad3b-8493-4eb5-9cd4-83636876fe72"
     }
   ]
 }
