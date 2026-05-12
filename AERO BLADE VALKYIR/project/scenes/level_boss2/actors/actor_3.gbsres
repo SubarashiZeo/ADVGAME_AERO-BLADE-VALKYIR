@@ -18,15 +18,7 @@
   "symbol": "actor_60",
   "script": [],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "1e4c0ff5-f2d2-485e-a571-2b958af084cc"
-      },
-      "id": "20382f43-75dc-4bf8-b00e-1b70444d24f2"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
