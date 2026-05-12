@@ -255,6 +255,14 @@
       "id": "01120404-0a05-4d6e-aa29-915bc5426e39__L0",
       "name": "Local 0",
       "symbol": "var_local_29"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "id": "025a80be-9de1-4336-9e74-c8da6192b5c7__L0",
+      "name": "Local 0",
+      "symbol": "var_local_30"
+>>>>>>> parent of ac3eca6 (basic ai)
     }
   ],
   "constants": []

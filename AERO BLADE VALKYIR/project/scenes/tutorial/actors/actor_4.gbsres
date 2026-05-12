@@ -7,7 +7,7 @@
   "spriteSheetId": "97b748e7-583d-4323-9937-a31e21b1b5b5",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 0.5,
+  "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
@@ -145,21 +145,19 @@
   "startScript": [],
   "updateScript": [
     {
-      "command": "EVENT_LOOP_WHILE",
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
       "args": {
-        "condition": {
-          "type": "lt",
-          "valueA": {
-            "type": "property",
-            "target": "$self$",
-            "property": "ypos"
-          },
-          "valueB": {
-            "type": "property",
-            "target": "player",
-            "property": "ypos"
-          }
-        }
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 112
+        },
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -169,28 +167,12 @@
               "__section": "movement",
               "actorId": "$self$",
               "x": {
-                "type": "add",
-                "valueA": {
-                  "type": "property",
-                  "target": "$self$",
-                  "property": "xpos"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 5
-                }
+                "type": "number",
+                "value": 6
               },
               "y": {
-                "type": "sub",
-                "valueA": {
-                  "type": "property",
-                  "target": "$self$",
-                  "property": "ypos"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 10
-                }
+                "type": "number",
+                "value": 120
               },
               "collideWith": [
                 "walls"
@@ -198,11 +180,62 @@
               "lockDirection": [],
               "moveType": "horizontal"
             },
-            "id": "98dd91fe-51c2-4471-a31c-a92ea9d4894d"
+            "id": "f99bc093-75de-411c-a989-331963d64f2b"
+          },
+          {
+            "command": "EVENT_IF_ACTOR_AT_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 222
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LAUNCH_PROJECTILE",
+                  "args": {
+                    "__section": "projectile",
+                    "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
+                    "spriteStateId": "",
+                    "actorId": "$self$",
+                    "x": 0,
+                    "y": 0,
+                    "directionType": "direction",
+                    "otherActorId": "$self$",
+                    "direction": "down",
+                    "angle": 0,
+                    "angleVariable": "L0",
+                    "targetActorId": "$self$",
+                    "speed": 2,
+                    "animSpeed": 63,
+                    "lifeTime": 4,
+                    "initialOffset": 0,
+                    "loopAnim": true,
+                    "destroyOnHit": true,
+                    "collisionGroup": "3",
+                    "collisionMask": [
+                      "3",
+                      "player"
+                    ]
+                  },
+                  "id": "752381e0-1344-40c9-ab98-5d47fa3818a7"
+                }
+              ],
+              "false": []
+            },
+            "id": "80c5e8ac-f6a5-4e10-9b51-a33f6918a5d9"
           }
-        ]
+        ],
+        "false": []
       },
-      "id": "69ec9255-a730-4e73-b463-fcf0a826ab06"
+      "id": "75f881fe-1ef0-446a-af2a-9a0d557e35d2"
     }
   ],
   "hit1Script": [
@@ -320,6 +353,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 0,
-  "y": 130,
+  "y": 112,
   "_index": 3
 }
