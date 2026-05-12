@@ -3,13 +3,7 @@
   "id": "0dd1edb3-09a9-479b-9bad-8355971bdcd8",
   "name": "Wide Gun",
   "description": "",
-  "variables": {
-    "V0": {
-      "id": "V0",
-      "name": "Variable A",
-      "passByReference": true
-    }
-  },
+  "variables": {},
   "actors": {},
   "symbol": "script_1",
   "script": [
@@ -354,14 +348,14 @@
             "command": "EVENT_IF",
             "args": {
               "condition": {
-                "type": "eq",
+                "type": "gte",
                 "valueA": {
                   "type": "variable",
-                  "value": "V0"
+                  "value": "18"
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 1
+                  "value": 2
                 }
               },
               "__collapseElse": true
