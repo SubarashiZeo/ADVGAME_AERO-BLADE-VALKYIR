@@ -11,7 +11,7 @@
     }
   },
   "actors": {},
-  "symbol": "script_1",
+  "symbol": "script_3",
   "script": [
     {
       "command": "EVENT_GROUP",

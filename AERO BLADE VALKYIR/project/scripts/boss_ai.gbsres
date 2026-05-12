@@ -3,8 +3,58 @@
   "id": "1e4c0ff5-f2d2-485e-a571-2b958af084cc",
   "name": "Boss AI",
   "description": "",
-  "variables": {},
-  "actors": {},
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
   "symbol": "script_11",
-  "script": []
+  "script": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE_SLOT",
+            "args": {
+              "__section": "source",
+              "actorId": "0",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "down",
+              "angle": 0,
+              "angleVariable": "V0",
+              "targetActorId": "$self$",
+              "slot": 2
+            },
+            "id": "65ab8dab-413b-4a02-b96f-5b8a4b8bcc92"
+          }
+        ]
+      },
+      "id": "4193eeb5-022e-4f1b-86d4-3cd13470d1ce"
+    }
+  ]
 }
