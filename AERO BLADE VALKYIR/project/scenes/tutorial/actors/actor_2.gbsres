@@ -154,7 +154,8 @@
           "value": 172
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": false,
+        "__disableElse": true
       },
       "children": {
         "true": [
@@ -165,11 +166,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 10
+                "value": 0
               },
               "y": {
                 "type": "number",
-                "value": 175
+                "value": 0
               },
               "collideWith": [
                 "walls"
@@ -177,57 +178,7 @@
               "lockDirection": [],
               "moveType": "horizontal"
             },
-            "id": "df125c74-b577-447a-b390-567f29b44fbc"
-          },
-          {
-            "command": "EVENT_IF_ACTOR_AT_POSITION",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 10
-              },
-              "y": {
-                "type": "number",
-                "value": 191
-              },
-              "__collapseElse": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_LAUNCH_PROJECTILE",
-                  "args": {
-                    "__section": "projectile",
-                    "spriteSheetId": "19253e25-f22f-450f-9c73-1d6aa8e08609",
-                    "spriteStateId": "",
-                    "actorId": "$self$",
-                    "x": 0,
-                    "y": 0,
-                    "directionType": "direction",
-                    "otherActorId": "$self$",
-                    "direction": "down",
-                    "angle": 0,
-                    "angleVariable": "L0",
-                    "targetActorId": "$self$",
-                    "speed": 2,
-                    "animSpeed": 63,
-                    "lifeTime": 4,
-                    "initialOffset": 0,
-                    "loopAnim": true,
-                    "destroyOnHit": true,
-                    "collisionGroup": "3",
-                    "collisionMask": [
-                      "3",
-                      "player"
-                    ]
-                  },
-                  "id": "0c8a7284-84b4-4b4d-97b3-f99b979dbc05"
-                }
-              ],
-              "false": []
-            },
-            "id": "ac63df4d-8c43-41d5-8481-277d51d75573"
+            "id": "7a196361-3a27-452f-9e1f-169f3cff0b05"
           }
         ],
         "false": []
