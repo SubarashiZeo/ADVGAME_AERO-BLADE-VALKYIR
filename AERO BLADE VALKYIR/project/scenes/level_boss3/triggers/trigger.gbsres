@@ -125,7 +125,7 @@
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "__section": "movement",
-              "actorId": "a5d48718-c1de-4030-ac0d-ce2370f35b12",
+              "actorId": "c58701cf-1bc2-4dc4-9c53-0053387d6558",
               "x": {
                 "type": "number",
                 "value": 11
@@ -467,7 +467,7 @@
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "__section": "movement",
-              "actorId": "a5d48718-c1de-4030-ac0d-ce2370f35b12",
+              "actorId": "c58701cf-1bc2-4dc4-9c53-0053387d6558",
               "x": {
                 "type": "number",
                 "value": 11
@@ -642,7 +642,7 @@
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "__section": "movement",
-              "actorId": "a5d48718-c1de-4030-ac0d-ce2370f35b12",
+              "actorId": "c58701cf-1bc2-4dc4-9c53-0053387d6558",
               "x": {
                 "type": "number",
                 "value": 11

@@ -40,7 +40,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 160
+                "value": 152
               },
               "collideWith": [],
               "lockDirection": [],

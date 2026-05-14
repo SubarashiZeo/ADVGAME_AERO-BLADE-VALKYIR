@@ -82,8 +82,7 @@
               "text": [
                 "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Beep,!S4! !S1!Beep,!S4! !S1!Beep!!S5! !S1!\nBeep,!S4! !S1!Beep,!S4! !S1!Beep! ",
                 "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Fennec?",
-                "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Fennec!!S5! !S2!Do you copy?",
-                "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!TEST"
+                "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Fennec!!S5! !S2!Do you copy?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -104,6 +103,68 @@
               "__collapse": false
             },
             "id": "511c5012-1647-4879-94ff-2e20b440ba5b"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d39624a6-9d2c-40b8-a480-c2c9713e0a8d",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "b8bad61d-6f64-4f4a-9cfa-fae3db631a73"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "ecc4547c-f30f-4c41-ae3e-1aa6a8cfbd64",
+              "spriteStateId": "Lila",
+              "loopAnim": true,
+              "__collapse": false
+            },
+            "id": "d9d4ad91-12ca-4a23-a092-ffe3a348cb39"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!I'm here."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 5,
+              "maxHeight": 5,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 3,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -3,
+              "speedOut": -3,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 1,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "d782da69-28d0-4d55-8b6a-fe825893bf7f"
           }
         ]
       }

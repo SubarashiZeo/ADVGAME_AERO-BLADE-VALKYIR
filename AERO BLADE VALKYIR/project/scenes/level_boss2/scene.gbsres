@@ -73,46 +73,13 @@
       "id": "519afb5c-b4de-4e68-88b2-ce1c242ab672"
     },
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "7"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 4
-          }
-        },
-        "__collapseElse": false
+        "musicId": "624b9d86-7384-4f25-ab6e-b5405f97c710",
+        "__comment": false,
+        "__collapse": true
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_MUSIC_PLAY",
-            "args": {
-              "musicId": "c8b8bf5a-816d-4fa6-b751-20faf497516d",
-              "__comment": false,
-              "__collapse": false
-            },
-            "id": "585b7285-7b26-4d86-9756-5aa83c1c1661"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_MUSIC_PLAY",
-            "args": {
-              "musicId": "624b9d86-7384-4f25-ab6e-b5405f97c710",
-              "__comment": false,
-              "__collapse": true
-            },
-            "id": "fcee3336-865d-4365-8cd4-4e21635e9547"
-          }
-        ]
-      },
-      "id": "b296f375-bb8d-48b0-8f78-68fcd12268aa"
+      "id": "fcee3336-865d-4365-8cd4-4e21635e9547"
     },
     {
       "command": "XV_ARRAY_MANAGER_SET",

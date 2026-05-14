@@ -31,8 +31,8 @@
   "collisions": "001275+",
   "autoFadeSpeed": 2,
   "symbol": "scene_15",
-  "x": 2928,
-  "y": 30,
+  "x": 2744,
+  "y": 32,
   "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "439ed72d-fe95-47a5-aad0-b09424de8450",
   "script": [

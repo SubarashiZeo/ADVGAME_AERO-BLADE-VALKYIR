@@ -15,7 +15,7 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_138",
+  "symbol": "actor_178",
   "script": [
     {
       "command": "EVENT_GROUP",

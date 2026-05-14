@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_76",
+  "symbol": "actor_115",
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -475,7 +475,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "Weapon UI",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
