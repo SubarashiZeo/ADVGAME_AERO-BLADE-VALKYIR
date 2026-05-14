@@ -37,6 +37,27 @@
             "id": "6e957d96-f3f8-435a-8740-d044834291f3"
           },
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "player",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "number",
+                "value": 20
+              },
+              "collideWith": [],
+              "lockDirection": [],
+              "moveType": "diagonal",
+              "__comment": false
+            },
+            "id": "163d4662-6b67-44b8-8885-13ea3bd51a64"
+          },
+          {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
               "musicId": "619a447a-7e92-4190-a22e-be94d0406d89"

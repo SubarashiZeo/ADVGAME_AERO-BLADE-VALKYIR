@@ -78,11 +78,53 @@
       "id": "834419d9-13e0-48ef-b5a3-4f3d579d3687"
     },
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "624b9d86-7384-4f25-ab6e-b5405f97c710",
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "c0b8ed03-4d0e-440d-9cfb-08f22bdfe120"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "624b9d86-7384-4f25-ab6e-b5405f97c710",
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "a258abbd-aa57-4e47-8e62-661b8894a123"
+          }
+        ]
+      },
+      "id": "765db4b6-9761-48e7-93f1-67e4220c8e1c"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "c8b8bf5a-816d-4fa6-b751-20faf497516d",
         "__comment": true,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "06747726-f164-4bce-bd46-d5b5a43b42ed"
     },

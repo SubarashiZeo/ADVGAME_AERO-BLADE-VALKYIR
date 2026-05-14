@@ -30,6 +30,27 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "player",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "number",
+                "value": 223
+              },
+              "collideWith": [],
+              "lockDirection": [],
+              "moveType": "diagonal",
+              "__comment": false
+            },
+            "id": "3d943ad0-bf36-4606-9806-1f9d39996749"
+          },
+          {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
               "musicId": "619a447a-7e92-4190-a22e-be94d0406d89"
