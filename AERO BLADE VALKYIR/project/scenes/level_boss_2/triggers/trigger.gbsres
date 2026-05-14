@@ -1,0 +1,98 @@
+{
+  "_resourceType": "trigger",
+  "id": "dce7b42e-28cc-4c20-9f6f-47f7cca88e0c",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 35,
+  "symbol": "trigger_35",
+  "prefabScriptOverrides": {},
+  "width": 25,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "11",
+        "vectorY": "12"
+      },
+      "id": "93975837-25e0-4f7c-8fff-a72646c2a449"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "12"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 198
+          }
+        },
+        "__collapse": false
+      },
+      "id": "73d80912-ec81-44b1-86ce-77acf81ff775"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "cc471d5f-e795-49ca-b00c-f006ab53e669",
+        "x": {
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "add",
+          "valueA": {
+            "type": "property",
+            "target": "camera",
+            "property": "ypos"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 198
+          }
+        },
+        "direction": "up",
+        "fadeSpeed": 0,
+        "__collapse": false
+      },
+      "id": "82f59cb8-107a-46a1-a958-fed097cd9672"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "cc8cb5fb-1458-4916-b299-509ca9d23fb3",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "up",
+        "fadeSpeed": 2,
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "0afe25c7-6afe-461e-a40b-4c9bfd77e3ea"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "7",
+        "__comment": true
+      },
+      "id": "a5ab562d-fbfe-4fff-b734-0d6d55be2444"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

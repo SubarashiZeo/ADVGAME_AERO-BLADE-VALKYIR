@@ -1,0 +1,41 @@
+{
+  "_resourceType": "actor",
+  "id": "1920225e-2144-4bd6-a404-91e309794b75",
+  "name": "Front Guns Capsule",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a2ef5297-088a-4a5c-b2f2-65a9fc1d261f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "2",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_87",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "78bbd9ff-746e-43b4-a27b-b522a798d46a",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "16"
+        }
+      },
+      "id": "bbbcf51a-038b-47b6-902e-e765cd8950a5"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 0,
+  "y": 251,
+  "_index": 8
+}

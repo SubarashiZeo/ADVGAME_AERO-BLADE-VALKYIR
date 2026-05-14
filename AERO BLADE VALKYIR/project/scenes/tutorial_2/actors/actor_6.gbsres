@@ -1,0 +1,94 @@
+{
+  "_resourceType": "actor",
+  "id": "945cc661-d37f-4b72-833b-2612793e61a4",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "8a082731-c6b3-4224-b040-32a28199b161",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_77",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__comment": false
+      },
+      "id": "eea1275e-7179-4735-b8ed-939c2ea9ce29"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operator": "<=",
+        "distance": {
+          "type": "number",
+          "value": 3
+        },
+        "otherActorId": "945cc661-d37f-4b72-833b-2612793e61a4",
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 2,
+              "__collapse": false
+            },
+            "id": "83c4f562-acc3-46b5-a23c-76020d2a8549"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "f901b1a8-ed21-420a-9ce7-77fc1255e4c1",
+              "x": {
+                "type": "property",
+                "target": "$self$",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "collideWith": [],
+              "lockDirection": [],
+              "moveType": "vertical"
+            },
+            "id": "b896c290-08ef-4e82-ae46-d5dc4c51c028"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "945cc661-d37f-4b72-833b-2612793e61a4"
+            },
+            "id": "cc6b23a5-cab7-4aea-9ca4-c92af7ae0cab"
+          }
+        ],
+        "false": []
+      },
+      "id": "c9f7f608-2e31-42a9-975b-1cb847a21fd0"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 44,
+  "_index": 5
+}
