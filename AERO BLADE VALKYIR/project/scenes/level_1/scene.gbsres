@@ -146,7 +146,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -157,6 +157,17 @@
               "customEventId": "22152987-8670-4259-813a-ba68a4b1126c"
             },
             "id": "3a0a0c46-6c4f-493a-a9c3-9806f2819548"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "9afcfa8b-6f32-4fa8-84de-d8593f3ab7b8"
           }
         ]
       },

@@ -274,12 +274,17 @@
     {
       "id": "a5d48718-c1de-4030-ac0d-ce2370f35b12__L0",
       "name": "Local 0",
-      "symbol": "var_local_30"
+      "symbol": "var_local_31"
     },
     {
       "id": "682459d1-47aa-4d1b-bc9f-958f2e123dc8__L0",
       "name": "Local 0",
-      "symbol": "var_local_31"
+      "symbol": "var_local_32"
+    },
+    {
+      "id": "19",
+      "name": "isWeaponSwitched",
+      "symbol": "var_isweaponswitched"
     }
   ],
   "constants": []

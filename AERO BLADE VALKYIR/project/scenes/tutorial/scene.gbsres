@@ -33,7 +33,7 @@
   "symbol": "scene_10",
   "x": 288,
   "y": 32,
-  "autoFadeEventCollapse": false,
+  "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "439ed72d-fe95-47a5-aad0-b09424de8450",
   "script": [
     {
@@ -129,7 +129,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -140,6 +140,17 @@
               "customEventId": "22152987-8670-4259-813a-ba68a4b1126c"
             },
             "id": "97a0e7c6-3ff1-4e48-b45e-c6eea867a14d"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "b6c99d18-88a0-44e0-946a-e4e596ca8a82"
           }
         ]
       },
@@ -252,7 +263,7 @@
                       }
                     ],
                     "__comment": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "id": "6fb8211d-2475-4135-9a82-5dde262ebc7d"
                 }
@@ -321,7 +332,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false,
+        "__collapse": true,
         "__label": "Pause"
       },
       "children": {
@@ -461,6 +472,34 @@
               "__collapse": false
             },
             "id": "b6a33ca3-e37e-4cc9-9ab6-642fba20218f"
+          }
+        ]
+      }
+    },
+    {
+      "id": "40b79a4c-cad6-4bdf-badb-e43a64b6a562",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "Read Weapon",
+        "__collapse": false,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GBVM_SCRIPT",
+            "args": {
+              "script": "VM_PUSH_CONST 21\nVM_REPLACE_TILE_XY 7, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 22\nVM_REPLACE_TILE_XY 8, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 37\nVM_REPLACE_TILE_XY 7, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 38\nVM_REPLACE_TILE_XY 8, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\n\nVM_PUSH_CONST 23\nVM_REPLACE_TILE_XY 9, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 24\nVM_REPLACE_TILE_XY 10, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 39\nVM_REPLACE_TILE_XY 9, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 40\nVM_REPLACE_TILE_XY 10, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\n\nVM_PUSH_CONST 27\nVM_REPLACE_TILE_XY 11, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 28\nVM_REPLACE_TILE_XY 12, 250, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 43\nVM_REPLACE_TILE_XY 11, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_CONST 44\nVM_REPLACE_TILE_XY 12, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
+              "references": [
+                {
+                  "type": "background",
+                  "id": "c867c3e9-71d1-45c7-abd4-84e7720614c2"
+                }
+              ],
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "85c913f2-b0d9-4188-981d-a8d13d1d7a03"
           }
         ]
       }

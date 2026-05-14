@@ -5,7 +5,7 @@
   "description": "",
   "variables": {},
   "actors": {},
-  "symbol": "script_3",
+  "symbol": "script_10",
   "script": [
     {
       "command": "EVENT_GROUP",

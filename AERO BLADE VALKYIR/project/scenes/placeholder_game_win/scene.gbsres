@@ -18,7 +18,13 @@
     "",
     "36f371c1-c7c6-42b4-9c86-7f4d2592c206"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "default-ui",
+    null,
+    null,
+    null,
+    "default-ui"
+  ],
   "monoBGP": [
     3,
     1,
@@ -34,6 +40,71 @@
         "__comment": false
       },
       "id": "65e51989-a36e-474f-b171-396c4509772f"
+    },
+    {
+      "id": "90a7d081-4017-4bfc-b3e8-a0af6e4ae0ee",
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "4b3000d5-1288-4d72-8796-5070a74dc0b8"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "ecc4547c-f30f-4c41-ae3e-1aa6a8cfbd64",
+              "spriteStateId": "Intimidator",
+              "loopAnim": true,
+              "__collapse": false
+            },
+            "id": "be97f5ae-e278-4268-8cd8-12fde1ab72a3"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Beep,!S4! !S1!Beep,!S4! !S1!Beep!!S5! !S1!\nBeep,!S4! !S1!Beep,!S4! !S1!Beep! ",
+                "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Fennec?",
+                "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Fennec!!S5! !S2!Do you copy?",
+                "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!TEST"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 5,
+              "maxHeight": 5,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 3,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -3,
+              "speedOut": -3,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 1,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "511c5012-1647-4879-94ff-2e20b440ba5b"
+          }
+        ]
+      }
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -104,6 +175,6 @@
   "playerHit2Script": [],
   "playerHit3Script": [],
   "collisions": "",
-  "playerSpriteSheetId": "10714159-aedd-43c5-8d36-a5ded1de68ff",
+  "playerSpriteSheetId": "7ef27e17-25a4-48cd-bde4-ac5d89e0df77",
   "autoFadeEventCollapse": true
 }

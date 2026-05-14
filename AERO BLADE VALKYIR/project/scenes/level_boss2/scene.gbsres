@@ -73,13 +73,46 @@
       "id": "519afb5c-b4de-4e68-88b2-ce1c242ab672"
     },
     {
-      "command": "EVENT_MUSIC_PLAY",
+      "command": "EVENT_IF",
       "args": {
-        "musicId": "c8b8bf5a-816d-4fa6-b751-20faf497516d",
-        "__comment": false,
-        "__collapse": true
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 4
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "fcee3336-865d-4365-8cd4-4e21635e9547"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "c8b8bf5a-816d-4fa6-b751-20faf497516d",
+              "__comment": false,
+              "__collapse": false
+            },
+            "id": "585b7285-7b26-4d86-9756-5aa83c1c1661"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "624b9d86-7384-4f25-ab6e-b5405f97c710",
+              "__comment": false,
+              "__collapse": true
+            },
+            "id": "fcee3336-865d-4365-8cd4-4e21635e9547"
+          }
+        ]
+      },
+      "id": "b296f375-bb8d-48b0-8f78-68fcd12268aa"
     },
     {
       "command": "XV_ARRAY_MANAGER_SET",
@@ -147,7 +180,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true,
+        "__collapse": false,
         "__comment": false
       },
       "children": {
@@ -158,6 +191,17 @@
               "customEventId": "22152987-8670-4259-813a-ba68a4b1126c"
             },
             "id": "b485b627-3dfa-4c3d-af4c-fd145598f16b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "bea5ff12-861b-4b5a-879a-1343eb5a4145"
           }
         ]
       },

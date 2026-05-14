@@ -26,7 +26,7 @@
         },
         "__collapseElse": true,
         "__collapse": false,
-        "__comment": true
+        "__comment": false
       },
       "children": {
         "true": [

@@ -63,9 +63,9 @@
                   "command": "EVENT_ACTOR_SET_STATE",
                   "args": {
                     "actorId": "4a3f8900-ff2f-4974-b7bc-e4bf6e5ffc6f",
-                    "spriteStateId": "Empty",
+                    "spriteStateId": "Lila",
                     "loopAnim": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "1c8d6410-b415-4c8a-a7e4-88402506ac6e"
                 },
@@ -73,7 +73,10 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S1!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!test "
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!A mothership!S5!...?",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!A mothership..!",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!It's dangerous,!S5! !S2!but...!S5! !S2!\nsomething about it--",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!I need to get a closer\nlook."
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -101,7 +104,7 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "c8b8bf5a-816d-4fa6-b751-20faf497516d"
+              "musicId": "624b9d86-7384-4f25-ab6e-b5405f97c710"
             },
             "id": "9669cecb-5340-4043-9d62-183859bf4d64"
           },

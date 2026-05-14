@@ -1,9 +1,9 @@
 {
   "_resourceType": "music",
   "id": "619a447a-7e92-4190-a22e-be94d0406d89",
-  "name": "bandit_3-target_locked",
+  "name": "bandit_3",
   "symbol": "song_bandit_2",
   "settings": {},
-  "filename": "bandit_3-target_locked.uge",
+  "filename": "bandit_3.uge",
   "type": "uge"
 }

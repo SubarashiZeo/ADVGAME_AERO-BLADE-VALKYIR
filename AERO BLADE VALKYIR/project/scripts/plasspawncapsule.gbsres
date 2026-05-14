@@ -14,7 +14,7 @@
       "name": "Actor B"
     }
   },
-  "symbol": "script_0",
+  "symbol": "script_1",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_POSITION",

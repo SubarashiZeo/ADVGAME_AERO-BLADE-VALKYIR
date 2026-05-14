@@ -16,7 +16,7 @@
       "name": "Actor A"
     }
   },
-  "symbol": "script_1",
+  "symbol": "script_3",
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
