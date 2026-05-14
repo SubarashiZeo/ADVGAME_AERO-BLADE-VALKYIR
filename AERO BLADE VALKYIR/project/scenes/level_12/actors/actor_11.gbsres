@@ -284,18 +284,14 @@
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "customEventId": "3956f026-aab4-47d2-bbc0-d8e08028c9c2",
-              "$actor[1]$": "38f770d9-fdd3-4053-b351-cd41e90c45db",
-              "$variable[V1]$": {
-                "type": "variable",
-                "value": "2"
-              },
+              "customEventId": "b0c250ab-0c19-44b2-acbd-def61603131a",
               "$variable[V0]$": {
                 "type": "variable",
-                "value": "L0"
-              }
+                "value": "17"
+              },
+              "$actor[1]$": "3e2ed8ea-052b-43e4-8ce5-23d3d17dde9c"
             },
-            "id": "05ab28f1-e1ff-4050-851d-90fbaecaccf3"
+            "id": "1ecef331-0046-43ca-8964-e0719a23e93f"
           }
         ]
       },

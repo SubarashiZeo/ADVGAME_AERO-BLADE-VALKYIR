@@ -178,14 +178,14 @@
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
-        "priority": "medium",
+        "type": "3930560f-e600-4bf7-91db-ecc8876ed854",
+        "priority": "low",
         "pitch": 4,
         "frequency": 200,
         "duration": 0.5,
         "wait": true,
         "effect": 0,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "485d5657-3295-4c83-b481-24ff78095df0"
     },

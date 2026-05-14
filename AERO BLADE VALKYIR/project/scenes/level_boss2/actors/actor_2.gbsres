@@ -443,19 +443,14 @@
                 {
                   "command": "EVENT_CALL_CUSTOM_EVENT",
                   "args": {
-                    "customEventId": "3956f026-aab4-47d2-bbc0-d8e08028c9c2",
-                    "$actor[1]$": "38f770d9-fdd3-4053-b351-cd41e90c45db",
-                    "$variable[V1]$": {
-                      "type": "variable",
-                      "value": "2"
-                    },
+                    "customEventId": "b0c250ab-0c19-44b2-acbd-def61603131a",
                     "$variable[V0]$": {
                       "type": "variable",
-                      "value": "L0"
+                      "value": "17"
                     },
-                    "__collapse": true
+                    "$actor[1]$": "f9113aa7-18a5-407c-8b0a-d475ba136f1f"
                   },
-                  "id": "a0f93217-ba75-44e0-aaa6-b1bd38ce4656"
+                  "id": "691717f9-e55b-429c-bd97-cff1e0fbeee8"
                 }
               ]
             },

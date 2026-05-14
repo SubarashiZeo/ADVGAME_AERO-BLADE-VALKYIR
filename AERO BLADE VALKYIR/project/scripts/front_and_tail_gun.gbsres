@@ -329,8 +329,8 @@
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "type": "e6b3b9b8-d8aa-443f-88d9-2c167ede41d6",
-              "priority": "medium",
+              "type": "3930560f-e600-4bf7-91db-ecc8876ed854",
+              "priority": "low",
               "pitch": 4,
               "frequency": 200,
               "duration": 0.5,

@@ -149,7 +149,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!My radar's beeping!",
+                      "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!My radar's is swarming \nwith hostiles!",
                       "\\007\\2!S5!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!......",
                       "\\007\\2!S2!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!Something's up\nahead!S5!...",
                       "\\007\\2!S5!!F:8ed435d9-51cb-44e7-8b0d-ca85e63ca427!...!S2!Something!S5!...!S2!big!S5!...",

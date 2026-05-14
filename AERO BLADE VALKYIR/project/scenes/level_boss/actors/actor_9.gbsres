@@ -393,6 +393,18 @@
                       }
                     ]
                   }
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "b0c250ab-0c19-44b2-acbd-def61603131a",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "17"
+                    },
+                    "$actor[1]$": "13eaf499-0f51-45f3-be3d-3f8218701422"
+                  },
+                  "id": "15367f42-42c6-4050-acb9-01a12dd92b92"
                 }
               ]
             },

@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "a8b1efc7-31ce-4d79-8fa5-77d96da97642",
+  "id": "118cb2d2-ce59-47d1-88dc-4c0243538199",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_28",
+  "symbol": "actor_55",
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -54,7 +54,7 @@
                     "maxValue": "32767",
                     "clamp": false
                   },
-                  "id": "949148fd-f23e-47d9-830c-01587e4bc5e7"
+                  "id": "1ee1bc91-e8cf-47ca-b15c-8f994635a65e"
                 },
                 {
                   "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -67,7 +67,7 @@
                     "wait": true,
                     "effect": 0
                   },
-                  "id": "70774121-6f39-4783-8b31-e695b18f4dbe"
+                  "id": "d72b6218-67d8-4927-b171-dd1a0a9e3afd"
                 }
               ],
               "false": [
@@ -78,7 +78,7 @@
                     "spriteSheetId": "efdb4d34-efa8-45b9-8c13-19f0f794f835",
                     "__collapse": false
                   },
-                  "id": "a08d5ca0-38c2-451d-84d6-029651eeeffb"
+                  "id": "c3298405-742f-406a-9739-a2e4d1634a3f"
                 },
                 {
                   "command": "EVENT_ACTOR_DEACTIVATE",
@@ -86,10 +86,10 @@
                     "actorId": "$self$",
                     "__comment": false
                   },
-                  "id": "0e8c1fcf-b675-4eae-a0cc-eca1bd47b24d"
+                  "id": "451ef589-2a57-4dd5-a165-9041eda0f0c7"
                 },
                 {
-                  "id": "95d38acc-c6f0-460c-b68b-a6631ce27c33",
+                  "id": "1c660f1c-e8fc-4b3a-b9cd-85f8b809ff91",
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "EnemyScore",
@@ -128,7 +128,7 @@
                                 },
                                 "__collapse": false
                               },
-                              "id": "8dbec8e4-75e1-49ee-aa06-b98fc2f2bb7c"
+                              "id": "98f2a489-0098-44eb-a2a7-a944f1632ca5"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -138,7 +138,7 @@
                                   "type": "true"
                                 }
                               },
-                              "id": "fba55f63-5a10-4395-a8f7-f6059dadcfd9"
+                              "id": "07d51245-7645-478f-96b4-d0e015ac1ea1"
                             },
                             {
                               "command": "EVENT_IF",
@@ -158,28 +158,28 @@
                                       "script": "VM_PUSH_VALUE VAR_SCOREONES\nVM_REPLACE_TILE_XY 19, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETENS\nVM_REPLACE_TILE_XY 18, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCOREHUNDREDS\nVM_REPLACE_TILE_XY 17, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETHOUSANDS\nVM_REPLACE_TILE_XY 16, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
                                       "__collapse": false
                                     },
-                                    "id": "fea541ad-ba8a-44dc-b139-dbfd4d64f9cf"
+                                    "id": "2a607974-7e79-4102-a6eb-a7e3833152e2"
                                   }
                                 ],
                                 "false": []
                               },
-                              "id": "915fff26-e9e1-4368-ba3f-8e07a8cf965a"
+                              "id": "11519222-91f9-43c1-98da-5dfe60e5a64a"
                             }
                           ],
                           "false": []
                         },
-                        "id": "27009032-c7fa-496e-9a8c-18f2b76f1f27"
+                        "id": "c89ea725-c5cf-47e0-8aa8-d12cad8e8897"
                       }
                     ]
                   }
                 }
               ]
             },
-            "id": "d6dd35d3-40fc-4e63-94fa-cb5f95319756"
+            "id": "2f7bccff-9624-449d-aa5b-063c75fc4e50"
           }
         ]
       },
-      "id": "fbcd19b9-24b2-4358-812d-b5351fd240be"
+      "id": "736607b7-f48b-4ab7-a3bf-c39bcae24018"
     }
   ],
   "startScript": [
@@ -193,7 +193,7 @@
         },
         "__collapse": false
       },
-      "id": "afdafeee-19bd-4047-bc6c-2cbc3b5023c5"
+      "id": "db876a74-d75b-412e-a028-201bc9f1f410"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -205,7 +205,7 @@
         },
         "__collapse": false
       },
-      "id": "881f5be8-58ef-4f31-96a1-29fe88fc15d4"
+      "id": "6c728371-7250-4350-b6e7-758a917bbd55"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -217,7 +217,7 @@
         },
         "__collapse": false
       },
-      "id": "ab921c23-c96b-4c28-b09a-e0d9977d75a3"
+      "id": "f8fa38b8-da55-4e05-8acd-93323c700b8b"
     }
   ],
   "updateScript": [
@@ -234,7 +234,7 @@
           "value": "L1"
         }
       },
-      "id": "4a14aff3-a9e4-4bd9-b4cd-26918c09f5d2"
+      "id": "86448ae0-cc47-4234-a026-8f6635cb041f"
     }
   ],
   "hit1Script": [
@@ -275,7 +275,7 @@
                     "maxValue": "32767",
                     "clamp": false
                   },
-                  "id": "522427c4-e108-4ae3-a506-1d7991f056f2"
+                  "id": "153d8c55-6aef-4532-9f8b-1ac6099554fc"
                 },
                 {
                   "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -288,7 +288,7 @@
                     "wait": true,
                     "effect": 0
                   },
-                  "id": "2616883c-dda2-46be-b42a-0efb4c0eb99a"
+                  "id": "70fdb073-5f57-4400-9b9d-d1e5a03f9c90"
                 }
               ],
               "false": [
@@ -299,7 +299,7 @@
                     "spriteSheetId": "efdb4d34-efa8-45b9-8c13-19f0f794f835",
                     "__collapse": false
                   },
-                  "id": "0e2f3f5f-a4bf-4ce8-9fe0-69611317eaf8"
+                  "id": "0a7b2d42-f0ca-49b0-a97c-c6680088fad4"
                 },
                 {
                   "command": "EVENT_ACTOR_DEACTIVATE",
@@ -307,10 +307,10 @@
                     "actorId": "$self$",
                     "__comment": false
                   },
-                  "id": "5d5a8e5a-b5f8-4dd5-aa10-b499ad850eda"
+                  "id": "23b5ebba-3772-4e3e-8e12-f4f4470b8669"
                 },
                 {
-                  "id": "9cdd8ed9-5ae4-4e84-93c4-c512285bf883",
+                  "id": "8a071e34-8761-4f9f-ac2d-d8ca24304a3c",
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "EnemyScore",
@@ -349,7 +349,7 @@
                                 },
                                 "__collapse": false
                               },
-                              "id": "0c2170b3-db3c-4dd7-95bf-63e5aa78c998"
+                              "id": "fc6de20a-8a25-4631-b3ac-a50e2bf242cd"
                             },
                             {
                               "command": "EVENT_SET_VALUE",
@@ -359,7 +359,7 @@
                                   "type": "true"
                                 }
                               },
-                              "id": "51cdf468-963f-479f-bcc2-f50094c61802"
+                              "id": "9a5cae89-0e6b-43e9-9dc8-14cf22116104"
                             },
                             {
                               "command": "EVENT_IF",
@@ -379,34 +379,34 @@
                                       "script": "VM_PUSH_VALUE VAR_SCOREONES\nVM_REPLACE_TILE_XY 19, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETENS\nVM_REPLACE_TILE_XY 18, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCOREHUNDREDS\nVM_REPLACE_TILE_XY 17, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1\nVM_PUSH_VALUE VAR_SCORETHOUSANDS\nVM_REPLACE_TILE_XY 16, 251, ___bank_bg_uniquetiles_tileset, _bg_uniquetiles_tileset, .ARG0\nVM_POP 1",
                                       "__collapse": false
                                     },
-                                    "id": "f6dd1ca9-420b-4a5d-93c6-04a0d4a94de0"
+                                    "id": "8bde4ecc-0f23-42b1-9f34-aaa18404cec2"
                                   }
                                 ],
                                 "false": []
                               },
-                              "id": "a8b0e85f-9410-4d71-bd84-75f5b9bf3443"
+                              "id": "ebc6d091-bf6a-43b7-abaf-b57d20752629"
                             }
                           ],
                           "false": []
                         },
-                        "id": "290e817c-7da3-4c9f-9e26-3f55eceb201c"
+                        "id": "d461d649-7c54-4fcd-b159-d2e080130dcb"
                       }
                     ]
                   }
                 }
               ]
             },
-            "id": "366d14ce-f199-45a9-b7a8-e5d80edb251c"
+            "id": "7717a83a-f43b-4c05-9f63-3dc411bf248a"
           }
         ]
       },
-      "id": "e9485013-7984-4d82-8516-6c78c74b2bfb"
+      "id": "72bda7ca-f434-43fa-9eff-6edddaca1889"
     }
   ],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 5,
-  "y": 122,
+  "x": 11,
+  "y": 134,
   "_index": 11
 }
