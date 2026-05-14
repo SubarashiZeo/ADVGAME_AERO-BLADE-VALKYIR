@@ -1,0 +1,154 @@
+{
+  "_resourceType": "script",
+  "id": "c12faaa1-474c-4760-a9aa-66d1e2e4e9f4",
+  "name": "Special Enemy AI",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Horiziontal Change",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Vertical Change",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_15",
+  "script": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "property",
+            "target": "0",
+            "property": "ypos"
+          },
+          "valueB": {
+            "type": "property",
+            "target": "player",
+            "property": "pypos"
+          }
+        },
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "0",
+              "x": {
+                "type": "add",
+                "valueA": {
+                  "type": "property",
+                  "target": "0",
+                  "property": "xpos"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "V0"
+                }
+              },
+              "y": {
+                "type": "sub",
+                "valueA": {
+                  "type": "property",
+                  "target": "0",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "V1"
+                }
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal"
+            },
+            "id": "243cc558-5944-436a-bc3a-037e6526ff5a"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "0",
+              "x": {
+                "type": "sub",
+                "valueA": {
+                  "type": "property",
+                  "target": "0",
+                  "property": "xpos"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "V0"
+                }
+              },
+              "y": {
+                "type": "sub",
+                "valueA": {
+                  "type": "property",
+                  "target": "0",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "V1"
+                }
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal"
+            },
+            "id": "b9279b75-d5dd-426a-8961-eca2f48bfb98"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "efdb4d34-efa8-45b9-8c13-19f0f794f835",
+              "spriteStateId": "",
+              "actorId": "0",
+              "x": 0,
+              "y": -10,
+              "directionType": "actor",
+              "otherActorId": "$self$",
+              "direction": "down",
+              "angle": 0,
+              "angleVariable": "V0",
+              "targetActorId": "$self$",
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "player"
+              ],
+              "__comment": false
+            },
+            "id": "b41d6a86-d3b9-4c76-9fb3-12ee52711bcf"
+          }
+        ]
+      },
+      "id": "1b72957c-6222-4627-bcd3-e6b1c6498df0"
+    }
+  ]
+}

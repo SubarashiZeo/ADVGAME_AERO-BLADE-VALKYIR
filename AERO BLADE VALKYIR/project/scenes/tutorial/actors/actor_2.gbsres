@@ -7,7 +7,7 @@
   "spriteSheetId": "97b748e7-583d-4323-9937-a31e21b1b5b5",
   "prefabId": "",
   "direction": "down",
-  "moveSpeed": 1,
+  "moveSpeed": 0.47,
   "animSpeed": 15,
   "paletteId": "",
   "isPinned": false,
@@ -139,51 +139,45 @@
       "id": "49558ed2-283f-41fc-8539-26435a496b08"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "861db617-fe42-4acd-ae5d-4290dccbb479"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L1",
+        "value": {
+          "type": "number",
+          "value": 111
+        }
+      },
+      "id": "08fc0e59-2bff-41cf-86f7-3365b8d58273"
+    }
+  ],
   "updateScript": [
     {
-      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "number",
-          "value": 0
+        "customEventId": "c5cfe4bb-c966-4a07-8db5-f6edd300c358",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
         },
-        "y": {
-          "type": "number",
-          "value": 172
-        },
-        "__collapseElse": false,
-        "__collapse": false,
-        "__disableElse": true
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L1"
+        }
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "__section": "movement",
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "collideWith": [
-                "walls"
-              ],
-              "lockDirection": [],
-              "moveType": "horizontal"
-            },
-            "id": "7a196361-3a27-452f-9e1f-169f3cff0b05"
-          }
-        ],
-        "false": []
-      },
-      "id": "1adab07b-48b2-44aa-9189-ed646d44b455"
+      "id": "4bc92702-8a4f-43d4-8db0-3fd9ecbe3241"
     }
   ],
   "hit1Script": [
@@ -313,7 +307,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 0,
-  "y": 172,
+  "x": 1,
+  "y": 173,
   "_index": 1
 }

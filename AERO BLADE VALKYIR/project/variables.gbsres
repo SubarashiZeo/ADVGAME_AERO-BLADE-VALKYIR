@@ -275,6 +275,41 @@
       "id": "682459d1-47aa-4d1b-bc9f-958f2e123dc8__L0",
       "name": "Local 0",
       "symbol": "var_local_31"
+    },
+    {
+      "id": "025a80be-9de1-4336-9e74-c8da6192b5c7__L1",
+      "name": "Local 1",
+      "symbol": "var_local_32"
+    },
+    {
+      "id": "fdc60b54-de41-466a-ab72-8903815d6773__L1",
+      "name": "Local 1",
+      "symbol": "var_local_33"
+    },
+    {
+      "id": "65f0790a-f611-4015-89a3-01e896735df9__L1",
+      "name": "Local 1",
+      "symbol": "var_local_34"
+    },
+    {
+      "id": "4f6ffd1b-62b3-4774-a2d9-449b13921f19__L1",
+      "name": "Local 1",
+      "symbol": "var_local_35"
+    },
+    {
+      "id": "d48cbc2c-a2bd-4b4c-845b-5d9c3a7eb4c0__L1",
+      "name": "Local 1",
+      "symbol": "var_local_36"
+    },
+    {
+      "id": "f56ce06d-4463-44d7-87ab-b9962af5e8c0__L1",
+      "name": "Local 1",
+      "symbol": "var_local_37"
+    },
+    {
+      "id": "d898887d-e4e2-486b-b3d7-29b5e7e43069__L1",
+      "name": "Local 1",
+      "symbol": "var_local_38"
     }
   ],
   "constants": []

@@ -83,7 +83,7 @@
                           "minValue": "0",
                           "maxValue": 2,
                           "clamp": false,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "b9549f60-9da6-44d7-928b-559c1321515d"
                       },
@@ -103,7 +103,7 @@
                           },
                           "__collapseElse": true,
                           "__disableElse": true,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "children": {
                           "true": [
