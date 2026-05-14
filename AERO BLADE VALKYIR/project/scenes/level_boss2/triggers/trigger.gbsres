@@ -119,7 +119,28 @@
               },
               "speed": 1
             },
-            "id": "d527958f-9bb6-4558-b4ca-2528be08b961"
+            "id": "50db3dbe-b836-47e0-92ba-80f21e8cc858"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "a5d48718-c1de-4030-ac0d-ce2370f35b12",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "diagonal"
+            },
+            "id": "902a69a7-b63c-40ae-b78e-05451347fba6"
           },
           {
             "id": "cec79ac3-d5e5-49e9-8573-ed8bd7a5c2b1",
@@ -453,7 +474,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 7
+                "value": 8
               },
               "collideWith": [
                 "walls"
@@ -592,6 +613,32 @@
             }
           },
           {
+            "command": "EVENT_CAMERA_LOCK",
+            "args": {
+              "speed": 1,
+              "axis": [
+                "x"
+              ],
+              "preventScroll": [
+                "down"
+              ]
+            },
+            "id": "ef8f2502-fecc-493d-a808-d81fba1e1fcf"
+          },
+          {
+            "command": "EVENT_CAMERA_SET_LOCK",
+            "args": {
+              "axis": [
+                "x"
+              ],
+              "preventScroll": [
+                "down"
+              ],
+              "__comment": true
+            },
+            "id": "7391e801-441b-42fa-88a7-a052817099ed"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "__section": "movement",
@@ -614,24 +661,33 @@
             "id": "4f43aad9-32a8-42e0-836c-2fcc56634217"
           },
           {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "__section": "movement",
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "collideWith": [
+                "walls"
+              ],
+              "lockDirection": [],
+              "moveType": "horizontal",
+              "__collapse": false
+            },
+            "id": "83e4e489-ddf2-4bf3-b3b3-5498f3d1f79c"
+          },
+          {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
               "musicId": "c8b8bf5a-816d-4fa6-b751-20faf497516d"
             },
             "id": "93567fa1-eaf5-47bc-a471-893577129414"
-          },
-          {
-            "command": "EVENT_CAMERA_SET_LOCK",
-            "args": {
-              "axis": [
-                "x",
-                "y"
-              ],
-              "preventScroll": [
-                "up"
-              ]
-            },
-            "id": "ba888cc7-85df-47cc-a1e7-3a3b2a561591"
           },
           {
             "command": "EVENT_ACTOR_SET_STATE",

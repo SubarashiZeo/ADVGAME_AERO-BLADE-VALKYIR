@@ -20,9 +20,9 @@
   ],
   "spritePaletteIds": [
     "default-ui",
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
     "default-ui"
   ],
   "monoBGP": [
@@ -32,6 +32,8 @@
     3
   ],
   "autoFadeSpeed": 2,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "7ef27e17-25a4-48cd-bde4-ac5d89e0df77",
   "script": [
     {
       "command": "EVENT_MUSIC_PLAY",
@@ -107,6 +109,16 @@
       }
     },
     {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "ecc4547c-f30f-4c41-ae3e-1aa6a8cfbd64",
+        "spriteStateId": "",
+        "loopAnim": true,
+        "__collapse": false
+      },
+      "id": "c4f62659-7a2b-4ef2-81dc-442e3cc8e27f"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -174,7 +186,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "",
-  "playerSpriteSheetId": "7ef27e17-25a4-48cd-bde4-ac5d89e0df77",
-  "autoFadeEventCollapse": true
+  "collisions": ""
 }

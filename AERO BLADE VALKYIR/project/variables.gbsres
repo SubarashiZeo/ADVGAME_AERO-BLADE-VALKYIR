@@ -97,6 +97,11 @@
       "symbol": "var_widegun_counter"
     },
     {
+      "id": "19",
+      "name": "isWeaponSwitched",
+      "symbol": "var_isweaponswitched"
+    },
+    {
       "id": "23",
       "name": "2",
       "symbol": "var_2"
@@ -280,11 +285,6 @@
       "id": "682459d1-47aa-4d1b-bc9f-958f2e123dc8__L0",
       "name": "Local 0",
       "symbol": "var_local_32"
-    },
-    {
-      "id": "19",
-      "name": "isWeaponSwitched",
-      "symbol": "var_isweaponswitched"
     }
   ],
   "constants": []
