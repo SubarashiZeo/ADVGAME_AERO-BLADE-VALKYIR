@@ -30,7 +30,7 @@
                 "type": "number",
                 "value": 1
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "d1560938-205f-4981-aa88-52f73ba23ef9"
           },
@@ -80,7 +80,7 @@
               "targetActorId": "player",
               "speed": 1,
               "animSpeed": 15,
-              "lifeTime": 1,
+              "lifeTime": 4,
               "initialOffset": 0,
               "loopAnim": true,
               "destroyOnHit": true,

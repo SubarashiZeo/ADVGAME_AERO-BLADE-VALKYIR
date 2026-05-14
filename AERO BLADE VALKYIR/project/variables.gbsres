@@ -97,11 +97,6 @@
       "symbol": "var_widegun_counter"
     },
     {
-      "id": "19",
-      "name": "isWeaponSwitched",
-      "symbol": "var_isweaponswitched"
-    },
-    {
       "id": "23",
       "name": "2",
       "symbol": "var_2"
@@ -272,84 +267,49 @@
       "symbol": "var_local_29"
     },
     {
-      "id": "025a80be-9de1-4336-9e74-c8da6192b5c7__L0",
+      "id": "a5d48718-c1de-4030-ac0d-ce2370f35b12__L0",
       "name": "Local 0",
       "symbol": "var_local_30"
     },
     {
-      "id": "a5d48718-c1de-4030-ac0d-ce2370f35b12__L0",
+      "id": "682459d1-47aa-4d1b-bc9f-958f2e123dc8__L0",
       "name": "Local 0",
       "symbol": "var_local_31"
     },
     {
-      "id": "682459d1-47aa-4d1b-bc9f-958f2e123dc8__L0",
-      "name": "Local 0",
+      "id": "025a80be-9de1-4336-9e74-c8da6192b5c7__L1",
+      "name": "Local 1",
       "symbol": "var_local_32"
     },
     {
-      "id": "68279c94-5556-4188-8297-44e6d12f16b8__L0",
-      "name": "Local 0",
+      "id": "fdc60b54-de41-466a-ab72-8903815d6773__L1",
+      "name": "Local 1",
       "symbol": "var_local_33"
     },
     {
-      "id": "42955428-3505-4259-91f9-a4ae099d85df__L0",
-      "name": "Local 0",
+      "id": "65f0790a-f611-4015-89a3-01e896735df9__L1",
+      "name": "Local 1",
       "symbol": "var_local_34"
     },
     {
-      "id": "2c22bbc5-cd70-438c-a82a-f53c1d3f7fbe__L0",
-      "name": "Local 0",
+      "id": "4f6ffd1b-62b3-4774-a2d9-449b13921f19__L1",
+      "name": "Local 1",
       "symbol": "var_local_35"
     },
     {
-      "id": "b9675a81-dace-4db5-875e-0a2ef231bbdd__L0",
-      "name": "Local 0",
+      "id": "d48cbc2c-a2bd-4b4c-845b-5d9c3a7eb4c0__L1",
+      "name": "Local 1",
       "symbol": "var_local_36"
     },
     {
-      "id": "7da5e16f-263b-495c-8285-53826ca20b0f__L0",
-      "name": "Local 0",
+      "id": "f56ce06d-4463-44d7-87ab-b9962af5e8c0__L1",
+      "name": "Local 1",
       "symbol": "var_local_37"
     },
     {
-      "id": "748c399e-2bd7-4a77-b435-a47bf2cd7911__L0",
-      "name": "Local 0",
+      "id": "d898887d-e4e2-486b-b3d7-29b5e7e43069__L1",
+      "name": "Local 1",
       "symbol": "var_local_38"
-    },
-    {
-      "id": "8779aa51-a70c-49c4-a990-70f654a52493__L0",
-      "name": "Local 0",
-      "symbol": "var_local_39"
-    },
-    {
-      "id": "e58edf10-d6c6-4aa6-989f-acc782ac9b06__L0",
-      "name": "Local 0",
-      "symbol": "var_local_40"
-    },
-    {
-      "id": "86b792cb-a5b2-4628-beef-6ca15374a800__L0",
-      "name": "Local 0",
-      "symbol": "var_local_41"
-    },
-    {
-      "id": "ebecb482-eb0e-4bc9-906c-cee2cd3ec992__L0",
-      "name": "Local 0",
-      "symbol": "var_local_42"
-    },
-    {
-      "id": "dce7b42e-28cc-4c20-9f6f-47f7cca88e0c__L0",
-      "name": "Local 0",
-      "symbol": "var_local_43"
-    },
-    {
-      "id": "b32e6ebc-88f1-49c4-9b7f-8de01d26e0e7__L0",
-      "name": "Local 0",
-      "symbol": "var_local_44"
-    },
-    {
-      "id": "c58701cf-1bc2-4dc4-9c53-0053387d6558__L0",
-      "name": "Local 0",
-      "symbol": "var_local_45"
     }
   ],
   "constants": []
