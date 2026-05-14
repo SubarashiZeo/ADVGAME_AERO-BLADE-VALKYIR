@@ -500,7 +500,8 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": false,
+        "__disableElse": true
       },
       "children": {
         "true": [

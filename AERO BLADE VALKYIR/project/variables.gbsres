@@ -102,6 +102,16 @@
       "symbol": "var_2"
     },
     {
+      "id": "30",
+      "name": "VierHealth",
+      "symbol": "var_vierhealth"
+    },
+    {
+      "id": "31",
+      "name": "Variable 31",
+      "symbol": "var_variable_31"
+    },
+    {
       "id": "4e2f25c5-e7c3-4473-919a-25d767ac00d1__L0",
       "name": "Pla",
       "symbol": "var_pla"
@@ -255,14 +265,21 @@
       "id": "01120404-0a05-4d6e-aa29-915bc5426e39__L0",
       "name": "Local 0",
       "symbol": "var_local_29"
-<<<<<<< HEAD
-=======
     },
     {
       "id": "025a80be-9de1-4336-9e74-c8da6192b5c7__L0",
       "name": "Local 0",
       "symbol": "var_local_30"
->>>>>>> parent of ac3eca6 (basic ai)
+    },
+    {
+      "id": "a5d48718-c1de-4030-ac0d-ce2370f35b12__L0",
+      "name": "Local 0",
+      "symbol": "var_local_30"
+    },
+    {
+      "id": "682459d1-47aa-4d1b-bc9f-958f2e123dc8__L0",
+      "name": "Local 0",
+      "symbol": "var_local_31"
     }
   ],
   "constants": []

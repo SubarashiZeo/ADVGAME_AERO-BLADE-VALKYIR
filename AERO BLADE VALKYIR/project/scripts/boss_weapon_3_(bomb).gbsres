@@ -1,0 +1,71 @@
+{
+  "_resourceType": "script",
+  "id": "22cac1e3-150a-4281-85cf-c43599206045",
+  "name": "Boss Weapon 3 (Bomb)",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_13",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 1
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "3462445f-8af6-4b98-8c9e-88fb8d940f28"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "17a1217e-d257-48c5-a4bb-82f409ad0cbf",
+              "spriteStateId": "",
+              "actorId": "0",
+              "x": 0,
+              "y": 5,
+              "directionType": "target",
+              "otherActorId": "$self$",
+              "direction": "down",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "player",
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "initialOffset": 0,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "player"
+              ],
+              "__collapse": false
+            },
+            "id": "fc16ee11-06d9-4e8c-91e0-f744d950f3a1"
+          }
+        ]
+      },
+      "id": "c5d1cf4d-31c4-4d11-8b15-25d3a2f2918f"
+    }
+  ]
+}
